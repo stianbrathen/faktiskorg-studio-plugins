@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-06-16T19:00:00Z",
+  "updatedAt": "2026-06-16T21:30:00Z",
   "plugins": [
     {
       "id": "looping-video",
       "name": "Looping videoklipp",
-      "version": "0.5.0",
+      "version": "0.5.1",
       "description": "Lag et auto-loopende videoklipp (uten lyd) som embed for Labrador.",
       "minStudioVersion": "0.2.0",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/looping-video/0.5.0/bundle.json",
-      "changelog": "Thumbnail som poster — viser stillbilde av første frame mens videoen lazy-loader, slipper det svarte feltet i artikkelen."
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/looping-video/0.5.1/bundle.json",
+      "changelog": "Thumbnail-cache var URL-uavhengig — fikset så ny video aldri viser thumbnail fra forrige."
     }
   ]
 }
