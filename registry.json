@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-06-16T22:00:00Z",
+  "updatedAt": "2026-06-16T22:30:00Z",
   "plugins": [
     {
       "id": "looping-video",
       "name": "Looping videoklipp",
-      "version": "0.5.2",
+      "version": "0.5.3",
       "description": "Lag et auto-loopende videoklipp (uten lyd) som embed for Labrador.",
       "minStudioVersion": "0.2.0",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/looping-video/0.5.2/bundle.json",
-      "changelog": "Smoothere loop i Safari (preload auto + lengre seek-lead). Hvit-flash mellom poster og video fjernet via background-image."
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/looping-video/0.5.3/bundle.json",
+      "changelog": "Fjernet autoplay-flash fra første frame ved oppdatering. Thumbnail regenereres uansett hvilket trim-håndtak du drar."
     }
   ]
 }
