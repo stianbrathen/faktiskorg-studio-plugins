@@ -1,24 +1,24 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-06-17T05:00:00Z",
+  "updatedAt": "2026-06-17T12:00:00Z",
   "plugins": [
     {
       "id": "looping-video",
       "name": "Looping videoklipp",
-      "version": "0.5.9",
+      "version": "0.5.10",
       "description": "Lag et auto-loopende videoklipp (uten lyd) som embed for Labrador.",
       "minStudioVersion": "0.2.0",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/looping-video/0.5.9/bundle.json",
-      "changelog": "Dynamisk plugin-versjon i topp-bar."
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/looping-video/0.5.10/bundle.json",
+      "changelog": "Brand-farge oppdatert til Faktisk-blå #0050FC. Hvit Faktisk-logo i topp."
     },
     {
       "id": "video-player",
       "name": "Videoavspiller",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "description": "Generell video-avspiller for Labrador-opplastede klipp. Faktisk-stil play-knapp, native controls, valgfri trim, poster-tid via slider.",
       "minStudioVersion": "0.2.0",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/video-player/0.1.1/bundle.json",
-      "changelog": "Manuell seek til trim-start eliminerer frame-0 glimt. Faktisk-blå play-SVG. Responsiv knappestørrelse for mobil."
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/video-player/0.1.2/bundle.json",
+      "changelog": "Brand-farge oppdatert til Faktisk-blå #0050FC. Hvit Faktisk-logo i topp."
     }
   ]
 }
