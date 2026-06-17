@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-06-17T01:30:00Z",
+  "updatedAt": "2026-06-17T02:00:00Z",
   "plugins": [
     {
       "id": "looping-video",
       "name": "Looping videoklipp",
-      "version": "0.5.6",
+      "version": "0.5.7",
       "description": "Lag et auto-loopende videoklipp (uten lyd) som embed for Labrador.",
       "minStudioVersion": "0.2.0",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/looping-video/0.5.6/bundle.json",
-      "changelog": "Caption-padding på mobil + !important for å vinne mot Labradors stiler."
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/looping-video/0.5.7/bundle.json",
+      "changelog": "Cover-overlay garanterer null frame-0 flash uansett JS-timing."
     }
   ]
 }
