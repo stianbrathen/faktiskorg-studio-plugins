@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-06-17T03:00:00Z",
+  "updatedAt": "2026-06-17T05:00:00Z",
   "plugins": [
     {
       "id": "looping-video",
@@ -9,7 +9,16 @@
       "description": "Lag et auto-loopende videoklipp (uten lyd) som embed for Labrador.",
       "minStudioVersion": "0.2.0",
       "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/looping-video/0.5.9/bundle.json",
-      "changelog": "Plugin-versjon i topp-bar hentes nå dynamisk fra manifest — alltid riktig."
+      "changelog": "Dynamisk plugin-versjon i topp-bar."
+    },
+    {
+      "id": "video-player",
+      "name": "Videoavspiller",
+      "version": "0.1.1",
+      "description": "Generell video-avspiller for Labrador-opplastede klipp. Faktisk-stil play-knapp, native controls, valgfri trim, poster-tid via slider.",
+      "minStudioVersion": "0.2.0",
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/video-player/0.1.1/bundle.json",
+      "changelog": "Manuell seek til trim-start eliminerer frame-0 glimt. Faktisk-blå play-SVG. Responsiv knappestørrelse for mobil."
     }
   ]
 }
