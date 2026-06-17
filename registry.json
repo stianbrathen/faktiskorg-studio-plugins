@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-06-17T01:00:00Z",
+  "updatedAt": "2026-06-17T01:30:00Z",
   "plugins": [
     {
       "id": "looping-video",
       "name": "Looping videoklipp",
-      "version": "0.5.5",
+      "version": "0.5.6",
       "description": "Lag et auto-loopende videoklipp (uten lyd) som embed for Labrador.",
       "minStudioVersion": "0.2.0",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/looping-video/0.5.5/bundle.json",
-      "changelog": "Caption padding på mobil fullWidth. Container query + media query med !important for fullWidth-sentrering på desktop. iOS-autoplay-fiks."
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/looping-video/0.5.6/bundle.json",
+      "changelog": "Caption-padding på mobil + !important for å vinne mot Labradors stiler."
     }
   ]
 }
