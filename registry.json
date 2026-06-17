@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-06-17T00:00:00Z",
+  "updatedAt": "2026-06-17T01:00:00Z",
   "plugins": [
     {
       "id": "looping-video",
@@ -9,7 +9,7 @@
       "description": "Lag et auto-loopende videoklipp (uten lyd) som embed for Labrador.",
       "minStudioVersion": "0.2.0",
       "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/looping-video/0.5.5/bundle.json",
-      "changelog": "Bildetekst sentrert kun på fullWidth-embeds (container query). iOS Safari autoplay-fiks for mobil."
+      "changelog": "Caption padding på mobil fullWidth. Container query + media query med !important for fullWidth-sentrering på desktop. iOS-autoplay-fiks."
     }
   ]
 }
