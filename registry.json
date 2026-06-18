@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-06-18T17:00:00Z",
+  "updatedAt": "2026-06-18T18:00:00Z",
   "plugins": [
     {
       "id": "looping-video",
@@ -32,11 +32,11 @@
     {
       "id": "bilde-markering",
       "name": "Bilde med markering",
-      "version": "0.1.3",
+      "version": "0.1.4",
       "description": "Marker viktige punkter på et bilde med tekstbokser, peker-piler (fylt eller åpen ring, skalerbar) og frittstående markeringer (blå eller hvit).",
       "minStudioVersion": "0.2.0",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/bilde-markering/0.1.3/bundle.json",
-      "changelog": "Fix: streken slutter nå presist ved ringens kant uansett bilde-format (aspect-justert geometriberegning). Tidligere stakk streken inn i ringen i enkelte vinkler på ikke-kvadratiske bilder."
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/bilde-markering/0.1.4/bundle.json",
+      "changelog": "Tekstboks-drag: senter klippes nå bare til 0–100 (ikke til full bredde), så boksene kan plasseres helt ut til kantene uavhengig av tekstlengde. Mer padding inne i tekstboksene (0.45em 0.95em)."
     }
   ]
 }
