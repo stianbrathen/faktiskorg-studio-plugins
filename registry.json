@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-06-18T13:00:00Z",
+  "updatedAt": "2026-06-18T14:00:00Z",
   "plugins": [
     {
       "id": "looping-video",
@@ -28,6 +28,15 @@
       "minStudioVersion": "0.2.0",
       "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/for-og-etter/0.1.1/bundle.json",
       "changelog": "Mindre knob, bredere strek, rund peker-sirkel med puls-animasjon, piler fra både overskrifter og beskrivelser, Før/Etter-merker over bildet, kompakt sidebar med scroll-container, tekstbokser kan stikke ut, mobil-marg via tb-area wrapper, drag-klipping fikset, større URL-padding."
+    },
+    {
+      "id": "bilde-markering",
+      "name": "Bilde med markering",
+      "version": "0.1.0",
+      "description": "Marker viktige punkter på et bilde med tekstbokser, peker-piler og skalerbare sirkler (fylt prikk eller åpen ring).",
+      "minStudioVersion": "0.2.0",
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/bilde-markering/0.1.0/bundle.json",
+      "changelog": "Første versjon: ett bilde med tekstbokser (Overskrift/Beskrivelse), peker-piler med puls-animasjon, og frittstående markeringer (fylt prikk eller åpen ring) som kan dras og skaleres fritt."
     }
   ]
 }
