@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-06-17T12:00:00Z",
+  "updatedAt": "2026-06-18T12:00:00Z",
   "plugins": [
     {
       "id": "looping-video",
@@ -19,6 +19,15 @@
       "minStudioVersion": "0.2.0",
       "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/video-player/0.1.2/bundle.json",
       "changelog": "Brand-farge oppdatert til Faktisk-blå #0050FC. Hvit Faktisk-logo i topp."
+    },
+    {
+      "id": "for-og-etter",
+      "name": "Før og etter slider",
+      "version": "0.1.0",
+      "description": "Sammenlign to bilder med dra-slider. Last opp før- og etterbilde fra Labrador, generer interaktiv embed med tekstbokser, peker-piler og Før/Etter-merker.",
+      "minStudioVersion": "0.2.0",
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/for-og-etter/0.1.0/bundle.json",
+      "changelog": "Første versjon: dra-slider, tekstbokser (Overskrift/Beskrivelse) med peker-piler og puls-animasjon, valgfrie Før/Etter-merker over bildet, bildetekst og fotograf-felt."
     }
   ]
 }
