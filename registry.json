@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-06-18T19:00:00Z",
+  "updatedAt": "2026-06-18T20:00:00Z",
   "plugins": [
     {
       "id": "looping-video",
@@ -32,11 +32,11 @@
     {
       "id": "bilde-markering",
       "name": "Bilde med markering",
-      "version": "0.1.5",
-      "description": "Marker viktige punkter på et bilde med tekstbokser, peker-piler (fylt eller åpen ring, skalerbar) og frittstående markeringer (blå eller hvit). Beskrivelses-bokser har justerbar bredde.",
+      "version": "0.1.6",
+      "description": "Marker viktige punkter på et bilde med tekstbokser, peker-piler (fylt eller åpen ring, skalerbar) og frittstående markeringer (blå eller hvit). Beskrivelses-bokser har justerbar bredde, mobil-tilpasset.",
       "minStudioVersion": "0.2.0",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/bilde-markering/0.1.5/bundle.json",
-      "changelog": "Beskrivelses-bokser har egen bredde og auto-wrap. Drag-håndtak nedre-høyre for å justere bredden. Manuelle linjeskift i sidebar ignoreres — teksten flyter automatisk. Overskrift-bokser uendret (innholdsbasert bredde, single-line)."
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/bilde-markering/0.1.6/bundle.json",
+      "changelog": "Beskrivelses-bokser har minst 70% bredde på mobil (max(brukerens valg, 70%)). Bredden styres via CSS-variabel --tb-w, brukerens valg respekteres på desktop, men mobil får alltid lesbar bredde. Drag-grense holder hele light-boksen innenfor preview."
     }
   ]
 }
