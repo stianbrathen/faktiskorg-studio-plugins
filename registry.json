@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-06-18T15:00:00Z",
+  "updatedAt": "2026-06-18T16:00:00Z",
   "plugins": [
     {
       "id": "looping-video",
@@ -32,11 +32,11 @@
     {
       "id": "bilde-markering",
       "name": "Bilde med markering",
-      "version": "0.1.1",
-      "description": "Marker viktige punkter på et bilde med tekstbokser, peker-piler (fylt eller åpen ring) og skalerbare markeringer.",
+      "version": "0.1.2",
+      "description": "Marker viktige punkter på et bilde med tekstbokser, peker-piler (fylt eller åpen ring, skalerbar) og frittstående markeringer (blå eller hvit).",
       "minStudioVersion": "0.2.0",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/bilde-markering/0.1.1/bundle.json",
-      "changelog": "Pekeren fra tekstbokser kan veksles mellom fylt prikk og åpen ring (klikk peker-knappen for å sykle gjennom ingen → fylt → åpen). Kopier embed-knappen pinnet nede så den alltid er synlig. Sidebar scrollable."
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/bilde-markering/0.1.2/bundle.json",
+      "changelog": "Pekerens åpne ring er skalerbar med eget drag-håndtak. Streken ender ved ringens kant (ikke senter). Frittstående markering kan veksles mellom blå og hvit farge via egen knapp i sidebar."
     }
   ]
 }
