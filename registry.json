@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-06-19T18:00:00Z",
+  "updatedAt": "2026-06-19T19:00:00Z",
   "plugins": [
     {
       "id": "looping-video",
@@ -41,11 +41,11 @@
     {
       "id": "bildeanalyse",
       "name": "Bildeanalyse",
-      "version": "0.1.8",
-      "description": "Sammenlign bildepar med rammer koblet med strek.",
+      "version": "0.1.9",
+      "description": "Sammenlign bildepar. Top-tekster i bildene, strek-langs-vektor, Labrador-typografi.",
       "minStudioVersion": "0.2.0",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/bildeanalyse/0.1.8/bundle.json",
-      "changelog": "Strek slutter nå PRESIST på rammens ytre kant uten å gå inn i rammen. Overlap fjernet, stroke-linecap satt til butt så endepunkt-pixelen treffer kanten nøyaktig."
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/bildeanalyse/0.1.9/bundle.json",
+      "changelog": "Strek-endepunkt forlenges nå langs vektoren (3px) så også bratte vinkler treffer rammene presist. Top-tekster (Bilde 1 / Bilde 2) er flyttet INN i bildene som sort overlay med hvit tekst, venstre-justert på Bilde 1 og høyre-justert på Bilde 2. Caption-tekst arver Labrador-brødtekst-font (font-family: inherit). Fotograf-credit wrappes nå inne i samme figure-tag som bildene, plassert under bildepar i samme caption-container — ikke flytende ute."
     }
   ]
 }
