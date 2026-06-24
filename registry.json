@@ -41,11 +41,11 @@
     {
       "id": "bildeanalyse",
       "name": "Bildeanalyse",
-      "version": "0.1.13",
-      "description": "Sammenlign bildepar. H2 responsiv + lite-overskrift-valg + slide-animasjon med peek-hint.",
+      "version": "0.1.14",
+      "description": "Sammenlign bildepar. Peek-animasjon trigges når embed scrolles inn i viewport.",
       "minStudioVersion": "0.2.0",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/bildeanalyse/0.1.13/bundle.json",
-      "changelog": "H2-overskrift har egen mobil-størrelse (1.2rem på <600px viewport, var 1.75rem som ble for stor). Ny dropdown for overskrift-stil: Stor (H2, Tiempos), Mindre (sans-serif kapsel) eller Skjul overskrift. Slideshow har nå glidende slide-animasjon — slidesene glir inn fra siden i stedet for å bare bytte. Initial 'peek-hint' ved load: hvis det er flere slides, glir track-en kort til venstre og tilbake for å vise leseren at det er mer å se."
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/bildeanalyse/0.1.14/bundle.json",
+      "changelog": "Peek-hint (den korte slide-bevegelsen som signaliserer at det er flere slides) trigges nå via IntersectionObserver når embeden scrolles inn i viewport — ikke ved page load. Brukeren ser hintet i det øyeblikket boksen kommer på skjermen, så det er mye vanskeligere å gå glipp av. Threshold 35% synlighet. Trigges kun én gang per sidevisning. Fallback for eldre nettlesere uten IntersectionObserver-støtte."
     }
   ]
 }
