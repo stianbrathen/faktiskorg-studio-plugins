@@ -14,11 +14,11 @@
     {
       "id": "video-player",
       "name": "Videoavspiller",
-      "version": "0.1.3",
-      "description": "Video-avspiller med grå container-boks for vertikal video.",
+      "version": "0.1.4",
+      "description": "Video-avspiller med grå container-boks og høyde-presets for vertikalvideo.",
       "minStudioVersion": "0.2.0",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/video-player/0.1.3/bundle.json",
-      "changelog": "Toggle for grå container-boks med bredde-velger for vertikal video."
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/video-player/0.1.4/bundle.json",
+      "changelog": "Bredde-prosent erstattet av høyde-presets (Kompakt 60vh / Medium 75vh / Stor 90vh) for vertikalvideo i container. Tidligere ble en vertikalvideo på 50% bredde fortsatt 700+ piksler høy på desktop. Nå tenker valget i skjermhøyde i stedet for kolonnebredde, så samme valg fungerer likt på mobil og desktop. Pikselgrense som backstop på svært høye skjermer (4K). Bredde-kontroll håndteres uansett av Labrador-embedboksen (spalte / full bredde / inline). Gammel boxWidth-state mappes til nærmeste høyde-preset for bakoverkompatibilitet."
     },
     {
       "id": "for-og-etter",
