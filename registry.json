@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-06-19T17:00:00Z",
+  "updatedAt": "2026-06-19T18:00:00Z",
   "plugins": [
     {
       "id": "looping-video",
       "name": "Looping videoklipp",
       "version": "0.5.10",
-      "description": "Lag et auto-loopende videoklipp.",
+      "description": "Looping video.",
       "minStudioVersion": "0.2.0",
       "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/looping-video/0.5.10/bundle.json",
       "changelog": "Brand-farge."
@@ -24,7 +24,7 @@
       "id": "for-og-etter",
       "name": "Før og etter slider",
       "version": "0.1.1",
-      "description": "Sammenlign to bilder med dra-slider.",
+      "description": "Sammenlign to bilder.",
       "minStudioVersion": "0.2.0",
       "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/for-og-etter/0.1.1/bundle.json",
       "changelog": "Finpussing."
@@ -33,7 +33,7 @@
       "id": "bilde-markering",
       "name": "Bilde med markering",
       "version": "0.1.6",
-      "description": "Marker viktige punkter på et bilde.",
+      "description": "Marker punkter.",
       "minStudioVersion": "0.2.0",
       "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/bilde-markering/0.1.6/bundle.json",
       "changelog": "Mobile."
@@ -41,11 +41,11 @@
     {
       "id": "bildeanalyse",
       "name": "Bildeanalyse",
-      "version": "0.1.7",
-      "description": "Sammenlign bildepar med rammer som kobles med strek. Slideshow med per-scene caption.",
+      "version": "0.1.8",
+      "description": "Sammenlign bildepar med rammer koblet med strek.",
       "minStudioVersion": "0.2.0",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/bildeanalyse/0.1.7/bundle.json",
-      "changelog": "Strek treffer nå rammene presist. Tidligere brukte embed en hardkodet viewBox 0-200 som ikke modellerte gap mellom bildene, så streken hadde et stort visuelt gap til rammen. Nå beregnes pixel-koordinatene på runtime i nettleseren basert på faktisk cell-bredde og gap. JS oppdaterer streken ved load, resize og slide-bytte. 6px overlap garanterer ingen gap mellom strek og ramme uansett anti-aliasing."
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/bildeanalyse/0.1.8/bundle.json",
+      "changelog": "Strek slutter nå PRESIST på rammens ytre kant uten å gå inn i rammen. Overlap fjernet, stroke-linecap satt til butt så endepunkt-pixelen treffer kanten nøyaktig."
     }
   ]
 }
