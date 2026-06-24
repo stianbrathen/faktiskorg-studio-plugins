@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-06-19T16:00:00Z",
+  "updatedAt": "2026-06-19T17:00:00Z",
   "plugins": [
     {
       "id": "looping-video",
       "name": "Looping videoklipp",
       "version": "0.5.10",
-      "description": "Lag et auto-loopende videoklipp (uten lyd) som embed for Labrador.",
+      "description": "Lag et auto-loopende videoklipp.",
       "minStudioVersion": "0.2.0",
       "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/looping-video/0.5.10/bundle.json",
       "changelog": "Brand-farge."
@@ -15,7 +15,7 @@
       "id": "video-player",
       "name": "Videoavspiller",
       "version": "0.1.2",
-      "description": "Generell video-avspiller.",
+      "description": "Video-avspiller.",
       "minStudioVersion": "0.2.0",
       "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/video-player/0.1.2/bundle.json",
       "changelog": "Brand-farge."
@@ -41,11 +41,11 @@
     {
       "id": "bildeanalyse",
       "name": "Bildeanalyse",
-      "version": "0.1.6",
-      "description": "Sammenlign bildepar med fargede rammer koblet med strek. Per-scene bildetekst i slideshow.",
+      "version": "0.1.7",
+      "description": "Sammenlign bildepar med rammer som kobles med strek. Slideshow med per-scene caption.",
       "minStudioVersion": "0.2.0",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/bildeanalyse/0.1.6/bundle.json",
-      "changelog": "Caption-label viser nå tydelig 'Bildetekst for scene X av Y' i sidebar når slideshow har flere scener — så det er klart at teksten kun gjelder det aktive paret. Strek bruker stroke-linecap: square i stedet for butt, slik at endepunktet overlapper rammen med halv stroke-width og det ikke blir noe synlig gap mellom strek og ramme."
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/bildeanalyse/0.1.7/bundle.json",
+      "changelog": "Strek treffer nå rammene presist. Tidligere brukte embed en hardkodet viewBox 0-200 som ikke modellerte gap mellom bildene, så streken hadde et stort visuelt gap til rammen. Nå beregnes pixel-koordinatene på runtime i nettleseren basert på faktisk cell-bredde og gap. JS oppdaterer streken ved load, resize og slide-bytte. 6px overlap garanterer ingen gap mellom strek og ramme uansett anti-aliasing."
     }
   ]
 }
