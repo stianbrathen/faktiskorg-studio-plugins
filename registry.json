@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-06-19T20:00:00Z",
+  "updatedAt": "2026-06-19T21:00:00Z",
   "plugins": [
     {
       "id": "looping-video",
@@ -41,11 +41,11 @@
     {
       "id": "bildeanalyse",
       "name": "Bildeanalyse",
-      "version": "0.1.10",
-      "description": "Sammenlign bildepar. Spotlight, H2-overskrift, dots over, A/B-chips i tekst.",
+      "version": "0.1.11",
+      "description": "Sammenlign bildepar. Grå outer + hvit caption-boks. A/B-sirkler i bildetekst via [A]/[B] markører.",
       "minStudioVersion": "0.2.0",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/bildeanalyse/0.1.10/bundle.json",
-      "changelog": "Bakgrunn endret fra grå til hvit, mindre avrundinger (14px → 4px) for renere uttrykk. Brødtekst i sans-serif (Haas Grot Text). Valgfri H2-overskrift på toppen i Tiempos Fine (matcher Labrador artikler). Toggle 'Demp bildet rundt markeringene' lager spotlight-effekt med 45% sort overlay. Dots flyttet OVER bildene, piler er nå under. Valgfri A/B-sirkel som chip foran tekst i bildetekst — for å vise sammenheng direkte i caption."
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/bildeanalyse/0.1.11/bundle.json",
+      "changelog": "Outer container er nå lys grå #D9D9D9 (var hvit). Caption-boksen under bildene er hvit (var grå) — bedre kontrast. A/B-sirklene er nå sort med hvit tekst (synlig på hvit bg) og baseline-justert med inline-flex så de står på linje med teksten. Brukeren kan skrive [A] og [B] som markører i bildeteksten — pluginen erstatter dem med sirkler, slik at man kan skrive om både A og B i samme caption (f.eks. '[A] Mann med flagg. [B] Her er han senere.'). H2-overskrift er nå fast 1.75rem som matcher Labrador-artikkelens H2 på desktop. Fotograf-credit-boksen under er fjernet — bruk de sorte topp-tekstene på hvert bilde som credit (f.eks. 'Foto: Reuters'). Spotlight-overlay er nå 25% sort (var 45%) — mindre dramatisk."
     }
   ]
 }
