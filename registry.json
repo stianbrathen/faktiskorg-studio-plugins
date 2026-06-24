@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-06-19T19:00:00Z",
+  "updatedAt": "2026-06-19T20:00:00Z",
   "plugins": [
     {
       "id": "looping-video",
@@ -41,11 +41,11 @@
     {
       "id": "bildeanalyse",
       "name": "Bildeanalyse",
-      "version": "0.1.9",
-      "description": "Sammenlign bildepar. Top-tekster i bildene, strek-langs-vektor, Labrador-typografi.",
+      "version": "0.1.10",
+      "description": "Sammenlign bildepar. Spotlight, H2-overskrift, dots over, A/B-chips i tekst.",
       "minStudioVersion": "0.2.0",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/bildeanalyse/0.1.9/bundle.json",
-      "changelog": "Strek-endepunkt forlenges nå langs vektoren (3px) så også bratte vinkler treffer rammene presist. Top-tekster (Bilde 1 / Bilde 2) er flyttet INN i bildene som sort overlay med hvit tekst, venstre-justert på Bilde 1 og høyre-justert på Bilde 2. Caption-tekst arver Labrador-brødtekst-font (font-family: inherit). Fotograf-credit wrappes nå inne i samme figure-tag som bildene, plassert under bildepar i samme caption-container — ikke flytende ute."
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/bildeanalyse/0.1.10/bundle.json",
+      "changelog": "Bakgrunn endret fra grå til hvit, mindre avrundinger (14px → 4px) for renere uttrykk. Brødtekst i sans-serif (Haas Grot Text). Valgfri H2-overskrift på toppen i Tiempos Fine (matcher Labrador artikler). Toggle 'Demp bildet rundt markeringene' lager spotlight-effekt med 45% sort overlay. Dots flyttet OVER bildene, piler er nå under. Valgfri A/B-sirkel som chip foran tekst i bildetekst — for å vise sammenheng direkte i caption."
     }
   ]
 }
