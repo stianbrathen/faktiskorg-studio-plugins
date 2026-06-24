@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-06-18T20:00:00Z",
+  "updatedAt": "2026-06-19T15:00:00Z",
   "plugins": [
     {
       "id": "looping-video",
@@ -9,34 +9,43 @@
       "description": "Lag et auto-loopende videoklipp (uten lyd) som embed for Labrador.",
       "minStudioVersion": "0.2.0",
       "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/looping-video/0.5.10/bundle.json",
-      "changelog": "Brand-farge oppdatert til Faktisk-blå #0050FC. Hvit Faktisk-logo i topp."
+      "changelog": "Brand-farge oppdatert til Faktisk-blå #0050FC."
     },
     {
       "id": "video-player",
       "name": "Videoavspiller",
       "version": "0.1.2",
-      "description": "Generell video-avspiller for Labrador-opplastede klipp. Faktisk-stil play-knapp, native controls, valgfri trim, poster-tid via slider.",
+      "description": "Generell video-avspiller for Labrador-opplastede klipp.",
       "minStudioVersion": "0.2.0",
       "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/video-player/0.1.2/bundle.json",
-      "changelog": "Brand-farge oppdatert til Faktisk-blå #0050FC. Hvit Faktisk-logo i topp."
+      "changelog": "Brand-farge oppdatert."
     },
     {
       "id": "for-og-etter",
       "name": "Før og etter slider",
       "version": "0.1.1",
-      "description": "Sammenlign to bilder med dra-slider. Tekstbokser (Overskrift/Beskrivelse) med peker-piler og puls-animasjon, valgfrie Før/Etter-merker over bildet.",
+      "description": "Sammenlign to bilder med dra-slider.",
       "minStudioVersion": "0.2.0",
       "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/for-og-etter/0.1.1/bundle.json",
-      "changelog": "Mindre knob, bredere strek, rund peker-sirkel med puls-animasjon, piler fra både overskrifter og beskrivelser, Før/Etter-merker over bildet, kompakt sidebar med scroll-container, tekstbokser kan stikke ut, mobil-marg via tb-area wrapper, drag-klipping fikset, større URL-padding."
+      "changelog": "Finpussing."
     },
     {
       "id": "bilde-markering",
       "name": "Bilde med markering",
       "version": "0.1.6",
-      "description": "Marker viktige punkter på et bilde med tekstbokser, peker-piler (fylt eller åpen ring, skalerbar) og frittstående markeringer (blå eller hvit). Beskrivelses-bokser har justerbar bredde, mobil-tilpasset.",
+      "description": "Marker viktige punkter på et bilde.",
       "minStudioVersion": "0.2.0",
       "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/bilde-markering/0.1.6/bundle.json",
-      "changelog": "Beskrivelses-bokser har minst 70% bredde på mobil (max(brukerens valg, 70%)). Bredden styres via CSS-variabel --tb-w, brukerens valg respekteres på desktop, men mobil får alltid lesbar bredde. Drag-grense holder hele light-boksen innenfor preview."
+      "changelog": "Mobile breakpoint."
+    },
+    {
+      "id": "bildeanalyse",
+      "name": "Bildeanalyse",
+      "version": "0.1.5",
+      "description": "Sammenlign bilder side-om-side med fargede rammer som kobles med strek. Per-slide bildetekst.",
+      "minStudioVersion": "0.2.0",
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/bildeanalyse/0.1.5/bundle.json",
+      "changelog": "Per-slide bildetekst: hver scene i slideshow har sin egen forklarings-tekst som bytter automatisk når leseren blar mellom par. Strek-tykkelse matcher rammens border-tykkelse (4px preview / clamp(3-5px) embed) — strek og ramme ser nå ut som ett kontinuerlig element."
     }
   ]
 }
