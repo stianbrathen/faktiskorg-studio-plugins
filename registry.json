@@ -39,6 +39,15 @@
       "changelog": "Mobile."
     },
     {
+      "id": "pop-up",
+      "name": "Pop up",
+      "version": "0.1.0",
+      "description": "Bilde med lys grå ramme — klikk åpner stort i pop-up.",
+      "minStudioVersion": "0.2.0",
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/pop-up/0.1.0/bundle.json",
+      "changelog": "Første versjon. Embed ett bilde eller et galleri (2-6 bilder). Hver thumbnail har 3px lys grå ramme (#D9D9D9) og avrundede hjørner. Klikk åpner pop-up med bildet i full størrelse, bildetekst og fotograf-kreditt. Lukkes med X-knapp, ESC eller klikk utenfor bildet. Pilnavigasjon (◀ ▶ + piltaster) i galleri-modus. Mobil-tilpasset lightbox."
+    },
+    {
       "id": "bildeanalyse",
       "name": "Bildeanalyse",
       "version": "0.1.14",
