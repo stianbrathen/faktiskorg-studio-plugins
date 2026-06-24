@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-06-19T15:00:00Z",
+  "updatedAt": "2026-06-19T16:00:00Z",
   "plugins": [
     {
       "id": "looping-video",
@@ -9,16 +9,16 @@
       "description": "Lag et auto-loopende videoklipp (uten lyd) som embed for Labrador.",
       "minStudioVersion": "0.2.0",
       "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/looping-video/0.5.10/bundle.json",
-      "changelog": "Brand-farge oppdatert til Faktisk-blå #0050FC."
+      "changelog": "Brand-farge."
     },
     {
       "id": "video-player",
       "name": "Videoavspiller",
       "version": "0.1.2",
-      "description": "Generell video-avspiller for Labrador-opplastede klipp.",
+      "description": "Generell video-avspiller.",
       "minStudioVersion": "0.2.0",
       "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/video-player/0.1.2/bundle.json",
-      "changelog": "Brand-farge oppdatert."
+      "changelog": "Brand-farge."
     },
     {
       "id": "for-og-etter",
@@ -36,16 +36,16 @@
       "description": "Marker viktige punkter på et bilde.",
       "minStudioVersion": "0.2.0",
       "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/bilde-markering/0.1.6/bundle.json",
-      "changelog": "Mobile breakpoint."
+      "changelog": "Mobile."
     },
     {
       "id": "bildeanalyse",
       "name": "Bildeanalyse",
-      "version": "0.1.5",
-      "description": "Sammenlign bilder side-om-side med fargede rammer som kobles med strek. Per-slide bildetekst.",
+      "version": "0.1.6",
+      "description": "Sammenlign bildepar med fargede rammer koblet med strek. Per-scene bildetekst i slideshow.",
       "minStudioVersion": "0.2.0",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/bildeanalyse/0.1.5/bundle.json",
-      "changelog": "Per-slide bildetekst: hver scene i slideshow har sin egen forklarings-tekst som bytter automatisk når leseren blar mellom par. Strek-tykkelse matcher rammens border-tykkelse (4px preview / clamp(3-5px) embed) — strek og ramme ser nå ut som ett kontinuerlig element."
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/bildeanalyse/0.1.6/bundle.json",
+      "changelog": "Caption-label viser nå tydelig 'Bildetekst for scene X av Y' i sidebar når slideshow har flere scener — så det er klart at teksten kun gjelder det aktive paret. Strek bruker stroke-linecap: square i stedet for butt, slik at endepunktet overlapper rammen med halv stroke-width og det ikke blir noe synlig gap mellom strek og ramme."
     }
   ]
 }
