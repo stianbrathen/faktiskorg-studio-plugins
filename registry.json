@@ -41,11 +41,11 @@
     {
       "id": "pop-up",
       "name": "Pop up",
-      "version": "0.1.0",
-      "description": "Bilde med lys grå ramme — klikk åpner stort i pop-up.",
+      "version": "0.1.1",
+      "description": "Bilde med lys grå ramme i naturlig aspect — klikk åpner stort i pop-up.",
       "minStudioVersion": "0.2.0",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/pop-up/0.1.0/bundle.json",
-      "changelog": "Første versjon. Embed ett bilde eller et galleri (2-6 bilder). Hver thumbnail har 3px lys grå ramme (#D9D9D9) og avrundede hjørner. Klikk åpner pop-up med bildet i full størrelse, bildetekst og fotograf-kreditt. Lukkes med X-knapp, ESC eller klikk utenfor bildet. Pilnavigasjon (◀ ▶ + piltaster) i galleri-modus. Mobil-tilpasset lightbox."
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/pop-up/0.1.1/bundle.json",
+      "changelog": "Thumbnails viser nå hele bildet i sitt naturlige format — ikke croppet til 4:3 med object-fit:cover. Et 16:9-bilde ser bredt og lavt ut, et 9:16-bilde ser høyt og smalt ut, akkurat som originalen. I galleri-modus får cellene varierende høyde (align-items:start) så ingen bilder blir kuttet. Sikkerhetsnett: max-height 80vh på desktop hindrer at ekstremt høye vertikalbilder dominerer kolonnen — pop-up-en viser uansett full størrelse."
     },
     {
       "id": "bildeanalyse",
