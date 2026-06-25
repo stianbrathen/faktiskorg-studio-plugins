@@ -14,11 +14,11 @@
     {
       "id": "video-player",
       "name": "Videoavspiller",
-      "version": "0.1.4",
-      "description": "Video-avspiller med grå container-boks og høyde-presets for vertikalvideo.",
+      "version": "0.1.5",
+      "description": "Video-avspiller med grå container-boks, høyde-presets, og logo-merke til venstre for bildetekst.",
       "minStudioVersion": "0.2.0",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/video-player/0.1.4/bundle.json",
-      "changelog": "Bredde-prosent erstattet av høyde-presets (Kompakt 60vh / Medium 75vh / Stor 90vh) for vertikalvideo i container. Tidligere ble en vertikalvideo på 50% bredde fortsatt 700+ piksler høy på desktop. Nå tenker valget i skjermhøyde i stedet for kolonnebredde, så samme valg fungerer likt på mobil og desktop. Pikselgrense som backstop på svært høye skjermer (4K). Bredde-kontroll håndteres uansett av Labrador-embedboksen (spalte / full bredde / inline). Gammel boxWidth-state mappes til nærmeste høyde-preset for bakoverkompatibilitet."
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/video-player/0.1.5/bundle.json",
+      "changelog": "Ny logo-velger i container-modus: X, Facebook, Instagram, TikTok, YouTube, Threads. Logoen vises som sort sirkel med hvit logo til venstre for bildeteksten i den hvite caption-boksen. Brødtekst i normal stil (ikke kursiv) — matcher video-playerens eksisterende caption-typografi. Hvis du har valgt logo men ingen bildetekst, vises bare logoen i caption-boksen. Samme logo-bibliotek som pop-up-pluginen for visuell konsistens."
     },
     {
       "id": "for-og-etter",
