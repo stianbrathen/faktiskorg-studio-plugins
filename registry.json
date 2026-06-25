@@ -41,11 +41,11 @@
     {
       "id": "bildemal",
       "name": "Bildemal",
-      "version": "0.1.4",
+      "version": "0.1.5",
       "description": "Komponer et bilde med bakgrunn + bokser/sirkler med hvit ramme og drop shadow. Eksport til PNG/JPG eller utklippstavle.",
       "minStudioVersion": "0.2.0",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/bildemal/0.1.4/bundle.json",
-      "changelog": "Bytter fra CSS-border til SVG-stroke for selve ramme-tegningen. CSS-border + border-radius gir alltid ulik inner/outer radius og kan se ujevn ut i avrundede hjørner, særlig på små stroke-verdier. SVG tegner stroken som en ren sentrert linje med konsistent anti-aliasing — visuelt en jevn 'tegnet linje' hele veien rundt. Shape er nå tre lag: ytre wrapper (resize-handles), klipp-lag (overflow:hidden + indre border-radius for å klippe innholdsbildet), og SVG-stroke som overlay. Drop-shadow ligger på SVG-laget. Selection-outline ligger på ytre wrapper med outline-offset for tydeligere visuell separasjon."
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/bildemal/0.1.5/bundle.json",
+      "changelog": "Ryddet eksport-koden så det er tydelig at den bruker samme stroke-geometri som SVG-en i editoren. Fjernet en død drawShapePath-call før ctx.stroke() som var overflødig. Lagt til lineJoin/lineCap:round for jevnere hjørner i canvas-tegningen. Eksporten og editor-preview skal nå se identisk ut."
     },
     {
       "id": "pop-up",
