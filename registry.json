@@ -41,11 +41,11 @@
     {
       "id": "bildemal",
       "name": "Bildemal",
-      "version": "0.1.5",
+      "version": "0.1.6",
       "description": "Komponer et bilde med bakgrunn + bokser/sirkler med hvit ramme og drop shadow. Eksport til PNG/JPG eller utklippstavle.",
       "minStudioVersion": "0.2.0",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/bildemal/0.1.5/bundle.json",
-      "changelog": "Ryddet eksport-koden så det er tydelig at den bruker samme stroke-geometri som SVG-en i editoren. Fjernet en død drawShapePath-call før ctx.stroke() som var overflødig. Lagt til lineJoin/lineCap:round for jevnere hjørner i canvas-tegningen. Eksporten og editor-preview skal nå se identisk ut."
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/bildemal/0.1.6/bundle.json",
+      "changelog": "Fikser hjørnene i eksporten. To problemer var: (1) Eksporten tegnet et hvitt fyll bak hele shapen for å gi drop-shadow noe å hekte seg i. Fyllet hadde outer corner radius, mens strek-en hadde inner radius. Visuelt skapte det 'ekstra' hvitt på hjørnene som så ut som tykkere strek. (2) Image-clip-en brukte feil corner radius (cornerRadius i stedet for cornerRadius - strokeWidth). Nå er eksporten 1:1 med SVG-editoren: clip → image → strek (med drop-shadow direkte på strek-en, ikke på et eget fyll-lag). Hjørnene skal nå se identiske ut som i editor-previewen."
     },
     {
       "id": "pop-up",
