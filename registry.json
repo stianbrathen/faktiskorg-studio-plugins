@@ -50,11 +50,11 @@
     {
       "id": "bildeanalyse",
       "name": "Bildeanalyse",
-      "version": "0.1.19",
-      "description": "Sammenlign bildepar. A/B-merket vises hele, og neste par leker ikke inn.",
+      "version": "0.1.20",
+      "description": "Sammenlign bildepar. A/B-merket vises helt — også når markeringen er i venstre/høyre kant.",
       "minStudioVersion": "0.2.0",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/bildeanalyse/0.1.19/bundle.json",
-      "changelog": "Forrige forsøk (overflow-clip-margin 30px) lot ikke bare A/B-merket synes utenfor cellen, men også labels fra det neste paret peek-e inn fra siden — siden slidene er flush horisontalt (gap: 0), eksponerer enhver horisontal buffer naboslide. Bytter til clip-path inset(-25px 0) som utvider det synlige området KUN vertikalt (25px opp/ned), så A/B-sirklen vises hel når markeringen er i topp/bunn av bildet, mens horisontale grenser fortsatt klippes presist mot slidens kant. @supports-guard sørger for fallback til overflow:hidden i eldre nettlesere."
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/bildeanalyse/0.1.20/bundle.json",
+      "changelog": "Forrige versjon løste vertikale labels (topp/bunn av bildet), men horisontale labels (venstre cellekant, høyre cellekant) ble fortsatt klippet — vi kan ikke utvide clip-path horisontalt uten å eksponere naboslide. Nå har images-griden inline-padding på ~14-22px så cellene aldri ligger helt i sliden's venstre/høyre kant. Labels ved cellens venstre/høyre kant stikker INN i denne padding-zonen, fortsatt innenfor slidens grenser — synes helt. Cellene blir marginalt smalere, men plassen vinnes tilbake i form av synlig label."
     }
   ]
 }
