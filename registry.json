@@ -50,11 +50,11 @@
     {
       "id": "bildeanalyse",
       "name": "Bildeanalyse",
-      "version": "0.1.24",
-      "description": "Sammenlign bildepar. Kompaktere vertikale gaps.",
+      "version": "0.1.25",
+      "description": "Sammenlign bildepar. Enda kompaktere layout.",
       "minStudioVersion": "0.2.0",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/bildeanalyse/0.1.24/bundle.json",
-      "changelog": "Strammet inn vertikale paddinger så de aldri overgår gap-en mellom bildene. Wrap-gap (mellom overskrift, navigasjon og bildene): 10-16px → 6-10px. Slide-gap (mellom bilder og bildetekst): 12-18px → 8-12px. Nav-row sin padding-top fjernet (wrap-gap håndterer avstanden). Mer kompakt totalbilde uten å føles trangt."
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/bildeanalyse/0.1.25/bundle.json",
+      "changelog": "Strammet enda mer på vertikale gaps. Wrap-gap (heading↔nav↔bilder): 6-10px → 4-6px. Slide-gap (bilder↔caption): 8-12px → 4-8px. Padding-block på images-griden gjort asymmetrisk — padding-top beholdes (16-20px desktop, 26px mobil for tittel-pille + labels som stikker opp), padding-bottom strammet ned til 2-6px siden markeringer i absolutt bunn av bildet er sjeldne. Resultat: mye mindre luft mellom bunn av bildene og caption-boksen, og mellom dots og bilder/heading."
     }
   ]
 }
