@@ -41,11 +41,11 @@
     {
       "id": "bildemal",
       "name": "Bildemal",
-      "version": "0.1.3",
+      "version": "0.1.4",
       "description": "Komponer et bilde med bakgrunn + bokser/sirkler med hvit ramme og drop shadow. Eksport til PNG/JPG eller utklippstavle.",
       "minStudioVersion": "0.2.0",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/bildemal/0.1.3/bundle.json",
-      "changelog": "Fikser resize: håndtakene fungerer nå skikkelig — både rektangler og sirkler kan dras for å endre størrelse. Bugen var at resize-handleren kalte render() under drag, som gjenoppretter hele DOM-en — inkludert det aktive håndtaket. Pointer-capture brøt seg, og videre pointer-move-events ble ikke fanget opp. Fix: oppdater stilen direkte under drag, kjør full re-render bare når brukeren slipper musen."
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/bildemal/0.1.4/bundle.json",
+      "changelog": "Bytter fra CSS-border til SVG-stroke for selve ramme-tegningen. CSS-border + border-radius gir alltid ulik inner/outer radius og kan se ujevn ut i avrundede hjørner, særlig på små stroke-verdier. SVG tegner stroken som en ren sentrert linje med konsistent anti-aliasing — visuelt en jevn 'tegnet linje' hele veien rundt. Shape er nå tre lag: ytre wrapper (resize-handles), klipp-lag (overflow:hidden + indre border-radius for å klippe innholdsbildet), og SVG-stroke som overlay. Drop-shadow ligger på SVG-laget. Selection-outline ligger på ytre wrapper med outline-offset for tydeligere visuell separasjon."
     },
     {
       "id": "pop-up",
