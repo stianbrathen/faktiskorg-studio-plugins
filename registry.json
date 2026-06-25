@@ -41,11 +41,11 @@
     {
       "id": "pop-up",
       "name": "Pop up",
-      "version": "0.2.1",
-      "description": "Bilde med tykk lys grå ramme, valgfri logo-merke (X, Facebook, Instagram, TikTok, YouTube, Threads), caption under boksen.",
+      "version": "0.3.0",
+      "description": "Bilde med tykk grå ramme, logo til venstre for bildetekst, tekst sentrert til høyre.",
       "minStudioVersion": "0.2.0",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/pop-up/0.2.1/bundle.json",
-      "changelog": "Logo-dropdown utvidet med Facebook, Instagram, TikTok, YouTube og Threads i tillegg til X (Twitter). Alle vises som hvit logo i sort sirkel under figuren — samme størrelse og posisjon. Aria-label per plattform for skjermlesere ('Fra Facebook', 'Fra Instagram', etc.)."
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/pop-up/0.3.0/bundle.json",
+      "changelog": "Logo-merket er flyttet fra bunnen av figuren til en caption-rad sammen med bildeteksten — logo til venstre, tekst sentrert på høyre side. Uten logo blir teksten venstrejustert. I galleri-modus vises logoen kun ved første bilde (delt kilde-indikator) så det ikke blir repeterende. Edge-case: hvis logo er valgt men ingen bilder har caption, vises logoen alene under griden (gammel oppførsel) — så indikatoren ikke forsvinner."
     },
     {
       "id": "bildeanalyse",
