@@ -50,11 +50,11 @@
     {
       "id": "bildeanalyse",
       "name": "Bildeanalyse",
-      "version": "0.1.20",
-      "description": "Sammenlign bildepar. A/B-merket vises helt — også når markeringen er i venstre/høyre kant.",
+      "version": "0.1.21",
+      "description": "Sammenlign bildepar. A/B-bokstavene sentrert riktig også i Safari.",
       "minStudioVersion": "0.2.0",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/bildeanalyse/0.1.20/bundle.json",
-      "changelog": "Forrige versjon løste vertikale labels (topp/bunn av bildet), men horisontale labels (venstre cellekant, høyre cellekant) ble fortsatt klippet — vi kan ikke utvide clip-path horisontalt uten å eksponere naboslide. Nå har images-griden inline-padding på ~14-22px så cellene aldri ligger helt i sliden's venstre/høyre kant. Labels ved cellens venstre/høyre kant stikker INN i denne padding-zonen, fortsatt innenfor slidens grenser — synes helt. Cellene blir marginalt smalere, men plassen vinnes tilbake i form av synlig label."
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/bildeanalyse/0.1.21/bundle.json",
+      "changelog": "A/B-chip-en i bildeteksten (sort sirkel med hvit bokstav) ble ikke perfekt sentrert i Safari — flex-sentrering har en kjent font-metrikk-quirk i Safari. Byttet til den klassiske 'line-height = container-høyde'-teknikken: bokstaven får line-height lik sirkelens diameter (med CSS-variabel for å holde dem synkroniserte), og text-align:center for horisontal. Funker likt i alle nettlesere så lenge bokstavene er uten descender (A og B passer). Samme fix anvendt på Studio-preview også."
     }
   ]
 }
