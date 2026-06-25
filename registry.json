@@ -39,6 +39,15 @@
       "changelog": "Mobile."
     },
     {
+      "id": "bildemal",
+      "name": "Bildemal",
+      "version": "0.1.0",
+      "description": "Komponer et bilde med bakgrunn + bokser/sirkler med hvit ramme og drop shadow. Eksport til PNG/JPG eller utklippstavle.",
+      "minStudioVersion": "0.2.0",
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/bildemal/0.1.0/bundle.json",
+      "changelog": "Første versjon. Canvas 1920×1080 eller 1080×1080. Bakgrunnsbilde fra URL eller fil-opplasting, dra og scroll-zoom for plassering. Legg til en eller flere rektangler eller sirkler med hvit ramme (justerbar tykkelse 2-20px), hjørne-radius (rektangler), og drop shadow. Last opp bilde inn i hver boks med URL eller fil — dra og scroll-zoom for å plassere det inni. Mørk fade-overlay fra topp og/eller bunn med justerbar intensitet. Eksport til PNG/JPG-fil eller direkte til utklippstavle."
+    },
+    {
       "id": "pop-up",
       "name": "Pop up",
       "version": "0.3.1",
