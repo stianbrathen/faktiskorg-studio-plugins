@@ -50,11 +50,11 @@
     {
       "id": "bildeanalyse",
       "name": "Bildeanalyse",
-      "version": "0.1.25",
-      "description": "Sammenlign bildepar. Enda kompaktere layout.",
+      "version": "0.1.26",
+      "description": "Sammenlign bildepar. A og B peker innover mot streken — løser horisontal klipping elegant.",
       "minStudioVersion": "0.2.0",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/bildeanalyse/0.1.25/bundle.json",
-      "changelog": "Strammet enda mer på vertikale gaps. Wrap-gap (heading↔nav↔bilder): 6-10px → 4-6px. Slide-gap (bilder↔caption): 8-12px → 4-8px. Padding-block på images-griden gjort asymmetrisk — padding-top beholdes (16-20px desktop, 26px mobil for tittel-pille + labels som stikker opp), padding-bottom strammet ned til 2-6px siden markeringer i absolutt bunn av bildet er sjeldne. Resultat: mye mindre luft mellom bunn av bildene og caption-boksen, og mellom dots og bilder/heading."
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/bildeanalyse/0.1.26/bundle.json",
+      "changelog": "A-labelen flyttet fra top-VENSTRE til top-HØYRE av markeringen (på venstre bilde). B forblir på top-VENSTRE av sin markering (på høyre bilde). Begge peker dermed INNOVER mot connector-streken og når aldri slidens ytterkanter — løser horisontal label-klipping uten å trenge padding-inline. Leser også naturlig: A → strek → B fra venstre til høyre. Gjelder både embed og Studio-canvas."
     }
   ]
 }
