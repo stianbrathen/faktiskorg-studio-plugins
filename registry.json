@@ -50,11 +50,11 @@
     {
       "id": "bildeanalyse",
       "name": "Bildeanalyse",
-      "version": "0.1.21",
-      "description": "Sammenlign bildepar. A/B-bokstavene sentrert riktig også i Safari.",
+      "version": "0.1.22",
+      "description": "Sammenlign bildepar. Fikset alvorlig layout-bug på iOS Safari.",
       "minStudioVersion": "0.2.0",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/bildeanalyse/0.1.21/bundle.json",
-      "changelog": "A/B-chip-en i bildeteksten (sort sirkel med hvit bokstav) ble ikke perfekt sentrert i Safari — flex-sentrering har en kjent font-metrikk-quirk i Safari. Byttet til den klassiske 'line-height = container-høyde'-teknikken: bokstaven får line-height lik sirkelens diameter (med CSS-variabel for å holde dem synkroniserte), og text-align:center for horisontal. Funker likt i alle nettlesere så lenge bokstavene er uten descender (A og B passer). Samme fix anvendt på Studio-preview også."
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/bildeanalyse/0.1.22/bundle.json",
+      "changelog": "Kritisk: clip-path-fixen i v0.1.19 satte overflow:visible på slides-containeren, som gjorde at slideshow-track-en (som inneholder alle slides side-om-side, N × bredde wide) eksponerte sin fulle bredde til layout. På iOS Safari førte dette til at HELE SIDEN ble horisontalt scrollbar — siden ble bredere enn viewporten og zoomet ut. Reverterer til ren overflow:hidden, og gir i stedet images-griden padding-block (topp+bunn) så A/B-labels får plass INNENFOR slidens grenser. Labels stikker INN i denne padding-zonen i stedet for UT av sliden. Samme prinsipp som padding-inline-løsningen vi har for venstre/høyre."
     }
   ]
 }
