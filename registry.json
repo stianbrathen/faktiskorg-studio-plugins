@@ -50,11 +50,11 @@
     {
       "id": "bildeanalyse",
       "name": "Bildeanalyse",
-      "version": "0.1.23",
-      "description": "Sammenlign bildepar. Bildene fyller slidebredden som captionen.",
+      "version": "0.1.24",
+      "description": "Sammenlign bildepar. Kompaktere vertikale gaps.",
       "minStudioVersion": "0.2.0",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/bildeanalyse/0.1.23/bundle.json",
-      "changelog": "Dropper padding-inline på images-griden — det gjorde cellene smalere enn caption-boksen, særlig merkbart på iPhone-bredde. Bildene fyller nå slidens fulle bredde (samme som captionen under). Padding-block beholdes for at A/B-labels skal kunne stikke ut over/under cellen uten klipping. Labels helt i horisontale kanter klippes minimalt på slidens ytterkant — en akseptabel cosmetic trade-off mot bredere/høyere bilder. Padding-block redusert litt (18-24px vs 22-26px) for å spare høyde."
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/bildeanalyse/0.1.24/bundle.json",
+      "changelog": "Strammet inn vertikale paddinger så de aldri overgår gap-en mellom bildene. Wrap-gap (mellom overskrift, navigasjon og bildene): 10-16px → 6-10px. Slide-gap (mellom bilder og bildetekst): 12-18px → 8-12px. Nav-row sin padding-top fjernet (wrap-gap håndterer avstanden). Mer kompakt totalbilde uten å føles trangt."
     }
   ]
 }
