@@ -50,11 +50,11 @@
     {
       "id": "bildeanalyse",
       "name": "Bildeanalyse",
-      "version": "0.1.17",
-      "description": "Sammenlign bildepar. A/B-merket vises faktisk helt nå — også ved kanten.",
+      "version": "0.1.18",
+      "description": "Sammenlign bildepar. Mørkere grå container-bakgrunn (#C3C3C3).",
       "minStudioVersion": "0.2.0",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/bildeanalyse/0.1.17/bundle.json",
-      "changelog": "Forrige forsøk på å unngå at A/B-merket ble kuttet av bildemasken hjalp på cellen, men et lag lenger ut — slideshow-containerens overflow:hidden — klippet labelen likevel. Nå bruker den overflow:clip + overflow-clip-margin:30px, som lar labelen males inntil 30px utenfor sin egen container uten å eksponere naboslidene (de ligger 100% unna). Fallback til overflow:hidden for eldre nettlesere (Chrome <90, Safari <16). Begge A- og B-sirklene skal nå vises hele uansett hvor i bildet markeringen ligger."
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/bildeanalyse/0.1.18/bundle.json",
+      "changelog": "Grå container-bakgrunn er 10 % mørkere — fra #D9D9D9 til #C3C3C3 — for tydeligere kontrast mot artikkelens hvite bakgrunn. Oppdatert både i embed-en og Studio-preview, og i caption-boksen i ikke-par-modus."
     }
   ]
 }
