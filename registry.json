@@ -50,11 +50,11 @@
     {
       "id": "bildeanalyse",
       "name": "Bildeanalyse",
-      "version": "0.1.14",
-      "description": "Sammenlign bildepar. Peek-animasjon trigges når embed scrolles inn i viewport.",
+      "version": "0.1.16",
+      "description": "Sammenlign bildepar. A/B-merket vises helt selv ved kanten, og tittel-pillen flyttes over bildet på mobil.",
       "minStudioVersion": "0.2.0",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/bildeanalyse/0.1.14/bundle.json",
-      "changelog": "Peek-hint (den korte slide-bevegelsen som signaliserer at det er flere slides) trigges nå via IntersectionObserver når embeden scrolles inn i viewport — ikke ved page load. Brukeren ser hintet i det øyeblikket boksen kommer på skjermen, så det er mye vanskeligere å gå glipp av. Threshold 35% synlighet. Trigges kun én gang per sidevisning. Fallback for eldre nettlesere uten IntersectionObserver-støtte."
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/bildeanalyse/0.1.16/bundle.json",
+      "changelog": "A/B-merket på markeringen blir ikke lenger kuttet av bildemasken når markeringen ligger ute i kanten. Cellen er delt i to lag: et clip-lag som klipper bildet + rektanglene (med spotlight-skygge), og labelen som ligger utenfor clip-laget på cellen. På mobil (<600px) flyttes den sorte tittel-pillen 'Bilde 1/Bilde 2' opp OVER bildet i stedet for å sitte inne i bildet — det blir for trangt på små skjermer. 26px reservert padding over bildene så pillen ikke kolliderer med navigasjonen."
     }
   ]
 }
