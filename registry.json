@@ -41,11 +41,11 @@
     {
       "id": "pop-up",
       "name": "Pop up",
-      "version": "0.1.1",
-      "description": "Bilde med lys grå ramme i naturlig aspect — klikk åpner stort i pop-up.",
+      "version": "0.2.1",
+      "description": "Bilde med tykk lys grå ramme, valgfri logo-merke (X, Facebook, Instagram, TikTok, YouTube, Threads), caption under boksen.",
       "minStudioVersion": "0.2.0",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/pop-up/0.1.1/bundle.json",
-      "changelog": "Thumbnails viser nå hele bildet i sitt naturlige format — ikke croppet til 4:3 med object-fit:cover. Et 16:9-bilde ser bredt og lavt ut, et 9:16-bilde ser høyt og smalt ut, akkurat som originalen. I galleri-modus får cellene varierende høyde (align-items:start) så ingen bilder blir kuttet. Sikkerhetsnett: max-height 80vh på desktop hindrer at ekstremt høye vertikalbilder dominerer kolonnen — pop-up-en viser uansett full størrelse."
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/pop-up/0.2.1/bundle.json",
+      "changelog": "Logo-dropdown utvidet med Facebook, Instagram, TikTok, YouTube og Threads i tillegg til X (Twitter). Alle vises som hvit logo i sort sirkel under figuren — samme størrelse og posisjon. Aria-label per plattform for skjermlesere ('Fra Facebook', 'Fra Instagram', etc.)."
     },
     {
       "id": "bildeanalyse",
