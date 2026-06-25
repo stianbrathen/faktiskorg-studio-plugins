@@ -50,11 +50,11 @@
     {
       "id": "bildeanalyse",
       "name": "Bildeanalyse",
-      "version": "0.1.16",
-      "description": "Sammenlign bildepar. A/B-merket vises helt selv ved kanten, og tittel-pillen flyttes over bildet på mobil.",
+      "version": "0.1.17",
+      "description": "Sammenlign bildepar. A/B-merket vises faktisk helt nå — også ved kanten.",
       "minStudioVersion": "0.2.0",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/bildeanalyse/0.1.16/bundle.json",
-      "changelog": "A/B-merket på markeringen blir ikke lenger kuttet av bildemasken når markeringen ligger ute i kanten. Cellen er delt i to lag: et clip-lag som klipper bildet + rektanglene (med spotlight-skygge), og labelen som ligger utenfor clip-laget på cellen. På mobil (<600px) flyttes den sorte tittel-pillen 'Bilde 1/Bilde 2' opp OVER bildet i stedet for å sitte inne i bildet — det blir for trangt på små skjermer. 26px reservert padding over bildene så pillen ikke kolliderer med navigasjonen."
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/bildeanalyse/0.1.17/bundle.json",
+      "changelog": "Forrige forsøk på å unngå at A/B-merket ble kuttet av bildemasken hjalp på cellen, men et lag lenger ut — slideshow-containerens overflow:hidden — klippet labelen likevel. Nå bruker den overflow:clip + overflow-clip-margin:30px, som lar labelen males inntil 30px utenfor sin egen container uten å eksponere naboslidene (de ligger 100% unna). Fallback til overflow:hidden for eldre nettlesere (Chrome <90, Safari <16). Begge A- og B-sirklene skal nå vises hele uansett hvor i bildet markeringen ligger."
     }
   ]
 }
