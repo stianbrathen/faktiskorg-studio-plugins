@@ -41,11 +41,11 @@
     {
       "id": "bildemal",
       "name": "Bildemal",
-      "version": "0.1.2",
+      "version": "0.1.3",
       "description": "Komponer et bilde med bakgrunn + bokser/sirkler med hvit ramme og drop shadow. Eksport til PNG/JPG eller utklippstavle.",
       "minStudioVersion": "0.2.0",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/bildemal/0.1.2/bundle.json",
-      "changelog": "Resize-håndtakene (de blå punktene i hjørnene) er nå fullt synlige. Tidligere ble de delvis klippet av shapens overflow:hidden. Restrukturert shape i to lag: ytre wrapper (overflow:visible, bærer drag og resize-handles) og indre clip-div (overflow:hidden, bærer border/border-radius/drop-shadow og innholdsbildet). Dra et hvilket som helst hjørne-punkt for å skalere boksen — låst til kvadrat for sirkler, fri ratio for rektangler."
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/bildemal/0.1.3/bundle.json",
+      "changelog": "Fikser resize: håndtakene fungerer nå skikkelig — både rektangler og sirkler kan dras for å endre størrelse. Bugen var at resize-handleren kalte render() under drag, som gjenoppretter hele DOM-en — inkludert det aktive håndtaket. Pointer-capture brøt seg, og videre pointer-move-events ble ikke fanget opp. Fix: oppdater stilen direkte under drag, kjør full re-render bare når brukeren slipper musen."
     },
     {
       "id": "pop-up",
