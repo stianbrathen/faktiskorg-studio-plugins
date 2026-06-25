@@ -41,11 +41,11 @@
     {
       "id": "pop-up",
       "name": "Pop up",
-      "version": "0.3.0",
-      "description": "Bilde med tykk grå ramme, logo til venstre for bildetekst, tekst sentrert til høyre.",
+      "version": "0.3.1",
+      "description": "Bilde med tykk grå ramme, logo til venstre, bildetekst venstrejustert mot logoen.",
       "minStudioVersion": "0.2.0",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/pop-up/0.3.0/bundle.json",
-      "changelog": "Logo-merket er flyttet fra bunnen av figuren til en caption-rad sammen med bildeteksten — logo til venstre, tekst sentrert på høyre side. Uten logo blir teksten venstrejustert. I galleri-modus vises logoen kun ved første bilde (delt kilde-indikator) så det ikke blir repeterende. Edge-case: hvis logo er valgt men ingen bilder har caption, vises logoen alene under griden (gammel oppførsel) — så indikatoren ikke forsvinner."
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/pop-up/0.3.1/bundle.json",
+      "changelog": "Bildeteksten er nå venstrejustert (starter rett ved logoen) i stedet for sentrert horisontalt — men fortsatt vertikalt sentrert mot sirkelens midte via flex align-items:center. Mer lesbart når teksten er lang og enklere å skanne."
     },
     {
       "id": "bildeanalyse",
