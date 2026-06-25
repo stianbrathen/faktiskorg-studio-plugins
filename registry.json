@@ -50,11 +50,11 @@
     {
       "id": "bildeanalyse",
       "name": "Bildeanalyse",
-      "version": "0.1.18",
-      "description": "Sammenlign bildepar. Mørkere grå container-bakgrunn (#C3C3C3).",
+      "version": "0.1.19",
+      "description": "Sammenlign bildepar. A/B-merket vises hele, og neste par leker ikke inn.",
       "minStudioVersion": "0.2.0",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/bildeanalyse/0.1.18/bundle.json",
-      "changelog": "Grå container-bakgrunn er 10 % mørkere — fra #D9D9D9 til #C3C3C3 — for tydeligere kontrast mot artikkelens hvite bakgrunn. Oppdatert både i embed-en og Studio-preview, og i caption-boksen i ikke-par-modus."
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/bildeanalyse/0.1.19/bundle.json",
+      "changelog": "Forrige forsøk (overflow-clip-margin 30px) lot ikke bare A/B-merket synes utenfor cellen, men også labels fra det neste paret peek-e inn fra siden — siden slidene er flush horisontalt (gap: 0), eksponerer enhver horisontal buffer naboslide. Bytter til clip-path inset(-25px 0) som utvider det synlige området KUN vertikalt (25px opp/ned), så A/B-sirklen vises hel når markeringen er i topp/bunn av bildet, mens horisontale grenser fortsatt klippes presist mot slidens kant. @supports-guard sørger for fallback til overflow:hidden i eldre nettlesere."
     }
   ]
 }
