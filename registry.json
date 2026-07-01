@@ -59,11 +59,11 @@
     {
       "id": "parallax-collage",
       "name": "Parallax bildecollage",
-      "version": "0.2.1",
-      "description": "Side-scroll-drevet parallax med lag-håndtering: dra bildene opp/ned i lista for å endre stack-rekkefølgen.",
+      "version": "0.3.0",
+      "description": "Side-scroll-drevet parallax med sirkel-bilder og 5 ferdige oppsett.",
       "minStudioVersion": "0.2.0",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/parallax-collage/0.2.1/bundle.json",
-      "changelog": "Ny lag-håndtering i bildelisten. Hvert bilde har en blå lag-nummer-badge så du ser hvilket lag det er på. Dra bilder opp/ned i lista for å endre stack-rekkefølgen — samme konvensjon som Photoshop og Figma (øverst i lista = øverst i stakken). Blå indikator-linje viser hvor bildet slippes. Fjernet lag-slideren i 'Valgt bilde'-panelet siden listen nå håndterer det direkte. Gamle prosjekter med eksplisitte z-index-verdier sorteres automatisk til riktig array-orden ved åpning."
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/parallax-collage/0.3.0/bundle.json",
+      "changelog": "To store forbedringer: (1) Sirkel-form per bilde. I 'Valgt bilde'-panelet er det nå en Rektangel/Sirkel-toggler. Sirkel gir aspect-ratio 1:1 med object-fit:cover og border-radius:50% for perfekt sirkulær ramme uten strekking. (2) Fem ferdige oppsett øverst i sidebar: Fokus (ett stort bilde i midten), Duo (to bilder side ved side), Triangel (tre i trekant), Skala (dybdeskala 4 bilder) og Kollasje (5-6 spredte polaroid-stil). Alle presets har både desktop- og mobil-posisjoner så du får responsivt layout gratis. Klikk et preset og bildene omplasseres — bekreftelses-dialog beskytter mot uhell."
     },
     {
       "id": "bildeanalyse",
