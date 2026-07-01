@@ -59,11 +59,11 @@
     {
       "id": "parallax-collage",
       "name": "Parallax bildecollage",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "description": "Side-scroll-drevet parallax der bildene beveger seg med ulik dybde. Følger sidens scroll, stopper aldri leseren.",
       "minStudioVersion": "0.2.0",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/parallax-collage/0.1.1/bundle.json",
-      "changelog": "Endret animasjonsmekanikk fra sticky-track (som 'stjeler' scroll og pinner leseren) til side-scroll-drevet: iframen har fast høyde og sitter i vanlig sideflyt. Bildene animeres basert på iframens posisjon i viewporten (getBoundingClientRect på window.frameElement, som fungerer fordi srcdoc-iframes er same-origin med parent). Leseren scroller helt normalt gjennom siden, og collagen reagerer bare mens den er synlig. Fjernet track-lengde-slider (ikke lenger relevant). Scroll-preview-slideren i editoren simulerer nå 'iframen scrolles gjennom viewporten' fra 0 % (kommer inn nedenfra) til 100 % (forlater oppover)."
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/parallax-collage/0.1.2/bundle.json",
+      "changelog": "Scroll-preview-slideren er flyttet fra sidebar til under canvas — nå kan du dra i den mens du ser på previewen, uten å måtte kikke frem og tilbake mellom sidebar og canvas. Ny toolbar over canvas med Desktop/Mobil-toggle: mobil-modus viser collagen i smal telefon-bredde (375×600), slik at du kan se om bildene fungerer på begge skjermformater før du kopierer embed-koden."
     },
     {
       "id": "bildeanalyse",
