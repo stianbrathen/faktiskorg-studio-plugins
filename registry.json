@@ -59,11 +59,11 @@
     {
       "id": "parallax-collage",
       "name": "Parallax bildecollage",
-      "version": "0.2.0",
-      "description": "Side-scroll-drevet parallax. Hvert bilde har egne posisjoner og størrelser per skjermformat (desktop/mobil).",
+      "version": "0.2.1",
+      "description": "Side-scroll-drevet parallax med lag-håndtering: dra bildene opp/ned i lista for å endre stack-rekkefølgen.",
       "minStudioVersion": "0.2.0",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/parallax-collage/0.2.0/bundle.json",
-      "changelog": "Store forbedringer for mobil: (1) Hvert bilde har nå EGNE posisjoner (x, y, bredde, rotasjon) per skjermformat. Bytt Desktop/Mobil-toggler over canvas — sliders og drag-og-slipp redigerer det formatet du er i. Slipper å slite med at bildene ser bra ut på desktop men blir cramped på mobil. (2) Egen 'Ramme-høyde mobil'-slider siden mobil-visningen er smalere og gjerne trenger mer høyde. (3) 'Kopier posisjon til andre visningen'-knapp for å starte fra desktop-layouten og justere derfra. (4) Embed-koden genererer nå responsiv CSS med media query som bytter posisjoner ved 600px viewport-bredde. Gamle v0.1.x-prosjekter migreres automatisk."
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/parallax-collage/0.2.1/bundle.json",
+      "changelog": "Ny lag-håndtering i bildelisten. Hvert bilde har en blå lag-nummer-badge så du ser hvilket lag det er på. Dra bilder opp/ned i lista for å endre stack-rekkefølgen — samme konvensjon som Photoshop og Figma (øverst i lista = øverst i stakken). Blå indikator-linje viser hvor bildet slippes. Fjernet lag-slideren i 'Valgt bilde'-panelet siden listen nå håndterer det direkte. Gamle prosjekter med eksplisitte z-index-verdier sorteres automatisk til riktig array-orden ved åpning."
     },
     {
       "id": "bildeanalyse",
