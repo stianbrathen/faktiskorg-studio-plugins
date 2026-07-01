@@ -5,65 +5,65 @@
     {
       "id": "looping-video",
       "name": "Looping videoklipp",
-      "version": "0.5.10",
+      "version": "0.5.11",
       "description": "Looping video.",
       "minStudioVersion": "0.2.0",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/looping-video/0.5.10/bundle.json",
-      "changelog": "Brand-farge."
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/looping-video/0.5.11/bundle.json",
+      "changelog": "'Nytt prosjekt'-knapp i topbaren for å tømme gjeldende arbeid og starte på nytt."
     },
     {
       "id": "video-player",
       "name": "Videoavspiller",
-      "version": "0.1.5",
+      "version": "0.1.6",
       "description": "Video-avspiller med grå container-boks, høyde-presets, og logo-merke til venstre for bildetekst.",
       "minStudioVersion": "0.2.0",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/video-player/0.1.5/bundle.json",
-      "changelog": "Ny logo-velger i container-modus: X, Facebook, Instagram, TikTok, YouTube, Threads. Logoen vises som sort sirkel med hvit logo til venstre for bildeteksten i den hvite caption-boksen. Brødtekst i normal stil (ikke kursiv) — matcher video-playerens eksisterende caption-typografi. Hvis du har valgt logo men ingen bildetekst, vises bare logoen i caption-boksen. Samme logo-bibliotek som pop-up-pluginen for visuell konsistens."
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/video-player/0.1.6/bundle.json",
+      "changelog": "'Nytt prosjekt'-knapp i topbaren for å tømme gjeldende arbeid og starte på nytt (lagrede prosjekter beholdes)."
     },
     {
       "id": "for-og-etter",
       "name": "Før og etter slider",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "description": "Sammenlign to bilder.",
       "minStudioVersion": "0.2.0",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/for-og-etter/0.1.1/bundle.json",
-      "changelog": "Finpussing."
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/for-og-etter/0.1.2/bundle.json",
+      "changelog": "'Nytt prosjekt'-knapp i topbaren for å tømme gjeldende arbeid og starte på nytt."
     },
     {
       "id": "bilde-markering",
       "name": "Bilde med markering",
-      "version": "0.1.6",
+      "version": "0.1.7",
       "description": "Marker punkter.",
       "minStudioVersion": "0.2.0",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/bilde-markering/0.1.6/bundle.json",
-      "changelog": "Mobile."
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/bilde-markering/0.1.7/bundle.json",
+      "changelog": "'Nytt prosjekt'-knapp i topbaren for å tømme gjeldende arbeid og starte på nytt."
     },
     {
       "id": "bildemal",
       "name": "Bildemal",
-      "version": "0.1.6",
+      "version": "0.1.7",
       "description": "Komponer et bilde med bakgrunn + bokser/sirkler med hvit ramme og drop shadow. Eksport til PNG/JPG eller utklippstavle.",
       "minStudioVersion": "0.2.0",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/bildemal/0.1.6/bundle.json",
-      "changelog": "Fikser hjørnene i eksporten. To problemer var: (1) Eksporten tegnet et hvitt fyll bak hele shapen for å gi drop-shadow noe å hekte seg i. Fyllet hadde outer corner radius, mens strek-en hadde inner radius. Visuelt skapte det 'ekstra' hvitt på hjørnene som så ut som tykkere strek. (2) Image-clip-en brukte feil corner radius (cornerRadius i stedet for cornerRadius - strokeWidth). Nå er eksporten 1:1 med SVG-editoren: clip → image → strek (med drop-shadow direkte på strek-en, ikke på et eget fyll-lag). Hjørnene skal nå se identiske ut som i editor-previewen."
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/bildemal/0.1.7/bundle.json",
+      "changelog": "'Nytt prosjekt'-knapp i topbaren for å tømme gjeldende arbeid og starte på nytt."
     },
     {
       "id": "pop-up",
       "name": "Pop up",
-      "version": "0.3.1",
+      "version": "0.3.2",
       "description": "Bilde med tykk grå ramme, logo til venstre, bildetekst venstrejustert mot logoen.",
       "minStudioVersion": "0.2.0",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/pop-up/0.3.1/bundle.json",
-      "changelog": "Bildeteksten er nå venstrejustert (starter rett ved logoen) i stedet for sentrert horisontalt — men fortsatt vertikalt sentrert mot sirkelens midte via flex align-items:center. Mer lesbart når teksten er lang og enklere å skanne."
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/pop-up/0.3.2/bundle.json",
+      "changelog": "'Nytt prosjekt'-knapp i topbaren for å tømme gjeldende arbeid og starte på nytt."
     },
     {
       "id": "bildeanalyse",
       "name": "Bildeanalyse",
-      "version": "0.1.26",
-      "description": "Sammenlign bildepar. A og B peker innover mot streken — løser horisontal klipping elegant.",
+      "version": "0.1.27",
+      "description": "Sammenlign bildepar. A og B peker innover mot streken.",
       "minStudioVersion": "0.2.0",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/bildeanalyse/0.1.26/bundle.json",
-      "changelog": "A-labelen flyttet fra top-VENSTRE til top-HØYRE av markeringen (på venstre bilde). B forblir på top-VENSTRE av sin markering (på høyre bilde). Begge peker dermed INNOVER mot connector-streken og når aldri slidens ytterkanter — løser horisontal label-klipping uten å trenge padding-inline. Leser også naturlig: A → strek → B fra venstre til høyre. Gjelder både embed og Studio-canvas."
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/bildeanalyse/0.1.27/bundle.json",
+      "changelog": "'Nytt prosjekt'-knapp i topbaren for å tømme gjeldende arbeid og starte på nytt."
     }
   ]
 }
