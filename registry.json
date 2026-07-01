@@ -59,11 +59,11 @@
     {
       "id": "parallax-collage",
       "name": "Parallax bildecollage",
-      "version": "0.3.1",
+      "version": "0.3.2",
       "description": "Side-scroll-drevet parallax med Labrador-integrasjon og 'Nylige filer'-panel.",
       "minStudioVersion": "0.5.2",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/parallax-collage/0.3.1/bundle.json",
-      "changelog": "Ny 'Åpne Labrador'-knapp åpner opplastingssiden i et embedded Studio-vindu med varig session (logg inn én gang). 'Nylige filer'-panel viser thumbnails av alle bilder du har brukt på tvers av alle plugins — klikk en thumbnail for å laste den inn i collagen. Delt fil-historikk gjør at samme bilde kan gjenbrukes overalt i Studio uten å måtte gå tilbake til Labrador."
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/parallax-collage/0.3.2/bundle.json",
+      "changelog": "Fikset Application error i Labrador-vinduet. Åpner Labrador-root i stedet for direkte /settings/upload-file — deres SPA krasjer på direktelinking uten aktiv session. Nå åpnes root (som funker uansett), du logger inn én gang, navigerer til upload på 1 klikk, og persist:labrador-session-en huskes til neste gang du åpner vinduet."
     },
     {
       "id": "bildeanalyse",
