@@ -59,11 +59,11 @@
     {
       "id": "parallax-collage",
       "name": "Parallax bildecollage",
-      "version": "0.3.0",
-      "description": "Side-scroll-drevet parallax med sirkel-bilder og 5 ferdige oppsett.",
-      "minStudioVersion": "0.2.0",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/parallax-collage/0.3.0/bundle.json",
-      "changelog": "To store forbedringer: (1) Sirkel-form per bilde. I 'Valgt bilde'-panelet er det nå en Rektangel/Sirkel-toggler. Sirkel gir aspect-ratio 1:1 med object-fit:cover og border-radius:50% for perfekt sirkulær ramme uten strekking. (2) Fem ferdige oppsett øverst i sidebar: Fokus (ett stort bilde i midten), Duo (to bilder side ved side), Triangel (tre i trekant), Skala (dybdeskala 4 bilder) og Kollasje (5-6 spredte polaroid-stil). Alle presets har både desktop- og mobil-posisjoner så du får responsivt layout gratis. Klikk et preset og bildene omplasseres — bekreftelses-dialog beskytter mot uhell."
+      "version": "0.3.1",
+      "description": "Side-scroll-drevet parallax med Labrador-integrasjon og 'Nylige filer'-panel.",
+      "minStudioVersion": "0.5.2",
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/parallax-collage/0.3.1/bundle.json",
+      "changelog": "Ny 'Åpne Labrador'-knapp åpner opplastingssiden i et embedded Studio-vindu med varig session (logg inn én gang). 'Nylige filer'-panel viser thumbnails av alle bilder du har brukt på tvers av alle plugins — klikk en thumbnail for å laste den inn i collagen. Delt fil-historikk gjør at samme bilde kan gjenbrukes overalt i Studio uten å måtte gå tilbake til Labrador."
     },
     {
       "id": "bildeanalyse",
