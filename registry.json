@@ -59,11 +59,11 @@
     {
       "id": "parallax-collage",
       "name": "Parallax bildecollage",
-      "version": "0.1.2",
-      "description": "Side-scroll-drevet parallax der bildene beveger seg med ulik dybde. Følger sidens scroll, stopper aldri leseren.",
+      "version": "0.2.0",
+      "description": "Side-scroll-drevet parallax. Hvert bilde har egne posisjoner og størrelser per skjermformat (desktop/mobil).",
       "minStudioVersion": "0.2.0",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/parallax-collage/0.1.2/bundle.json",
-      "changelog": "Scroll-preview-slideren er flyttet fra sidebar til under canvas — nå kan du dra i den mens du ser på previewen, uten å måtte kikke frem og tilbake mellom sidebar og canvas. Ny toolbar over canvas med Desktop/Mobil-toggle: mobil-modus viser collagen i smal telefon-bredde (375×600), slik at du kan se om bildene fungerer på begge skjermformater før du kopierer embed-koden."
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/parallax-collage/0.2.0/bundle.json",
+      "changelog": "Store forbedringer for mobil: (1) Hvert bilde har nå EGNE posisjoner (x, y, bredde, rotasjon) per skjermformat. Bytt Desktop/Mobil-toggler over canvas — sliders og drag-og-slipp redigerer det formatet du er i. Slipper å slite med at bildene ser bra ut på desktop men blir cramped på mobil. (2) Egen 'Ramme-høyde mobil'-slider siden mobil-visningen er smalere og gjerne trenger mer høyde. (3) 'Kopier posisjon til andre visningen'-knapp for å starte fra desktop-layouten og justere derfra. (4) Embed-koden genererer nå responsiv CSS med media query som bytter posisjoner ved 600px viewport-bredde. Gamle v0.1.x-prosjekter migreres automatisk."
     },
     {
       "id": "bildeanalyse",
