@@ -57,6 +57,15 @@
       "changelog": "'Nytt prosjekt'-knapp i topbaren for å tømme gjeldende arbeid og starte på nytt."
     },
     {
+      "id": "parallax-collage",
+      "name": "Parallax bildecollage",
+      "version": "0.1.0",
+      "description": "Scroll-drevet parallax der bildene beveger seg med ulik dybde. Selvstendig iframe-embed for Labrador.",
+      "minStudioVersion": "0.2.0",
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/parallax-collage/0.1.0/bundle.json",
+      "changelog": "Første versjon. Legg til bilder via URL eller fil-opplasting, plasser med dra-og-slipp, juster bredde/rotasjon/dybde/lag. Scroll-preview-slider viser hvordan bildene beveger seg uten å scrolle. Justerbar track-lengde (150-600vh), parallax-intensitet (0-600px), ramme-høyde (300-800px). Eksport som selvstendig iframe med srcdoc — fungerer i Labrador og andre CMS-er som strammer markup."
+    },
+    {
       "id": "bildeanalyse",
       "name": "Bildeanalyse",
       "version": "0.1.27",
