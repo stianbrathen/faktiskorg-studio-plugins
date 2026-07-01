@@ -59,11 +59,11 @@
     {
       "id": "parallax-collage",
       "name": "Parallax bildecollage",
-      "version": "0.1.0",
-      "description": "Scroll-drevet parallax der bildene beveger seg med ulik dybde. Selvstendig iframe-embed for Labrador.",
+      "version": "0.1.1",
+      "description": "Side-scroll-drevet parallax der bildene beveger seg med ulik dybde. Følger sidens scroll, stopper aldri leseren.",
       "minStudioVersion": "0.2.0",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/parallax-collage/0.1.0/bundle.json",
-      "changelog": "Første versjon. Legg til bilder via URL eller fil-opplasting, plasser med dra-og-slipp, juster bredde/rotasjon/dybde/lag. Scroll-preview-slider viser hvordan bildene beveger seg uten å scrolle. Justerbar track-lengde (150-600vh), parallax-intensitet (0-600px), ramme-høyde (300-800px). Eksport som selvstendig iframe med srcdoc — fungerer i Labrador og andre CMS-er som strammer markup."
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/parallax-collage/0.1.1/bundle.json",
+      "changelog": "Endret animasjonsmekanikk fra sticky-track (som 'stjeler' scroll og pinner leseren) til side-scroll-drevet: iframen har fast høyde og sitter i vanlig sideflyt. Bildene animeres basert på iframens posisjon i viewporten (getBoundingClientRect på window.frameElement, som fungerer fordi srcdoc-iframes er same-origin med parent). Leseren scroller helt normalt gjennom siden, og collagen reagerer bare mens den er synlig. Fjernet track-lengde-slider (ikke lenger relevant). Scroll-preview-slideren i editoren simulerer nå 'iframen scrolles gjennom viewporten' fra 0 % (kommer inn nedenfra) til 100 % (forlater oppover)."
     },
     {
       "id": "bildeanalyse",
