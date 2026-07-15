@@ -15,6 +15,7 @@
 
 const fs = require('fs');
 const path = require('path');
+const crypto = require('crypto');
 
 const REGISTRY_PATH = './registry.json';
 const PLUGINS_DIR = './plugins';
@@ -69,6 +70,18 @@ for (const entry of registry.plugins) {
   if (manifest.version !== entry.version) {
     problems.push(`${entry.id} v${entry.version}: bundle-manifest.version="${manifest.version}" ≠ registry.version="${entry.version}"`);
     continue;
+  }
+
+  // 3b: Sjekk sha256 hvis den er satt i registry
+  if (entry.sha256) {
+    const buf = fs.readFileSync(bundlePath);
+    const actualHash = crypto.createHash('sha256').update(buf).digest('hex');
+    if (actualHash !== entry.sha256) {
+      problems.push(`${entry.id} v${entry.version}: sha256 mismatch — bundle er endret siden hash ble beregnet.\n    Registry: ${entry.sha256}\n    Faktisk:  ${actualHash}`);
+      continue;
+    }
+  } else {
+    warnings.push(`${entry.id} v${entry.version}: mangler sha256 i registry — kjør release-plugin.sh eller add manuelt.`);
   }
 
   // 5: Sjekk at Studios kilde matcher siste registry-versjon

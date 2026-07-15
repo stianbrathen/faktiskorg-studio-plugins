@@ -102,9 +102,14 @@ if (!entry) {
 entry.version = '${VERSION}';
 entry.bundleUrl = 'https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/${PLUGIN_ID}/${VERSION}/bundle.json';
 entry.changelog = ${CHANGELOG_ESCAPED};
+// F4 — beregn sha256 for tamper-detektering
+const crypto = require('crypto');
+const buf = fs.readFileSync('${BUNDLE_OUT}');
+entry.sha256 = crypto.createHash('sha256').update(buf).digest('hex');
 reg.updatedAt = new Date().toISOString().replace(/\.\d{3}Z$/, 'Z');
 fs.writeFileSync(path, JSON.stringify(reg, null, 2) + '\n', 'utf-8');
 console.log('  ✓ Registry-entry oppdatert til v${VERSION}');
+console.log('  ✓ sha256: ' + entry.sha256.slice(0, 16) + '...');
 NODE_SCRIPT
 
 # 3) Vis git status før commit

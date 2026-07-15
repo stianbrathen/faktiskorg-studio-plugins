@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-15T08:45:58Z",
+  "updatedAt": "2026-07-15T08:54:20Z",
   "plugins": [
     {
       "id": "looping-video",
@@ -9,7 +9,8 @@
       "description": "Looping video.",
       "minStudioVersion": "0.2.0",
       "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/looping-video/0.5.13/bundle.json",
-      "changelog": "F1 komplett: CSS-variabler via shared/embed-tokens.js — sentralt design-token-system. Endring av tokens ett sted → alle embeds oppdatert ved neste build."
+      "changelog": "F1 komplett: CSS-variabler via shared/embed-tokens.js — sentralt design-token-system. Endring av tokens ett sted → alle embeds oppdatert ved neste build.",
+      "sha256": "02f899d74a7fe080592ea98fc3028e950dc025dd6f62b15080b65146922ecd18"
     },
     {
       "id": "video-player",
@@ -18,7 +19,8 @@
       "description": "Video-avspiller med grå container-boks, høyde-presets, og logo-merke til venstre for bildetekst.",
       "minStudioVersion": "0.2.0",
       "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/video-player/0.1.9/bundle.json",
-      "changelog": "F1 komplett: CSS-variabler via shared/embed-tokens.js — sentralt design-token-system. Endring av tokens ett sted → alle embeds oppdatert ved neste build."
+      "changelog": "F1 komplett: CSS-variabler via shared/embed-tokens.js — sentralt design-token-system. Endring av tokens ett sted → alle embeds oppdatert ved neste build.",
+      "sha256": "be62dc941cce097015d22bd166f9b9b49c218570578e2ab3c57a35a1699fcbc4"
     },
     {
       "id": "for-og-etter",
@@ -27,7 +29,8 @@
       "description": "Sammenlign to bilder.",
       "minStudioVersion": "0.2.0",
       "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/for-og-etter/0.1.5/bundle.json",
-      "changelog": "F1 pilot: CSS-variabler via shared/embed-tokens.js (sentralt design-token-system)."
+      "changelog": "F1 pilot: CSS-variabler via shared/embed-tokens.js (sentralt design-token-system).",
+      "sha256": "da43aa83eff14a7197a94558a38beba6beb8907a315a290681700cf4ff277652"
     },
     {
       "id": "bilde-markering",
@@ -36,7 +39,8 @@
       "description": "Marker punkter.",
       "minStudioVersion": "0.2.0",
       "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/bilde-markering/0.1.10/bundle.json",
-      "changelog": "F1 komplett: CSS-variabler via shared/embed-tokens.js — sentralt design-token-system. Endring av tokens ett sted → alle embeds oppdatert ved neste build."
+      "changelog": "F1 komplett: CSS-variabler via shared/embed-tokens.js — sentralt design-token-system. Endring av tokens ett sted → alle embeds oppdatert ved neste build.",
+      "sha256": "e40d141b33e1cbb98a152bdf94f620492b825e0958526cd7ad405677baa56244"
     },
     {
       "id": "bildemal",
@@ -45,7 +49,8 @@
       "description": "Komponer et bilde med bakgrunn + bokser/sirkler med hvit ramme og drop shadow. Eksport til PNG/JPG eller utklippstavle.",
       "minStudioVersion": "0.2.0",
       "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/bildemal/0.1.8/bundle.json",
-      "changelog": "F6 fra kodegjennomgang: CSP-meta i plugin-siden for defense-in-depth."
+      "changelog": "F6 fra kodegjennomgang: CSP-meta i plugin-siden for defense-in-depth.",
+      "sha256": "c5a4bd9ccafa2ca1b1942713d7c1cdb177785eed07e0a786bdae50087161611d"
     },
     {
       "id": "pop-up",
@@ -54,7 +59,8 @@
       "description": "Bilde med tykk grå ramme, logo til venstre, bildetekst venstrejustert mot logoen.",
       "minStudioVersion": "0.2.0",
       "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/pop-up/0.3.5/bundle.json",
-      "changelog": "F1 komplett: CSS-variabler via shared/embed-tokens.js — sentralt design-token-system. Endring av tokens ett sted → alle embeds oppdatert ved neste build."
+      "changelog": "F1 komplett: CSS-variabler via shared/embed-tokens.js — sentralt design-token-system. Endring av tokens ett sted → alle embeds oppdatert ved neste build.",
+      "sha256": "1dc45bff339ca249178d4a616c7394a89debe00a7a5a9897057d7468841c7647"
     },
     {
       "id": "parallax-collage",
@@ -63,7 +69,8 @@
       "description": "Side-scroll-drevet parallax med Labrador-integrasjon og 'Nylige filer'-panel.",
       "minStudioVersion": "0.5.2",
       "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/parallax-collage/0.3.3/bundle.json",
-      "changelog": "F5+F6 fra kodegjennomgang: CSP-meta i plugin-siden + «Slå av Validate input»-påminnelse i Kopiert-bekreftelsen."
+      "changelog": "F5+F6 fra kodegjennomgang: CSP-meta i plugin-siden + «Slå av Validate input»-påminnelse i Kopiert-bekreftelsen.",
+      "sha256": "74aaf2fbaee9d3a037526f8c882be10d4db055b9be0a223110b0e15467c625d0"
     },
     {
       "id": "bildeanalyse",
@@ -72,7 +79,8 @@
       "description": "Sammenlign bildepar. A og B peker innover mot streken.",
       "minStudioVersion": "0.2.0",
       "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/bildeanalyse/0.1.30/bundle.json",
-      "changelog": "F1 komplett: CSS-variabler via shared/embed-tokens.js — sentralt design-token-system. Endring av tokens ett sted → alle embeds oppdatert ved neste build."
+      "changelog": "F1 komplett: CSS-variabler via shared/embed-tokens.js — sentralt design-token-system. Endring av tokens ett sted → alle embeds oppdatert ved neste build.",
+      "sha256": "cd9e8ffe731231f2d9bcfd0bb5ac05bab0efdd562b76bcf52022ce75d57914d4"
     }
   ]
 }
