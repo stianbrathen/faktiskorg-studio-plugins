@@ -15,32 +15,40 @@ Statisk plugin-register for Faktisk Studio. Serveres via `raw.githubusercontent.
 
 Vi har opplevd flere uker der bundles ble pushet men registry.json ble glemt lokalt. Sjekk alltid `git status` og `git diff registry.json` før commit. Bekreft push via curl til raw-URL etterpå.
 
-## Standard release-flyt for én plugin
+## Standard release-flyt (foretrukket: bruk scriptet)
 
-Anta plugin `bildeanalyse` med ny versjon `0.1.28`.
+**Forutsetter:** koden er endret i `~/Dokumenter lokalt/Faktisk prosjekter/Faktisk Studio/plugins/<id>/` og `manifest.json` er bumpet til ny versjon.
 
-**Forutsetter:** koden er endret i `~/Dokumenter lokalt/Faktisk prosjekter/Faktisk Studio/plugins/bildeanalyse/` og `manifest.json` er bumpet.
+```bash
+cd ~/Dokumenter\ lokalt/Faktisk\ prosjekter/faktiskorg-studio-plugins
+./release-plugin.sh <plugin-id> <versjon> "<changelog>"
+```
+
+Scriptet håndterer alt: bygger bundle, oppdaterer registry.json (versjon + bundleUrl + changelog + updatedAt), viser git status for bekreftelse, commit + push, verifiserer via raw-URL. Fanger opp de vanligste feilene før commit (manifest-mismatch, manglende mappe, feil versjons-format).
+
+## Manuell fallback
+
+Hvis scriptet feiler eller du trenger fin-kontroll:
 
 ```bash
 cd ~/Dokumenter\ lokalt/Faktisk\ prosjekter/faktiskorg-studio-plugins
 
 # 1) Bygg bundle
 node build-bundle.js \
-  "../Faktisk Studio/plugins/bildeanalyse" \
-  "./plugins/bildeanalyse/0.1.28/bundle.json"
+  "../Faktisk Studio/plugins/<id>" \
+  "./plugins/<id>/<versjon>/bundle.json"
 
-# 2) Oppdater registry.json (versjon + bundleUrl + changelog for plugin-en)
-#    Enten manuelt eller via jq/skript
+# 2) Oppdater registry.json manuelt (versjon + bundleUrl + changelog)
 
 # 3) Sjekk at BEGGE er med
 git status
 
 # 4) Commit + push
 git add -A
-git commit -m "bildeanalyse 0.1.28: <beskrivelse>"
+git commit -m "<id> <versjon>: <beskrivelse>"
 git push
 
-# 5) Verifiser at registry er oppdatert på GitHub (CDN cacher ~5 min)
+# 5) Verifiser
 curl -s https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/registry.json | head -20
 ```
 
