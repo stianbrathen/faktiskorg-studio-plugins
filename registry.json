@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-15T08:54:20Z",
+  "updatedAt": "2026-07-15T13:36:01Z",
   "plugins": [
     {
       "id": "looping-video",
@@ -81,6 +81,16 @@
       "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/bildeanalyse/0.1.30/bundle.json",
       "changelog": "F1 komplett: CSS-variabler via shared/embed-tokens.js — sentralt design-token-system. Endring av tokens ett sted → alle embeds oppdatert ved neste build.",
       "sha256": "cd9e8ffe731231f2d9bcfd0bb5ac05bab0efdd562b76bcf52022ce75d57914d4"
+    },
+    {
+      "id": "video-hoydepunkter",
+      "name": "Videohøydepunkter",
+      "version": "0.1.0",
+      "description": "Marker høydepunkter i en video og la leserne hoppe rett til dem — med valgfri sakte film. Genererer embed med klikkbar tidslinje og høydepunkt-knapper.",
+      "minStudioVersion": "0.2.0",
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/video-hoydepunkter/0.1.0/bundle.json",
+      "changelog": "Første versjon: klikkbare høydepunkter med tidslinje og sakte film",
+      "sha256": "511d6591db87a71da4970672daf273133ad24fac20167ed0489c430626716542"
     }
   ]
 }
