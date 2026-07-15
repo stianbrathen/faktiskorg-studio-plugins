@@ -6,8 +6,19 @@ Statisk plugin-register for Faktisk Studio. Serveres via `raw.githubusercontent.
 
 - **`registry.json`** — Sannhetskilden for hvilke plugins Studio kan installere. Studio poll-er denne.
 - **`build-bundle.js`** — Script som pakker en plugin-mappe fra Studio-repoen til én JSON-fil.
+- **`verify-registry.js`** — Sjekker at registry og bundles er konsistente (kjør etter push).
+- **`release-plugin.sh`** — Automatiserer hele release-flyten (sync-shared → build → registry-update → commit → push → verify).
 - **`plugins/<id>/<versjon>/bundle.json`** — Bundlet plugin, referert via `bundleUrl` i registry.json.
 - **`plugins/<id>/`** — Alle versjoner av hver plugin i separate mapper.
+
+## Delte filer på tvers av plugins
+
+Kanonisk kilde for delte filer (feks `embed-tokens.js`) ligger i `../Faktisk Studio/plugins/_shared/`. Se den mappens README.md.
+
+`release-plugin.sh` synker automatisk før hver bundling. Kan også kjøres manuelt:
+```bash
+node ../Faktisk\ Studio/plugins/_shared/sync-shared.js
+```
 
 ## KRITISK REGEL
 

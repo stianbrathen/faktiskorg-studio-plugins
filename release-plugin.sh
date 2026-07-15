@@ -74,7 +74,15 @@ echo "✓ Plugin:  $PLUGIN_ID"
 echo "✓ Versjon: $VERSION"
 echo ""
 
-# 1) Bygg bundle
+# 1a) Sync shared/ fra kanonisk _shared/-mappe (F2 — én kilde for delte filer)
+SYNC_SCRIPT="$STUDIO_DIR/plugins/_shared/sync-shared.js"
+if [[ -f "$SYNC_SCRIPT" ]]; then
+  echo "→ Synker delte filer fra _shared/..."
+  node "$SYNC_SCRIPT"
+  echo ""
+fi
+
+# 1b) Bygg bundle
 echo "→ Bygger bundle..."
 node build-bundle.js "$PLUGIN_SRC" "$BUNDLE_OUT"
 
@@ -115,6 +123,15 @@ fi
 git add -A
 git commit -m "${PLUGIN_ID} ${VERSION}: ${CHANGELOG}"
 git push
+
+# 4b) Verifiser at registry + bundles er konsistente (F3 — fang opp drift)
+if [[ -f "./verify-registry.js" ]]; then
+  echo ""
+  echo "→ Verifiserer registry-integritet..."
+  if ! node verify-registry.js; then
+    echo "⚠ Verifisering fant problemer — sjekk output ovenfor."
+  fi
+fi
 
 # 5) Verifiser at registry er oppdatert på raw-URL (etter kort delay for CDN)
 echo ""
