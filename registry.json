@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-06-20T00:00:00Z",
+  "updatedAt": "2026-07-15T00:00:00Z",
   "plugins": [
     {
       "id": "looping-video",
@@ -14,29 +14,29 @@
     {
       "id": "video-player",
       "name": "Videoavspiller",
-      "version": "0.1.6",
+      "version": "0.1.7",
       "description": "Video-avspiller med grå container-boks, høyde-presets, og logo-merke til venstre for bildetekst.",
       "minStudioVersion": "0.2.0",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/video-player/0.1.6/bundle.json",
-      "changelog": "'Nytt prosjekt'-knapp i topbaren for å tømme gjeldende arbeid og starte på nytt (lagrede prosjekter beholdes)."
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/video-player/0.1.7/bundle.json",
+      "changelog": "Bytt embed-font fra Haas Grot Text til Unica77 (matcher faktisk.no-typografi og fjerner lisensrisiko — Haas var kjøpt for videobruk, ikke web)."
     },
     {
       "id": "for-og-etter",
       "name": "Før og etter slider",
-      "version": "0.1.2",
+      "version": "0.1.3",
       "description": "Sammenlign to bilder.",
       "minStudioVersion": "0.2.0",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/for-og-etter/0.1.2/bundle.json",
-      "changelog": "'Nytt prosjekt'-knapp i topbaren for å tømme gjeldende arbeid og starte på nytt."
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/for-og-etter/0.1.3/bundle.json",
+      "changelog": "Bytt embed-font fra Haas Grot Text til Unica77 (matcher faktisk.no-typografi og fjerner lisensrisiko — Haas var kjøpt for videobruk, ikke web)."
     },
     {
       "id": "bilde-markering",
       "name": "Bilde med markering",
-      "version": "0.1.7",
+      "version": "0.1.8",
       "description": "Marker punkter.",
       "minStudioVersion": "0.2.0",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/bilde-markering/0.1.7/bundle.json",
-      "changelog": "'Nytt prosjekt'-knapp i topbaren for å tømme gjeldende arbeid og starte på nytt."
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/bilde-markering/0.1.8/bundle.json",
+      "changelog": "Bytt embed-font fra Haas Grot Text til Unica77 (matcher faktisk.no-typografi og fjerner lisensrisiko — Haas var kjøpt for videobruk, ikke web)."
     },
     {
       "id": "bildemal",
@@ -50,11 +50,11 @@
     {
       "id": "pop-up",
       "name": "Pop up",
-      "version": "0.3.2",
+      "version": "0.3.3",
       "description": "Bilde med tykk grå ramme, logo til venstre, bildetekst venstrejustert mot logoen.",
       "minStudioVersion": "0.2.0",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/pop-up/0.3.2/bundle.json",
-      "changelog": "'Nytt prosjekt'-knapp i topbaren for å tømme gjeldende arbeid og starte på nytt."
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/pop-up/0.3.3/bundle.json",
+      "changelog": "Bytt embed-font fra Haas Grot Text til Unica77 (matcher faktisk.no-typografi og fjerner lisensrisiko — Haas var kjøpt for videobruk, ikke web)."
     },
     {
       "id": "parallax-collage",
@@ -68,11 +68,11 @@
     {
       "id": "bildeanalyse",
       "name": "Bildeanalyse",
-      "version": "0.1.27",
+      "version": "0.1.28",
       "description": "Sammenlign bildepar. A og B peker innover mot streken.",
       "minStudioVersion": "0.2.0",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/bildeanalyse/0.1.27/bundle.json",
-      "changelog": "'Nytt prosjekt'-knapp i topbaren for å tømme gjeldende arbeid og starte på nytt."
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/bildeanalyse/0.1.28/bundle.json",
+      "changelog": "Bytt embed-font fra Haas Grot Text til Unica77 (matcher faktisk.no-typografi og fjerner lisensrisiko — Haas var kjøpt for videobruk, ikke web)."
     }
   ]
 }
