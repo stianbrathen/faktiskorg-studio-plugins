@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-15T00:00:00Z",
+  "updatedAt": "2026-07-15T08:38:50Z",
   "plugins": [
     {
       "id": "looping-video",
@@ -23,11 +23,11 @@
     {
       "id": "for-og-etter",
       "name": "Før og etter slider",
-      "version": "0.1.4",
+      "version": "0.1.5",
       "description": "Sammenlign to bilder.",
       "minStudioVersion": "0.2.0",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/for-og-etter/0.1.4/bundle.json",
-      "changelog": "F5+F6+F7 fra kodegjennomgang: CSP-meta, «Validate input»-påminnelse, prefers-reduced-motion for puls-animasjon."
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/for-og-etter/0.1.5/bundle.json",
+      "changelog": "F1 pilot: CSS-variabler via shared/embed-tokens.js (sentralt design-token-system)."
     },
     {
       "id": "bilde-markering",
