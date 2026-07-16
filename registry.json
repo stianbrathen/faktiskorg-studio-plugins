@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-16T10:13:53Z",
+  "updatedAt": "2026-07-16T10:14:12Z",
   "plugins": [
     {
       "id": "looping-video",
       "name": "Looping videoklipp",
-      "version": "0.5.13",
+      "version": "0.5.14",
       "description": "Looping video.",
       "minStudioVersion": "0.2.0",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/looping-video/0.5.13/bundle.json",
-      "changelog": "F1 komplett: CSS-variabler via shared/embed-tokens.js — sentralt design-token-system. Endring av tokens ett sted → alle embeds oppdatert ved neste build.",
-      "sha256": "02f899d74a7fe080592ea98fc3028e950dc025dd6f62b15080b65146922ecd18"
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/looping-video/0.5.14/bundle.json",
+      "changelog": "Mine filer og direkteopplasting fra Labrador",
+      "sha256": "49a6009960f5da3bb4e9f16139e822918d3f0e330d2ae7e525b0da21f4d8184c"
     },
     {
       "id": "video-player",
