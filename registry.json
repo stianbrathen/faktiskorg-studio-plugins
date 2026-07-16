@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-15T15:25:01Z",
+  "updatedAt": "2026-07-16T08:46:47Z",
   "plugins": [
     {
       "id": "looping-video",
@@ -65,12 +65,12 @@
     {
       "id": "parallax-collage",
       "name": "Parallax bildecollage",
-      "version": "0.3.3",
+      "version": "0.3.4",
       "description": "Side-scroll-drevet parallax med Labrador-integrasjon og 'Nylige filer'-panel.",
       "minStudioVersion": "0.5.2",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/parallax-collage/0.3.3/bundle.json",
-      "changelog": "F5+F6 fra kodegjennomgang: CSP-meta i plugin-siden + «Slå av Validate input»-påminnelse i Kopiert-bekreftelsen.",
-      "sha256": "74aaf2fbaee9d3a037526f8c882be10d4db055b9be0a223110b0e15467c625d0"
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/parallax-collage/0.3.4/bundle.json",
+      "changelog": "Eksport krever Labrador-URL for bilder — lokale filer (base64) blokkeres så artiklene ikke blir tunge",
+      "sha256": "feae3f7f277b92e791da7c21269a1be1327bcb8407b92c5b91c54b00c1e9d1fd"
     },
     {
       "id": "bildeanalyse",
