@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-16T10:14:30Z",
+  "updatedAt": "2026-07-16T10:27:22Z",
   "plugins": [
     {
       "id": "looping-video",
@@ -25,32 +25,32 @@
     {
       "id": "for-og-etter",
       "name": "Før og etter slider",
-      "version": "0.1.5",
+      "version": "0.1.6",
       "description": "Sammenlign to bilder.",
       "minStudioVersion": "0.2.0",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/for-og-etter/0.1.5/bundle.json",
-      "changelog": "F1 pilot: CSS-variabler via shared/embed-tokens.js (sentralt design-token-system).",
-      "sha256": "da43aa83eff14a7197a94558a38beba6beb8907a315a290681700cf4ff277652"
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/for-og-etter/0.1.6/bundle.json",
+      "changelog": "Mine filer og direkteopplasting av bilder fra Labrador",
+      "sha256": "c4b98b6fb7d96f06db1e39afc1c66419d169e575dec17d05a636dd9638a66df0"
     },
     {
       "id": "bilde-markering",
       "name": "Bilde med markering",
-      "version": "0.1.10",
+      "version": "0.1.11",
       "description": "Marker punkter.",
       "minStudioVersion": "0.2.0",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/bilde-markering/0.1.10/bundle.json",
-      "changelog": "F1 komplett: CSS-variabler via shared/embed-tokens.js — sentralt design-token-system. Endring av tokens ett sted → alle embeds oppdatert ved neste build.",
-      "sha256": "e40d141b33e1cbb98a152bdf94f620492b825e0958526cd7ad405677baa56244"
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/bilde-markering/0.1.11/bundle.json",
+      "changelog": "Mine filer og direkteopplasting av bilder fra Labrador",
+      "sha256": "7262686912f8eaab2d22d55aa83e964247a61feeaa88be9e29a345aa94a4ab7a"
     },
     {
       "id": "bildemal",
       "name": "Bildemal",
-      "version": "0.1.8",
+      "version": "0.1.9",
       "description": "Komponer et bilde med bakgrunn + bokser/sirkler med hvit ramme og drop shadow. Eksport til PNG/JPG eller utklippstavle.",
       "minStudioVersion": "0.2.0",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/bildemal/0.1.8/bundle.json",
-      "changelog": "F6 fra kodegjennomgang: CSP-meta i plugin-siden for defense-in-depth.",
-      "sha256": "c5a4bd9ccafa2ca1b1942713d7c1cdb177785eed07e0a786bdae50087161611d"
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/bildemal/0.1.9/bundle.json",
+      "changelog": "Mine filer og direkteopplasting av bilder fra Labrador",
+      "sha256": "241926a47ba17d6398e87c0bdab699c50fcf044dd2eb8b358b970a107215088a"
     },
     {
       "id": "pop-up",
@@ -65,12 +65,12 @@
     {
       "id": "parallax-collage",
       "name": "Parallax bildecollage",
-      "version": "0.3.4",
+      "version": "0.3.5",
       "description": "Side-scroll-drevet parallax med Labrador-integrasjon og 'Nylige filer'-panel.",
       "minStudioVersion": "0.5.2",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/parallax-collage/0.3.4/bundle.json",
-      "changelog": "Eksport krever Labrador-URL for bilder — lokale filer (base64) blokkeres",
-      "sha256": "cfaf4e11661684da2c3183d0e4dc5d62ccf2654e6d460f30da906f443bfe9fa9"
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/parallax-collage/0.3.5/bundle.json",
+      "changelog": "Mine filer og direkteopplasting av bilder fra Labrador",
+      "sha256": "3ff55d1aa6e311723347b99189cab6e8b1227dbe4cb2e2f2097d4d1ad53a6632"
     },
     {
       "id": "bildeanalyse",
