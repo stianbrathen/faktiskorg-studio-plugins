@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-16T10:13:30Z",
+  "updatedAt": "2026-07-16T10:13:53Z",
   "plugins": [
     {
       "id": "looping-video",
@@ -15,12 +15,12 @@
     {
       "id": "video-player",
       "name": "Videoavspiller",
-      "version": "0.1.9",
+      "version": "0.1.10",
       "description": "Video-avspiller med grå container-boks, høyde-presets, og logo-merke til venstre for bildetekst.",
       "minStudioVersion": "0.2.0",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/video-player/0.1.9/bundle.json",
-      "changelog": "F1 komplett: CSS-variabler via shared/embed-tokens.js — sentralt design-token-system. Endring av tokens ett sted → alle embeds oppdatert ved neste build.",
-      "sha256": "be62dc941cce097015d22bd166f9b9b49c218570578e2ab3c57a35a1699fcbc4"
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/video-player/0.1.10/bundle.json",
+      "changelog": "Mine filer og direkteopplasting fra Labrador",
+      "sha256": "f54d81e8ddb944bcdbf2e928e939fe262110119fc680aca4078de58bb35831a0"
     },
     {
       "id": "for-og-etter",
