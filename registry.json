@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-16T10:11:55Z",
+  "updatedAt": "2026-07-16T10:13:30Z",
   "plugins": [
     {
       "id": "looping-video",
@@ -85,12 +85,12 @@
     {
       "id": "video-hoydepunkter",
       "name": "Videohøydepunkter",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "description": "Marker høydepunkter i en video og la leserne hoppe rett til dem — med valgfri sakte film. Genererer embed med klikkbar tidslinje og høydepunkt-knapper.",
       "minStudioVersion": "0.2.0",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/video-hoydepunkter/0.1.0/bundle.json",
-      "changelog": "Første versjon: klikkbare høydepunkter med tidslinje og sakte film",
-      "sha256": "511d6591db87a71da4970672daf273133ad24fac20167ed0489c430626716542"
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/video-hoydepunkter/0.1.1/bundle.json",
+      "changelog": "Mine filer og direkteopplasting fra Labrador",
+      "sha256": "5060f3ed44f30652ecb9e3e4179367ddf5f17e59dc81f1de6dbbc2a80726f24c"
     },
     {
       "id": "video-sensur",
