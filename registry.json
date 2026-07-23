@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-16T10:27:56Z",
+  "updatedAt": "2026-07-23T08:52:36Z",
   "plugins": [
     {
       "id": "looping-video",
       "name": "Looping videoklipp",
-      "version": "0.5.14",
+      "version": "0.5.15",
       "description": "Looping video.",
       "minStudioVersion": "0.2.0",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/looping-video/0.5.14/bundle.json",
-      "changelog": "Mine filer og direkteopplasting fra Labrador",
-      "sha256": "49a6009960f5da3bb4e9f16139e822918d3f0e330d2ae7e525b0da21f4d8184c"
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/looping-video/0.5.15/bundle.json",
+      "changelog": "Poster lenkes fra Labrador i stedet for base64 — embeds krymper fra ~100 KB til et par KB",
+      "sha256": "6b7b8f660e5f917c8489369f9aad657d7fd79e00224f96e0f86afb562e100c7e"
     },
     {
       "id": "video-player",
