@@ -37,12 +37,26 @@ function walk(dir, baseDir) {
   return out;
 }
 
+// Binærfiler kodes som «b64:<base64>» — ren utf-8-lesing korrumperer dem.
+// KREVER Studio >= 0.6.3 (plugin-install med b64-dekoding). Plugins med
+// binærfiler i bundelen må derfor ha minStudioVersion >= 0.6.3.
+const BINARY_EXT = /\.(otf|ttf|woff2?|png|jpe?g|gif|webp|avif|ico|mp3|mp4|zip)$/i;
+
 const files = walk(inputDir, inputDir);
 const bundle = {};
+let binaryCount = 0;
 for (const f of files) {
   // Bruk forward-slash i nøkler så det funker på tvers av plattformer
   const key = f.relativePath.split(path.sep).join('/');
-  bundle[key] = fs.readFileSync(f.absolutePath, 'utf-8');
+  if (BINARY_EXT.test(key)) {
+    bundle[key] = 'b64:' + fs.readFileSync(f.absolutePath).toString('base64');
+    binaryCount++;
+  } else {
+    bundle[key] = fs.readFileSync(f.absolutePath, 'utf-8');
+  }
+}
+if (binaryCount > 0) {
+  console.log(`⚠ ${binaryCount} binærfil(er) b64-kodet — krever Studio >= 0.6.3 (sjekk minStudioVersion!)`);
 }
 
 fs.mkdirSync(path.dirname(outputFile), { recursive: true });
