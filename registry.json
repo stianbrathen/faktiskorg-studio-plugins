@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-29T11:01:02Z",
+  "updatedAt": "2026-07-29T14:00:13Z",
   "plugins": [
     {
       "id": "looping-video",
@@ -95,12 +95,12 @@
     {
       "id": "video-sensur",
       "name": "Videosensur",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "description": "Sensurer ansikter eller deler av bildet med blur som følger motivet via keyframes, med myk fade inn/ut. Eksporterer i tilnærmet original kvalitet med lyden urørt.",
-      "minStudioVersion": "0.6.0",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/video-sensur/0.1.1/bundle.json",
-      "changelog": "Tidslinjen skalerer med vinduet; sporingen følger størrelse, tåler okklusjon og lysendringer",
-      "sha256": "a36b18c4b5684d2b2d1649bbf9b6b208a7bae508e60b1d45dc77b0a96fa2fcc2"
+      "minStudioVersion": "0.6.3",
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/video-sensur/0.1.2/bundle.json",
+      "changelog": "Ansiktssporing, trim-håndtak på maskelaner, global størrelsesjustering, sakte film-forhåndsvisning, presis punktplassering",
+      "sha256": "05ff98901d532e9ec3aad40bd93e46ead5efcbf0ec617772a075289a8d577c80"
     },
     {
       "id": "some-bilde",
