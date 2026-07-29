@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-29T08:52:18Z",
+  "updatedAt": "2026-07-29T10:44:20Z",
   "plugins": [
     {
       "id": "looping-video",
@@ -111,6 +111,16 @@
       "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/some-bilde/0.1.1/bundle.json",
       "changelog": "Fiks font i installert versjon, fjern I samarbeid med-tekst",
       "sha256": "af956635fff30e3c5a58722c4b5b1eb7b9481233c513617fc75ba8afe427215a"
+    },
+    {
+      "id": "bilde-sensur",
+      "name": "Bildesensur",
+      "version": "0.1.0",
+      "description": "Sensurer ansikter eller deler av et bilde med blur, pixelering eller svart felt. Masker som sirkel, oval eller rektangel med myk kant. Eksporter i full oppløsning som PNG/JPG, kopier til utklippstavlen eller last rett opp til Labrador.",
+      "minStudioVersion": "0.6.3",
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/bilde-sensur/0.1.0/bundle.json",
+      "changelog": "Første versjon: blur, pixelering og svart felt med myk kant, eksport i full oppløsning + Labrador-opplasting",
+      "sha256": "3341b066e8e71f6414edbdbcdf0293d3a5f93d0650868c2a90d253cdce7f8808"
     }
   ]
 }
