@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-29T08:45:23Z",
+  "updatedAt": "2026-07-29T08:52:18Z",
   "plugins": [
     {
       "id": "looping-video",
@@ -105,12 +105,12 @@
     {
       "id": "some-bilde",
       "name": "SoMe-bilde",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "description": "Lag kvadratiske bilder til Facebook og sosiale medier: bakgrunnsbilde (eller to med delestrek), Faktisk-logo, tekst med blå bokser og automatisk linjedeling, partnerlogo og fades. Eksporter som PNG/JPG eller kopier rett til utklippstavlen.",
       "minStudioVersion": "0.2.0",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/some-bilde/0.1.0/bundle.json",
-      "changelog": "Første versjon: kvadratiske SoMe-bilder med tekstbokser, partnerlogo og fades",
-      "sha256": "3d7fd3b255c3883a73511ed21314e304cf584cb1d96b304f63ae1aa6c749e1c6"
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/some-bilde/0.1.1/bundle.json",
+      "changelog": "Fiks font i installert versjon, fjern I samarbeid med-tekst",
+      "sha256": "af956635fff30e3c5a58722c4b5b1eb7b9481233c513617fc75ba8afe427215a"
     }
   ]
 }
