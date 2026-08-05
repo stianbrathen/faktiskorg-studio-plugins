@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-05T09:14:27Z",
+  "updatedAt": "2026-08-05T09:28:28Z",
   "plugins": [
     {
       "id": "looping-video",
@@ -125,12 +125,12 @@
     {
       "id": "keynote-klipp",
       "name": "Keynote-klipp",
-      "version": "0.1.2",
+      "version": "0.1.4",
       "description": "Lag stumme videoklipp med runde hjørner og ekte gjennomsiktighet, klare for Keynote. Velg mobil-, bred- eller kvadratformat, juster utsnitt og hjørneradius, og legg på ramme som følger den runde formen.",
       "minStudioVersion": "0.6.5",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/keynote-klipp/0.1.2/bundle.json",
-      "changelog": "Fiks: opplastet video kommer nå opp — retry mens Labrador gjør filen klar, og feilmelding hvis URL mangler. Lokalt filvalg fungerer (CSP + filnavnkoding).",
-      "sha256": "de0fba376d713554197e012a613a72af20a7baa4a9ec2966ab8745f3e0c670f7"
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/keynote-klipp/0.1.4/bundle.json",
+      "changelog": "Lokal fil som hovedvei inn, .mov tilbake i opplastingsfilteret, bedre feilmeldinger",
+      "sha256": "cefefd9418a1741fd93e1287de0997c24c719cd15b7b9fb3116941c827692d4a"
     }
   ]
 }
