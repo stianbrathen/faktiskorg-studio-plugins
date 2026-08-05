@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-29T14:00:13Z",
+  "updatedAt": "2026-08-05T09:02:09Z",
   "plugins": [
     {
       "id": "looping-video",
@@ -121,6 +121,16 @@
       "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/bilde-sensur/0.1.0/bundle.json",
       "changelog": "Første versjon: blur, pixelering og svart felt med myk kant, eksport i full oppløsning + Labrador-opplasting",
       "sha256": "3341b066e8e71f6414edbdbcdf0293d3a5f93d0650868c2a90d253cdce7f8808"
+    },
+    {
+      "id": "keynote-klipp",
+      "name": "Keynote-klipp",
+      "version": "0.1.0",
+      "description": "Lag stumme videoklipp med runde hjørner og ekte gjennomsiktighet, klare for Keynote. Velg mobil-, bred- eller kvadratformat, juster utsnitt og hjørneradius, og legg på ramme som følger den runde formen.",
+      "minStudioVersion": "0.6.5",
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/keynote-klipp/0.1.0/bundle.json",
+      "changelog": "Første versjon: HEVC med alfakanal, runde hjørner, ramme, utsnitt og trim",
+      "sha256": "456bcaf6a44a8970740a6cb440d2f44c7a728f9173d9b61292991895ab0a4c6d"
     }
   ]
 }
