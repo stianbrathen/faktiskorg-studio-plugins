@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-05T11:09:53Z",
+  "updatedAt": "2026-08-05T14:19:02Z",
   "plugins": [
     {
       "id": "looping-video",
@@ -129,7 +129,7 @@
       "description": "Lag stumme videoklipp med runde hjørner og ekte gjennomsiktighet, klare for Keynote. Velg mobil-, bred- eller kvadratformat, juster utsnitt og hjørneradius, og legg på ramme som følger den runde formen.",
       "minStudioVersion": "0.6.5",
       "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/keynote-klipp/0.2.0/bundle.json",
-      "changelog": "Valg for å beholde lyd. Looping deaktiveres når lyd er på, siden klipp med tale skal spilles én gang.",
+      "changelog": "Valgfri lyd, sømløs looping, ramme og runde hjørner med ekte gjennomsiktighet",
       "sha256": "90edd11c3e72d224dc957aa33e0bfb8e1a163ffaa08e06c0e4d97019992c90d4"
     }
   ]
