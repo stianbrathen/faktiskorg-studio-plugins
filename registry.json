@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-05T14:56:17Z",
+  "updatedAt": "2026-08-12T11:19:05Z",
   "plugins": [
     {
       "id": "looping-video",
@@ -135,12 +135,12 @@
     {
       "id": "teksting",
       "name": "Teksting",
-      "version": "0.3.0",
+      "version": "0.3.1",
       "description": "Transkriber tale i video med NB-Whisper — helt lokalt. Rediger segmentene, del og flett med Enter/rettetast, se teksten balansert på Faktisk-malens tre linjer, og eksporter til Final Cut (FCPXML) eller SRT.",
       "minStudioVersion": "0.7.0",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/teksting/0.3.0/bundle.json",
-      "changelog": "Språkvelger med flerspråklig Whisper, oversett til engelsk, legg til segment-knapp, 2 linjer i liggende format",
-      "sha256": "3dedcb892c763c10b02b12bca511ad57f4babab878e38dab711c1a33da08f4e8"
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/teksting/0.3.1/bundle.json",
+      "changelog": "Kritisk fiks: lange segmenter mistet ord i eksporten + statusmelding for hull-passet",
+      "sha256": "0afdaedd2f15ab541de31ededf2ef8cc3e349d14d07f2e538c2dea7bc383930a"
     }
   ]
 }
