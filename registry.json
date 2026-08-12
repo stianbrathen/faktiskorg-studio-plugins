@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-12T12:08:32Z",
+  "updatedAt": "2026-08-12T12:33:52Z",
   "plugins": [
     {
       "id": "looping-video",
@@ -140,7 +140,7 @@
       "minStudioVersion": "0.7.0",
       "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/teksting/0.4.0/bundle.json",
       "changelog": "Video med tekst (MP4), bedre duplikatvern i hull-passet, tidsjustering med Shift/Alt-klikk",
-      "sha256": "0972ddf28390fc8980563ccba96d440c959ebdf109d2d2db5ee4422e068d9b8e"
+      "sha256": "f3c2a614ed83d6af8b7e3d509b3ac60b914af9b25ae81dc7359e53edf4d17ba7"
     }
   ]
 }
