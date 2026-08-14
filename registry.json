@@ -136,11 +136,21 @@
       "id": "teksting",
       "name": "Teksting",
       "version": "0.4.0",
-      "description": "Transkriber tale i video med NB-Whisper — helt lokalt. Rediger segmentene, del og flett med Enter/rettetast, se teksten balansert på Faktisk-malens tre linjer, og eksporter til Final Cut (FCPXML) eller SRT.",
-      "minStudioVersion": "0.7.0",
+      "description": "Transkriber tale i video med NB-Whisper — helt lokalt. Rediger segmentene, del og flett med Enter/rettetast, se teksten balansert på Faktisk-malens tre linjer, og eksporter til Final Cut (FCPXML), SRT eller ferdig video med innbrent tekst.",
+      "minStudioVersion": "0.7.3",
       "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/teksting/0.4.0/bundle.json",
       "changelog": "Video med tekst (MP4), bedre duplikatvern i hull-passet, tidsjustering med Shift/Alt-klikk",
       "sha256": "f3c2a614ed83d6af8b7e3d509b3ac60b914af9b25ae81dc7359e53edf4d17ba7"
+    },
+    {
+      "id": "klippsamler",
+      "name": "Klippsamler",
+      "version": "0.1.0",
+      "description": "Sett sammen flere videoklipp til ett: trim hvert klipp, ordne rekkefølgen, spill gjennom redigeringen, velg format og eksporter samlet — med eller uten lyd.",
+      "minStudioVersion": "0.7.3",
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/klippsamler/0.1.0/bundle.json",
+      "changelog": "Første versjon: trim klippene, ordne rekkefølgen og eksporter samlet — med eller uten lyd",
+      "sha256": "dc3f84b22d7704a08dd9edf75c9ea08c8da522b69bcbe4fd182cfa7908a306a0"
     }
   ]
 }
