@@ -147,7 +147,7 @@
       "name": "Klippsamler",
       "version": "0.1.0",
       "description": "Sett sammen flere videoklipp til ett: trim hvert klipp, ordne rekkefølgen, spill gjennom redigeringen, velg format og eksporter samlet — med eller uten lyd.",
-      "minStudioVersion": "0.7.3",
+      "minStudioVersion": "0.7.4",
       "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/klippsamler/0.1.0/bundle.json",
       "changelog": "Første versjon: trim klippene, ordne rekkefølgen og eksporter samlet — med eller uten lyd",
       "sha256": "dc3f84b22d7704a08dd9edf75c9ea08c8da522b69bcbe4fd182cfa7908a306a0"
