@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-30T13:19:58Z",
+  "updatedAt": "2026-09-30T14:08:35Z",
   "plugins": [
     {
       "id": "looping-video",
@@ -165,12 +165,12 @@
     {
       "id": "chatbobler",
       "name": "Chatbobler",
-      "version": "0.1.4",
+      "version": "0.1.5",
       "description": "Gjenskap en chatsamtale i stilen til iMessage, WhatsApp, Telegram, Messenger, Signal eller SMS. Boblene popper opp med skriveindikator når leseren scroller dit. Kan også brukes til én enkelt boble.",
       "minStudioVersion": "0.7.0",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/chatbobler/0.1.4/bundle.json",
-      "changelog": "Last opp profilbilde. Størrelse, zoom og utsnitt for profilbildet.",
-      "sha256": "fcbf5672e3d0b1cb055f02e03af613b29127e1ad700326e094fb07f39f01392c"
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/chatbobler/0.1.5/bundle.json",
+      "changelog": "Bilder blinker ikke lenger før boblen popper. Plassen til bilder er reservert, så artikkelen ikke hopper.",
+      "sha256": "b049abffecf3750bf720c159d6141597c2e3382a7c7182d49ca6144e464ce66e"
     }
   ]
 }
