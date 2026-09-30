@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-30T13:03:01Z",
+  "updatedAt": "2026-09-30T13:12:15Z",
   "plugins": [
     {
       "id": "looping-video",
@@ -165,12 +165,12 @@
     {
       "id": "chatbobler",
       "name": "Chatbobler",
-      "version": "0.1.2",
+      "version": "0.1.3",
       "description": "Gjenskap en chatsamtale i stilen til iMessage, WhatsApp, Telegram, Messenger, Signal eller SMS. Boblene popper opp med skriveindikator når leseren scroller dit. Kan også brukes til én enkelt boble.",
       "minStudioVersion": "0.7.0",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/chatbobler/0.1.2/bundle.json",
-      "changelog": "Lik luft over og under, justerbar luft, flere chatbokser i samme artikkel påvirker ikke hverandre.",
-      "sha256": "a74f4fc7eb616ddb65f04ff8a238ba06e842869b4f2967466b481cbd01357b27"
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/chatbobler/0.1.3/bundle.json",
+      "changelog": "Instagram-stil. Nytt valg for profilbilde ved boblene (som i appen / vis / skjul).",
+      "sha256": "55beaaae8003f10e5a24b9ac0959e946234542da23848ee6182035349eb95f2c"
     }
   ]
 }
