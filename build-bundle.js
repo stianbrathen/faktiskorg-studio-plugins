@@ -24,6 +24,10 @@ if (!fs.existsSync(inputDir) || !fs.statSync(inputDir).isDirectory()) {
 function walk(dir, baseDir) {
   const out = [];
   for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
+    // Hopp over skjulte filer: .DS_Store, .fuse_hidden* (rester etter filsystem-
+    // monteringer), editor-backups o.l. — de havnet i 7 publiserte bundles før
+    // denne sjekken (opptil halve bundle-størrelsen). Plugins bruker aldri dotfiler.
+    if (entry.name.startsWith('.')) continue;
     const full = path.join(dir, entry.name);
     if (entry.isDirectory()) {
       out.push(...walk(full, baseDir));

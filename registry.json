@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-12T12:33:52Z",
+  "updatedAt": "2026-09-30T11:32:49Z",
   "plugins": [
     {
       "id": "looping-video",
@@ -75,12 +75,12 @@
     {
       "id": "bildeanalyse",
       "name": "Bildeanalyse",
-      "version": "0.1.30",
+      "version": "0.1.31",
       "description": "Sammenlign bildepar. A og B peker innover mot streken.",
       "minStudioVersion": "0.2.0",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/bildeanalyse/0.1.30/bundle.json",
-      "changelog": "F1 komplett: CSS-variabler via shared/embed-tokens.js — sentralt design-token-system. Endring av tokens ett sted → alle embeds oppdatert ved neste build.",
-      "sha256": "cd9e8ffe731231f2d9bcfd0bb5ac05bab0efdd562b76bcf52022ce75d57914d4"
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/bildeanalyse/0.1.31/bundle.json",
+      "changelog": "Fargenøkkelen åpner bare sin egen lysboks når flere bildeanalyser står i samme artikkel. Mindre nedlasting.",
+      "sha256": "19ac6ca3764a3facace3ad016320f3a94aacbb98ddbbea5199eb62cd3e0cbec3"
     },
     {
       "id": "video-hoydepunkter",
