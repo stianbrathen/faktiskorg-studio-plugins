@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-30T14:08:35Z",
+  "updatedAt": "2026-10-01T10:43:02Z",
   "plugins": [
     {
       "id": "looping-video",
@@ -175,12 +175,12 @@
     {
       "id": "logo-nettverk",
       "name": "Logo-nettverk",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "description": "Animert toppgrafikk: en logo popper inn, og et nettverk med dine egne symboler vokser ut fra den når leseren scroller dit. Nettverket fortsetter å bevege seg i loop.",
       "minStudioVersion": "0.7.0",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/logo-nettverk/0.1.0/bundle.json",
-      "changelog": "Første versjon.",
-      "sha256": "68023e79f6dc60687ca6e92986ca72821cd1dbd5549b06f83bd6e63f069c4751"
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/logo-nettverk/0.2.0/bundle.json",
+      "changelog": "Ny stil: tett nett. Logoen faller inn, og et tett nett med glød i to farger brer seg ut.",
+      "sha256": "3a7685e51d1fd074a46ff959e5eaa94c72eb22eb234a30d0f5cad316b4bfb748"
     }
   ]
 }
