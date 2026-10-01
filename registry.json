@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-01T12:55:12Z",
+  "updatedAt": "2026-10-01T13:15:14Z",
   "plugins": [
     {
       "id": "looping-video",
       "name": "Looping videoklipp",
-      "version": "0.5.17",
+      "version": "0.5.18",
       "description": "Looping video.",
       "minStudioVersion": "0.2.0",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/looping-video/0.5.17/bundle.json",
-      "changelog": "Viser bare spill-knapp hvis videoen aldri starter. Retter at 0.5.16 viste knapp på iPhone.",
-      "sha256": "b8b96d647cdfeb34d4111253c4ef819280aee99f084c6563bca4a87215f1f756"
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/looping-video/0.5.18/bundle.json",
+      "changelog": "Mer robust avspilling på iPhone: ingen sluttpunkt i videoadressen, native loop, trykk starter videoen.",
+      "sha256": "74fe20206bc8b3af535355088d85ba31f6b3f0d86b4ab2c635816cd1f038a27a"
     },
     {
       "id": "video-player",
