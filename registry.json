@@ -171,6 +171,16 @@
       "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/chatbobler/0.1.5/bundle.json",
       "changelog": "Bilder blinker ikke lenger før boblen popper. Plassen til bilder er reservert, så artikkelen ikke hopper.",
       "sha256": "b049abffecf3750bf720c159d6141597c2e3382a7c7182d49ca6144e464ce66e"
+    },
+    {
+      "id": "logo-nettverk",
+      "name": "Logo-nettverk",
+      "version": "0.1.0",
+      "description": "Animert toppgrafikk: en logo popper inn, og et nettverk med dine egne symboler vokser ut fra den når leseren scroller dit. Nettverket fortsetter å bevege seg i loop.",
+      "minStudioVersion": "0.7.0",
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/logo-nettverk/0.1.0/bundle.json",
+      "changelog": "Første versjon.",
+      "sha256": "68023e79f6dc60687ca6e92986ca72821cd1dbd5549b06f83bd6e63f069c4751"
     }
   ]
 }
