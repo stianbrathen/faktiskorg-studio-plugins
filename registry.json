@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-01T12:18:47Z",
+  "updatedAt": "2026-10-01T12:18:57Z",
   "plugins": [
     {
       "id": "looping-video",
@@ -15,12 +15,12 @@
     {
       "id": "video-player",
       "name": "Videoavspiller",
-      "version": "0.1.11",
+      "version": "0.1.12",
       "description": "Video-avspiller med grå container-boks, høyde-presets, og logo-merke til venstre for bildetekst.",
       "minStudioVersion": "0.2.0",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/video-player/0.1.11/bundle.json",
-      "changelog": "Poster lenkes fra Labrador i stedet for base64",
-      "sha256": "e319ec2a440d8d630ae0eecdc4af0692aa4cd287553dd1904cb644b2bb7f2e91"
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/video-player/0.1.12/bundle.json",
+      "changelog": "Versjon i embed-koden.",
+      "sha256": "14e7df0b8f4fc829295c5233b0678c42d54b0a1b8d74310e37d76322cced0637"
     },
     {
       "id": "for-og-etter",
