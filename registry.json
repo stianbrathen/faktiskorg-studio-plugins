@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-01T14:40:01Z",
+  "updatedAt": "2026-10-01T14:53:07Z",
   "plugins": [
     {
       "id": "looping-video",
@@ -189,8 +189,8 @@
       "description": "Vis skjermbilder på mobiltelefoner i et glødende nettverk. Leseren kan dra i nettverket og trykke på en mobil for å se skjermbildet stort.",
       "minStudioVersion": "0.7.0",
       "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/mobilnettverk/0.1.1/bundle.json",
-      "changelog": "Karusell i 3D med pilknapper, batchopplasting og flervalg fra Mine filer",
-      "sha256": "7e457e238694c26d79f1aa7fda2724e975ae2fa65e90083cf5c16a39109cfc4a"
+      "changelog": "Karusell i 3D med pilknapper, batchopplasting, flervalg fra Mine filer, lavere CPU-bruk",
+      "sha256": "d40b84fe63153b1493a0bd30666c07b7038e7e5daf970250b09f83dca2583b98"
     }
   ]
 }
