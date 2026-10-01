@@ -181,6 +181,16 @@
       "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/logo-nettverk/0.2.0/bundle.json",
       "changelog": "Ny stil: tett nett. Logoen faller inn, og et tett nett med glød i to farger brer seg ut.",
       "sha256": "3a7685e51d1fd074a46ff959e5eaa94c72eb22eb234a30d0f5cad316b4bfb748"
+    },
+    {
+      "id": "mobilnettverk",
+      "name": "Mobilnettverk",
+      "version": "0.1.0",
+      "description": "Vis skjermbilder på mobiltelefoner i et glødende nettverk. Leseren kan dra i nettverket og trykke på en mobil for å se skjermbildet stort.",
+      "minStudioVersion": "0.7.0",
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/mobilnettverk/0.1.0/bundle.json",
+      "changelog": "Første versjon.",
+      "sha256": "a73e4b723be620232e4de152f98ddbdd8eca13cb44d74ae1b8034c1ffa152c0a"
     }
   ]
 }
