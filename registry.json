@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-01T10:43:02Z",
+  "updatedAt": "2026-10-01T10:52:28Z",
   "plugins": [
     {
       "id": "looping-video",
@@ -165,12 +165,12 @@
     {
       "id": "chatbobler",
       "name": "Chatbobler",
-      "version": "0.1.5",
+      "version": "0.1.6",
       "description": "Gjenskap en chatsamtale i stilen til iMessage, WhatsApp, Telegram, Messenger, Signal eller SMS. Boblene popper opp med skriveindikator når leseren scroller dit. Kan også brukes til én enkelt boble.",
       "minStudioVersion": "0.7.0",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/chatbobler/0.1.5/bundle.json",
-      "changelog": "Bilder blinker ikke lenger før boblen popper. Plassen til bilder er reservert, så artikkelen ikke hopper.",
-      "sha256": "b049abffecf3750bf720c159d6141597c2e3382a7c7182d49ca6144e464ce66e"
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/chatbobler/0.1.6/bundle.json",
+      "changelog": "Skalering opp til 400 %. Ny visning: Profil + bobler, med profilbilde og navn øverst.",
+      "sha256": "c2f884991d94105f05fa1a5bf837d8235ca7a889ad67a34b99a18f7b5a91fdc4"
     },
     {
       "id": "logo-nettverk",
