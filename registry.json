@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-01T14:56:20Z",
+  "updatedAt": "2026-10-07T12:57:50Z",
   "plugins": [
     {
       "id": "looping-video",
@@ -135,12 +135,12 @@
     {
       "id": "teksting",
       "name": "Teksting",
-      "version": "0.4.0",
+      "version": "0.5.0",
       "description": "Transkriber tale i video med NB-Whisper — helt lokalt. Rediger segmentene, del og flett med Enter/rettetast, se teksten balansert på Faktisk-malens tre linjer, og eksporter til Final Cut (FCPXML), SRT eller ferdig video med innbrent tekst.",
       "minStudioVersion": "0.7.3",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/teksting/0.4.0/bundle.json",
-      "changelog": "Video med tekst (MP4), bedre duplikatvern i hull-passet, tidsjustering med Shift/Alt-klikk",
-      "sha256": "f3c2a614ed83d6af8b7e3d509b3ac60b914af9b25ae81dc7359e53edf4d17ba7"
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/teksting/0.5.0/bundle.json",
+      "changelog": "Velg HD eller 4K for Final Cut-eksporten, og juster tekststørrelsen",
+      "sha256": "83071ff89a7c9acc34a130999b2795f3da431b7bb6a9123bd887fabc3d5015e2"
     },
     {
       "id": "klippsamler",
