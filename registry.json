@@ -191,6 +191,16 @@
       "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/mobilnettverk/0.1.2/bundle.json",
       "changelog": "Lavere CPU-bruk: rolig animasjon i 30 fps og lettere nettverkstegning",
       "sha256": "32d14883da22a8cf6bb842dc7032ce430d48f121acbfec8f3f8a71c8093ec5e4"
+    },
+    {
+      "id": "skjermarkiv",
+      "name": "Skjermarkiv",
+      "version": "0.1.0",
+      "description": "Søkbar oversikt over skjermbilder og skjermopptak: velg en mappe, så finner Studio nøkkelbilder i klippene og leser teksten på skjermen med Apple Vision — helt lokalt. Søk, filtrer og hopp rett til riktig tidspunkt. Samme arkivformat som nettsiden Skjermarkiv.",
+      "minStudioVersion": "0.7.8",
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/skjermarkiv/0.1.0/bundle.json",
+      "changelog": "Første versjon",
+      "sha256": "bdf0a86fbad2265d43472540f0d23ac916b75c34e6102c7471d9ee59c6a2d18e"
     }
   ]
 }
