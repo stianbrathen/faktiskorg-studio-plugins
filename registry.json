@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-13T13:23:58Z",
+  "updatedAt": "2026-10-13T13:24:06Z",
   "plugins": [
     {
       "id": "looping-video",
@@ -55,12 +55,12 @@
     {
       "id": "pop-up",
       "name": "Pop up",
-      "version": "0.3.5",
+      "version": "0.3.6",
       "description": "Bilde med tykk grå ramme, logo til venstre, bildetekst venstrejustert mot logoen.",
       "minStudioVersion": "0.2.0",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/pop-up/0.3.5/bundle.json",
-      "changelog": "F1 komplett: CSS-variabler via shared/embed-tokens.js — sentralt design-token-system. Endring av tokens ett sted → alle embeds oppdatert ved neste build.",
-      "sha256": "1dc45bff339ca249178d4a616c7394a89debe00a7a5a9897057d7468841c7647"
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/pop-up/0.3.6/bundle.json",
+      "changelog": "Valg for ingen ramme eller bakgrunn (utklipte bilder)",
+      "sha256": "2be6af8017c4d0f6257f94e5e427534e3f2a1da58295bb8e966ae40bb7cf4d14"
     },
     {
       "id": "parallax-collage",
