@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-13T12:56:25Z",
+  "updatedAt": "2026-10-13T13:23:51Z",
   "plugins": [
     {
       "id": "looping-video",
@@ -185,12 +185,12 @@
     {
       "id": "mobilnettverk",
       "name": "Mobilnettverk",
-      "version": "0.1.3",
+      "version": "0.1.4",
       "description": "Vis skjermbilder på mobiltelefoner i et glødende nettverk. Leseren kan dra i nettverket og trykke på en mobil for å se skjermbildet stort.",
       "minStudioVersion": "0.7.0",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/mobilnettverk/0.1.3/bundle.json",
-      "changelog": "Hvit eller ingen bakgrunn, skygge under mobilene, nettverkslinjer av/på",
-      "sha256": "5b2a6d82c670eb62f23a08e23e9ed6ae0f12aa335f1b0aaffc35a69c102ef8d3"
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/mobilnettverk/0.1.4/bundle.json",
+      "changelog": "Side om side med 1–3 skjermbilder, uttoning av/på, stående 4:5-format",
+      "sha256": "a91bf1ec6be5cba435b94b1d6d2416cd24fe9407f8c38d16f0a83bd79aee6d51"
     },
     {
       "id": "skjermarkiv",
