@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-13T13:23:51Z",
+  "updatedAt": "2026-10-13T13:23:58Z",
   "plugins": [
     {
       "id": "looping-video",
@@ -155,12 +155,12 @@
     {
       "id": "tabell",
       "name": "Tabell",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "description": "Lag en tabell i Faktisk-stil med valgfrie illustrasjonsbilder, søyler og automatisk utregnede andeler. Avrundet boks med justerbar ramme, tittel, undertittel og kildelinje.",
       "minStudioVersion": "0.7.0",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/tabell/0.1.0/bundle.json",
-      "changelog": "Første versjon: tabell med illustrasjonsbilder, søyler og automatisk utregnede andeler",
-      "sha256": "c510324c261941406a8c231528205822a262ab042625d728b21599230c1cd31e"
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/tabell/0.1.1/bundle.json",
+      "changelog": "Valg for ingen bakgrunn",
+      "sha256": "3e17f5252db9b08069861a42d2d8c84d49c2b058ee4fabade78b75a67df3cc4f"
     },
     {
       "id": "chatbobler",
