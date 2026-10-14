@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-14T15:14:08Z",
+  "updatedAt": "2026-10-14T16:33:29Z",
   "plugins": [
     {
       "id": "looping-video",
@@ -221,6 +221,16 @@
       "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/personbilde/0.1.0/bundle.json",
       "changelog": "Første versjon",
       "sha256": "59f045c1f66a61d20d336861786b43e8ea92870460ffc880864cc6e15c098257"
+    },
+    {
+      "id": "utklipp-boks",
+      "name": "Utklipp i boks",
+      "version": "0.1.0",
+      "description": "Et utklippet bilde (PNG uten bakgrunn, f.eks. en hånd med et ID-kort) i en boks med avrundede hjørner og farge, bilde eller video bak. Utklippet glir opp fra bunnen når leseren scroller dit, og blir stående. Genererer embed for Labrador.",
+      "minStudioVersion": "0.7.0",
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/utklipp-boks/0.1.0/bundle.json",
+      "changelog": "Første versjon",
+      "sha256": "7461508705b200b5472f5977a20a87c58aaca06357d16a3c1cd8f4feb81aa94d"
     }
   ]
 }
