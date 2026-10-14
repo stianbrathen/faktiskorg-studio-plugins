@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-14T14:34:30Z",
+  "updatedAt": "2026-10-14T14:34:51Z",
   "plugins": [
     {
       "id": "looping-video",
@@ -211,6 +211,16 @@
       "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/loop-illustrasjon/0.1.0/bundle.json",
       "changelog": "Første versjon",
       "sha256": "1daaf8d1f95aa0c8948cda53293df7e7ad89395d4f50945a81fbc527c8a07ee1"
+    },
+    {
+      "id": "personbilde",
+      "name": "Personbilde",
+      "version": "0.1.0",
+      "description": "Et bilde med navn og tittel: i boks med avrundede hjørner eller sirkel, med eller uten ramme og skygge, og et bilde som puster sakte. Teksten står under bildet i Unica, i bobler som popper opp der du plasserer dem, eller i en boks. Genererer embed for Labrador.",
+      "minStudioVersion": "0.7.0",
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/personbilde/0.1.0/bundle.json",
+      "changelog": "Første versjon",
+      "sha256": "59f045c1f66a61d20d336861786b43e8ea92870460ffc880864cc6e15c098257"
     }
   ]
 }
