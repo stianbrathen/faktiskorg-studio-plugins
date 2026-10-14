@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-13T13:24:13Z",
+  "updatedAt": "2026-10-14T14:34:30Z",
   "plugins": [
     {
       "id": "looping-video",
@@ -201,6 +201,16 @@
       "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/skjermarkiv/0.1.0/bundle.json",
       "changelog": "Første versjon",
       "sha256": "bdf0a86fbad2265d43472540f0d23ac916b75c34e6102c7471d9ee59c6a2d18e"
+    },
+    {
+      "id": "loop-illustrasjon",
+      "name": "Loop-illustrasjon",
+      "version": "0.1.0",
+      "description": "Sett sammen en animert illustrasjon som går i loop: bakgrunn, bilder og logoer, video, ringer av elementer, nettverk og mobiler – med spinn, puls, sveving, uskarphet og inn/ut-animasjoner. Lag kan samles i mapper som animeres samlet. Genererer embed for Labrador og eksporterer video.",
+      "minStudioVersion": "0.7.0",
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/loop-illustrasjon/0.1.0/bundle.json",
+      "changelog": "Første versjon",
+      "sha256": "1daaf8d1f95aa0c8948cda53293df7e7ad89395d4f50945a81fbc527c8a07ee1"
     }
   ]
 }
