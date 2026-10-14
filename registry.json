@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-14T16:33:29Z",
+  "updatedAt": "2026-10-14T17:03:04Z",
   "plugins": [
     {
       "id": "looping-video",
       "name": "Looping videoklipp",
-      "version": "0.5.20",
+      "version": "0.5.21",
       "description": "Looping video.",
       "minStudioVersion": "0.2.0",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/looping-video/0.5.20/bundle.json",
-      "changelog": "Valg for ingen bakgrunn bak videoen",
-      "sha256": "ca24bda0e68259856e90971bb20c7a6f2f3023ad03c9a8b34608e9b1177c6b27"
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/looping-video/0.5.21/bundle.json",
+      "changelog": "Størrelse i artikkelen: maks høyde og bredde, stående video mindre som standard",
+      "sha256": "c7113b263a00416e601519495f3ed844bd057600637202e93b4764fa78c11f95"
     },
     {
       "id": "video-player",
