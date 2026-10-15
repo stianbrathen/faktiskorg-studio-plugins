@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-15T20:49:52Z",
+  "updatedAt": "2026-10-15T20:49:59Z",
   "plugins": [
     {
       "id": "looping-video",
@@ -225,12 +225,12 @@
     {
       "id": "utklipp-boks",
       "name": "Utklipp i boks",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "description": "Et utklippet bilde (PNG uten bakgrunn, f.eks. en hånd med et ID-kort) i en boks med avrundede hjørner og farge, bilde eller video bak. Utklippet glir opp fra bunnen når leseren scroller dit, og blir stående. Genererer embed for Labrador.",
       "minStudioVersion": "0.7.0",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/utklipp-boks/0.1.0/bundle.json",
-      "changelog": "Første versjon",
-      "sha256": "7461508705b200b5472f5977a20a87c58aaca06357d16a3c1cd8f4feb81aa94d"
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/utklipp-boks/0.1.1/bundle.json",
+      "changelog": "Stillbilde når autoplay er blokkert (lav strømmodus på iPhone)",
+      "sha256": "88bdc6026b5a9b5831d315d6e4a56dfd5561bc9465bb0e6ebd467bcf3ec0947a"
     }
   ]
 }
