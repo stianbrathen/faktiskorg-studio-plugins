@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-15T20:49:59Z",
+  "updatedAt": "2026-10-15T20:50:08Z",
   "plugins": [
     {
       "id": "looping-video",
       "name": "Looping videoklipp",
-      "version": "0.5.21",
+      "version": "0.5.22",
       "description": "Looping video.",
       "minStudioVersion": "0.2.0",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/looping-video/0.5.21/bundle.json",
-      "changelog": "Størrelse i artikkelen: maks høyde og bredde, stående video mindre som standard",
-      "sha256": "c7113b263a00416e601519495f3ed844bd057600637202e93b4764fa78c11f95"
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/looping-video/0.5.22/bundle.json",
+      "changelog": "Skjuler iOS sin spill-knapp når autoplay er blokkert",
+      "sha256": "68f3a984a89a260cb8e521e93f69f3beb04591fe33f79c0030ea383368fb6a79"
     },
     {
       "id": "video-player",
