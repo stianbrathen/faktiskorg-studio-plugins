@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-27T14:18:56Z",
+  "updatedAt": "2026-10-27T14:37:00Z",
   "plugins": [
     {
       "id": "looping-video",
@@ -241,6 +241,16 @@
       "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/prikkeklode/0.1.0/bundle.json",
       "changelog": "Første versjon",
       "sha256": "84651b8fb68145bab1eccae3e21e3e656c282da30914523e1da2faa5c90a4178"
+    },
+    {
+      "id": "bevissikring",
+      "name": "Bevissikring",
+      "version": "0.1.0",
+      "description": "Sikre nettsider og SoMe-innlegg før de forsvinner — hele siden, mens den rulles, PDF, nettarkiv, tekst, bilder og video, med manifest, sjekksum og uavhengig tidsstempel for hver sikring, samlet per sak. Profiler og innlegg (Facebook m.fl.), stikkprøver over tid (X, YouTube), «Bare video», import av skjermbilder og opptak fra mobil, søk i tekst, tale og tekst i bilder, «Følg med» når innhold endres eller slettes, kryptert arkiv og Chrome-utvidelse.",
+      "minStudioVersion": "0.7.12",
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/bevissikring/0.1.0/bundle.json",
+      "changelog": "Første versjon",
+      "sha256": "5c0c1f142b4ea577ed6ee9420388e78d652055d2d3d47f46f2a587a4be221631"
     }
   ]
 }
