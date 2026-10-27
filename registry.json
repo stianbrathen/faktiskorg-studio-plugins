@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-19T09:10:09Z",
+  "updatedAt": "2026-10-27T14:18:56Z",
   "plugins": [
     {
       "id": "looping-video",
@@ -231,6 +231,16 @@
       "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/utklipp-boks/0.1.1/bundle.json",
       "changelog": "Stillbilde når autoplay er blokkert (lav strømmodus på iPhone)",
       "sha256": "88bdc6026b5a9b5831d315d6e4a56dfd5561bc9465bb0e6ebd467bcf3ec0947a"
+    },
+    {
+      "id": "prikkeklode",
+      "name": "Prikkeklode",
+      "version": "0.1.0",
+      "description": "Roterbar klode av prikker med buer fra der kontoer styres fra til landene innholdet er rettet mot. Leseren trykker på en konto for å se skjermbilder og funn.",
+      "minStudioVersion": "0.7.0",
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/prikkeklode/0.1.0/bundle.json",
+      "changelog": "Første versjon",
+      "sha256": "84651b8fb68145bab1eccae3e21e3e656c282da30914523e1da2faa5c90a4178"
     }
   ]
 }
