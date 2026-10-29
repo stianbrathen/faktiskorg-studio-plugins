@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-29T09:12:57Z",
+  "updatedAt": "2026-10-29T13:08:12Z",
   "plugins": [
     {
       "id": "looping-video",
@@ -251,6 +251,16 @@
       "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/bevissikring/0.1.1/bundle.json",
       "changelog": "Slett sikringer: flyttes til Papirkurven og noteres i saksmappa",
       "sha256": "e446782f531d3838b922941f0bb7ef6ab41fab3d23bc9cae81ae67bb86eba4e9"
+    },
+    {
+      "id": "podkast",
+      "name": "Podkast",
+      "version": "0.1.0",
+      "description": "Spillerboks for videopodkast fra YouTube, til forsiden og artikler. Episodeliste, forhåndsbilder i Labrador, YouTube lastes først når leseren trykker play, og målehendelser for hver avspilling. Genererer embed for Labrador.",
+      "minStudioVersion": "0.7.0",
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/podkast/0.1.0/bundle.json",
+      "changelog": "Første versjon: spillerboks for videopodkast fra YouTube",
+      "sha256": "b8731b3022ccf2263c7b735ef65e0260d891f7ce8450e5522c13bd0cfd862b14"
     }
   ]
 }
