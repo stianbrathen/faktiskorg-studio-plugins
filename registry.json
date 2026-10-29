@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-29T09:07:09Z",
+  "updatedAt": "2026-10-29T09:12:57Z",
   "plugins": [
     {
       "id": "looping-video",
@@ -235,12 +235,12 @@
     {
       "id": "prikkeklode",
       "name": "Prikkeklode",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "description": "Roterbar klode av prikker med buer fra der kontoer styres fra til landene innholdet er rettet mot. Leseren trykker på en konto for å se skjermbilder og funn.",
       "minStudioVersion": "0.7.0",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/prikkeklode/0.1.1/bundle.json",
-      "changelog": "Innlegget åpnes over hele siden når grafikken står i spalten",
-      "sha256": "6c0eda33561050557c73f83faed2cc26dfb0079a4dd467188da4b4f69052a01e"
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/prikkeklode/0.1.2/bundle.json",
+      "changelog": "Innlegget kan sprette ut med skygge uten å dekke siden",
+      "sha256": "a42fd71b470e5371cc37e2f31ee88eef0c4b2d3e567bcb1f70540d1fe14065ee"
     },
     {
       "id": "bevissikring",
