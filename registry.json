@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-30T11:11:26Z",
+  "updatedAt": "2026-10-30T12:10:15Z",
   "plugins": [
     {
       "id": "looping-video",
@@ -255,12 +255,12 @@
     {
       "id": "podkast",
       "name": "Podkast",
-      "version": "0.2.1",
+      "version": "0.2.2",
       "description": "Spillerboks for videopodkast fra YouTube, til forsiden og artikler. Episodeliste, forhåndsbilder i Labrador, YouTube lastes først når leseren trykker play, og målehendelser for hver avspilling. Genererer embed for Labrador.",
       "minStudioVersion": "0.7.0",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/podkast/0.2.1/bundle.json",
-      "changelog": "Eget vindu for Mux viser bare videoen (uten Mux-ramme)",
-      "sha256": "64dbcc9be212077bbc48f206709f3d1f8a9805869eabce52c23b9572a4369cd7"
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/podkast/0.2.2/bundle.json",
+      "changelog": "Episodetittel er valgfri når det bare er én episode",
+      "sha256": "90bdc3c2683c68edd809baa1b4288b6aa8a82925378804649cf4742bb175a465"
     }
   ]
 }
