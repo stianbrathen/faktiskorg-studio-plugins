@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-30T10:45:20Z",
+  "updatedAt": "2026-10-30T11:07:58Z",
   "plugins": [
     {
       "id": "looping-video",
@@ -260,7 +260,7 @@
       "minStudioVersion": "0.7.0",
       "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/podkast/0.2.0/bundle.json",
       "changelog": "Mux-støtte: lim inn Mux-lenke, ID eller embed-kode",
-      "sha256": "3257223990a9acfa5fdaaaf363519a7af49aa7fa0114181f158e3e770fe00142"
+      "sha256": "3eab5f47ac18cf4eb0ccc4fdf7363c4d4569b875685b08423349774f24ecf8dc"
     }
   ]
 }
