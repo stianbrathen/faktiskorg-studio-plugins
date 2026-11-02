@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-30T13:27:41Z",
+  "updatedAt": "2026-11-02T12:36:53Z",
   "plugins": [
     {
       "id": "looping-video",
@@ -249,8 +249,8 @@
       "description": "Sikre nettsider og SoMe-innlegg før de forsvinner — hele siden, mens den rulles, PDF, nettarkiv, tekst, bilder og video, med manifest, sjekksum og uavhengig tidsstempel for hver sikring, samlet per sak. Profiler og innlegg (Facebook m.fl.), stikkprøver over tid (X, YouTube), «Bare video», import av skjermbilder og opptak fra mobil, søk i tekst, tale og tekst i bilder, «Følg med» når innhold endres eller slettes, kryptert arkiv og Chrome-utvidelse.",
       "minStudioVersion": "0.7.13",
       "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/bevissikring/0.1.1/bundle.json",
-      "changelog": "Slett sikringer: flyttes til Papirkurven og noteres i saksmappa",
-      "sha256": "e446782f531d3838b922941f0bb7ef6ab41fab3d23bc9cae81ae67bb86eba4e9"
+      "changelog": "Slett sikringer, og Sikre alt jeg ser fra Chrome-utvidelsen (0.2.0)",
+      "sha256": "8a88ad3805f89ebc08ceae9a93c6b784d383559cb9734056e7e80fb6ac0ce79b"
     },
     {
       "id": "podkast",
