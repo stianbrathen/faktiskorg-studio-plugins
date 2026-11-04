@@ -48,7 +48,10 @@ for (const entry of registry.plugins) {
     continue;
   }
 
-  const manifestKey = Object.keys(bundle).find(k => k === 'manifest.json' || k.endsWith('/manifest.json'));
+  // Pluginens egen manifest.json i roten først — ellers kan en undermappe (f.eks.
+  // bevissikring/chrome-utvidelse/manifest.json) bli plukket og gi falsk feil.
+  const manifestKey = ('manifest.json' in bundle) ? 'manifest.json'
+    : Object.keys(bundle).find(k => k.endsWith('/manifest.json'));
   if (!manifestKey) {
     problems.push(`${entry.id} v${entry.version}: bundle mangler manifest.json`);
     continue;
