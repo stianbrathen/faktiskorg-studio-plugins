@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-04T15:54:04Z",
+  "updatedAt": "2026-11-05T08:52:33Z",
   "plugins": [
     {
       "id": "looping-video",
@@ -265,12 +265,12 @@
     {
       "id": "medieslider",
       "name": "Medieslider",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "description": "Slider med egne bilder og videoer til artikler – f.eks. en serie utklipp, skjermbilder av innlegg eller klipp. Hvert element kan ha bildetekst, kilde, dato og lenke. Åpnes stort over hele skjermen med dempet bakgrunn, stort over siden, eller vises bare i slideren. Filene ligger i Labrador. Genererer embed for Labrador.",
       "minStudioVersion": "0.7.0",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/medieslider/0.1.0/bundle.json",
-      "changelog": "Ny plugin: slider med egne bilder og videoer fra Labrador, med bildetekst, kilde, dato og lenke",
-      "sha256": "f8bde295071b6c4e86460608e77ea5d1d14a759d3559aa94c63564f9a24b437e"
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/medieslider/0.1.1/bundle.json",
+      "changelog": "Piler også på mobil, og neste kort stikker tydeligere fram",
+      "sha256": "31852565833419bd4cc073596e09a9ce2c407b184f8342380f69b9e4b60a6bcf"
     },
     {
       "id": "videoslider",
