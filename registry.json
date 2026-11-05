@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-05T14:36:56Z",
+  "updatedAt": "2026-11-05T14:39:50Z",
   "plugins": [
     {
       "id": "looping-video",
@@ -310,7 +310,7 @@
       "minStudioVersion": "0.7.0",
       "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/metodeboks/0.1.0/bundle.json",
       "changelog": "Ny plugin: metodeboks med punkter og klode-illustrasjon",
-      "sha256": "a0385c050360725e57a4ddb9ffb9e1012112bc979f1e085c9e8997762984eb75"
+      "sha256": "a9a807e1b499cae9fb2bae1b06b1c421209a97ce615ff4aa7ce5b562c016d5d8"
     }
   ]
 }
