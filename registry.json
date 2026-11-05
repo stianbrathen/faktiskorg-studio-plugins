@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-05T14:45:03Z",
+  "updatedAt": "2026-11-05T14:45:12Z",
   "plugins": [
     {
       "id": "looping-video",
@@ -155,12 +155,12 @@
     {
       "id": "tabell",
       "name": "Tabell",
-      "version": "0.2.1",
+      "version": "0.2.2",
       "description": "Lag en tabell i Faktisk-stil med valgfrie illustrasjonsbilder, søyler og automatisk utregnede andeler eller ferdige prosenter, og valgfri detaljlinje per rad. Avrundet boks med ramme, tittel, undertittel og kildelinje. Genererer embed for Labrador.",
       "minStudioVersion": "0.7.0",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/tabell/0.2.1/bundle.json",
-      "changelog": "Embedden tåler faktisk.no-stilene, riktige fontvekter",
-      "sha256": "78df6d4b5bb8fe9d086c1ec64710f165a0ec7119cc56b029256b3c9f2a6d1717"
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/tabell/0.2.2/bundle.json",
+      "changelog": "Importer rader fra Excel/CSV, embed tåler faktisk.no-stilene",
+      "sha256": "ef4d1ed7182e6e9db541daa820ac78fe3f79ace7eacf652def771ebae0b1b09b"
     },
     {
       "id": "chatbobler",
