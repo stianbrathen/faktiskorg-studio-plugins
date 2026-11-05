@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-05T14:39:59Z",
+  "updatedAt": "2026-11-05T14:45:03Z",
   "plugins": [
     {
       "id": "looping-video",
@@ -295,12 +295,12 @@
     {
       "id": "kontokart",
       "name": "Kontokart",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "description": "Kartlegging av kontoer: legg inn kontoer med adminland (eller lim inn fra regneark) og velg visning – tabell med snurrende klode, eller verdenskart med buer fra adminland til gruppene innholdet er rettet mot. Eksempelkontoer kan fremheves. Genererer embed for Labrador.",
       "minStudioVersion": "0.7.0",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/kontokart/0.1.0/bundle.json",
-      "changelog": "Ny plugin: kontoliste med klode og verdenskart",
-      "sha256": "b38354a2001c76d40369755090e91efcde7c2c9d56db637fab89d957da462bd5"
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/kontokart/0.1.1/bundle.json",
+      "changelog": "Importer kontoer fra Excel (.xlsx), CSV eller TSV",
+      "sha256": "982b6976efa9fcc9f1089b43f39509a48189024ba26c5d89802e9e9d1a198369"
     },
     {
       "id": "metodeboks",
