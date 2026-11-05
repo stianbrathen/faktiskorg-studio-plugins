@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-05T14:55:11Z",
+  "updatedAt": "2026-11-05T14:55:28Z",
   "plugins": [
     {
       "id": "looping-video",
@@ -305,12 +305,12 @@
     {
       "id": "metodeboks",
       "name": "Metodeboks",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "description": "Faktaboks i Faktisk-stil for metode og forbehold: stikktittel, tittel, punkter med ikon (dokumentert, observert, vet ikke, info …) og kilde. Valgfri rolig prikkeklode-illustrasjon med buer mellom land. Genererer embed for Labrador.",
       "minStudioVersion": "0.7.0",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/metodeboks/0.1.0/bundle.json",
-      "changelog": "Ny plugin: metodeboks med punkter og klode-illustrasjon",
-      "sha256": "a9a807e1b499cae9fb2bae1b06b1c421209a97ce615ff4aa7ce5b562c016d5d8"
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/metodeboks/0.1.1/bundle.json",
+      "changelog": "Sidepanel og forhåndsvisning kan rulles på små skjermer",
+      "sha256": "ecd98cb2bac76d4d1e36d26151d7a18ca3b2fdc940b377be9dbee46820871b35"
     }
   ]
 }
