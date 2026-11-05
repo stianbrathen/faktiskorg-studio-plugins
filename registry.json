@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-05T14:55:28Z",
+  "updatedAt": "2026-11-05T15:05:22Z",
   "plugins": [
     {
       "id": "looping-video",
@@ -15,122 +15,122 @@
     {
       "id": "video-player",
       "name": "Videoavspiller",
-      "version": "0.1.12",
+      "version": "0.1.13",
       "description": "Video-avspiller med grå container-boks, høyde-presets, og logo-merke til venstre for bildetekst.",
       "minStudioVersion": "0.2.0",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/video-player/0.1.12/bundle.json",
-      "changelog": "Versjon i embed-koden.",
-      "sha256": "14e7df0b8f4fc829295c5233b0678c42d54b0a1b8d74310e37d76322cced0637"
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/video-player/0.1.13/bundle.json",
+      "changelog": "Sidepanel og forhåndsvisning kan rulles på små skjermer",
+      "sha256": "ac4508716cf1041ddf7518ea1f34c70cfac6364b9373454fd184837f072d70fd"
     },
     {
       "id": "for-og-etter",
       "name": "Før og etter slider",
-      "version": "0.1.6",
+      "version": "0.1.7",
       "description": "Sammenlign to bilder.",
       "minStudioVersion": "0.2.0",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/for-og-etter/0.1.6/bundle.json",
-      "changelog": "Mine filer og direkteopplasting av bilder fra Labrador",
-      "sha256": "c4b98b6fb7d96f06db1e39afc1c66419d169e575dec17d05a636dd9638a66df0"
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/for-og-etter/0.1.7/bundle.json",
+      "changelog": "Sidepanel og forhåndsvisning kan rulles på små skjermer",
+      "sha256": "71edd0eb56a52bcc2f00347c6247852e1bc2c8d82a4071ed983e9e519c5a0655"
     },
     {
       "id": "bilde-markering",
       "name": "Bilde med markering",
-      "version": "0.1.11",
+      "version": "0.1.12",
       "description": "Marker punkter.",
       "minStudioVersion": "0.2.0",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/bilde-markering/0.1.11/bundle.json",
-      "changelog": "Mine filer og direkteopplasting av bilder fra Labrador",
-      "sha256": "7262686912f8eaab2d22d55aa83e964247a61feeaa88be9e29a345aa94a4ab7a"
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/bilde-markering/0.1.12/bundle.json",
+      "changelog": "Sidepanel og forhåndsvisning kan rulles på små skjermer",
+      "sha256": "6def5ee31c4813a979a49e88d2f1d2a701ce7bd0e0b7f8bcd7da8217a6dfaac5"
     },
     {
       "id": "bildemal",
       "name": "Bildemal",
-      "version": "0.1.9",
+      "version": "0.1.10",
       "description": "Komponer et bilde med bakgrunn + bokser/sirkler med hvit ramme og drop shadow. Eksport til PNG/JPG eller utklippstavle.",
       "minStudioVersion": "0.2.0",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/bildemal/0.1.9/bundle.json",
-      "changelog": "Mine filer og direkteopplasting av bilder fra Labrador",
-      "sha256": "241926a47ba17d6398e87c0bdab699c50fcf044dd2eb8b358b970a107215088a"
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/bildemal/0.1.10/bundle.json",
+      "changelog": "Sidepanel og forhåndsvisning kan rulles på små skjermer",
+      "sha256": "f1c525b89a5c3b437166b81c506e35138669ffc1978fb88127023bc78c5fa616"
     },
     {
       "id": "pop-up",
       "name": "Pop up",
-      "version": "0.3.6",
+      "version": "0.3.7",
       "description": "Bilde med tykk grå ramme, logo til venstre, bildetekst venstrejustert mot logoen.",
       "minStudioVersion": "0.2.0",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/pop-up/0.3.6/bundle.json",
-      "changelog": "Valg for ingen ramme eller bakgrunn (utklipte bilder)",
-      "sha256": "2be6af8017c4d0f6257f94e5e427534e3f2a1da58295bb8e966ae40bb7cf4d14"
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/pop-up/0.3.7/bundle.json",
+      "changelog": "Sidepanel og forhåndsvisning kan rulles på små skjermer",
+      "sha256": "d4bac67d96dc2fbe4bd442fa0e2e830331d0ccdc24ee6cc0780ee72480c01d62"
     },
     {
       "id": "parallax-collage",
       "name": "Parallax bildecollage",
-      "version": "0.3.5",
+      "version": "0.3.6",
       "description": "Side-scroll-drevet parallax med Labrador-integrasjon og 'Nylige filer'-panel.",
       "minStudioVersion": "0.5.2",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/parallax-collage/0.3.5/bundle.json",
-      "changelog": "Mine filer og direkteopplasting av bilder fra Labrador",
-      "sha256": "3ff55d1aa6e311723347b99189cab6e8b1227dbe4cb2e2f2097d4d1ad53a6632"
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/parallax-collage/0.3.6/bundle.json",
+      "changelog": "Sidepanel og forhåndsvisning kan rulles på små skjermer",
+      "sha256": "c38b512f0bf067a181005e6212aaad465a60fe2d547cacaeff10e30d753f8acc"
     },
     {
       "id": "bildeanalyse",
       "name": "Bildeanalyse",
-      "version": "0.1.31",
+      "version": "0.1.32",
       "description": "Sammenlign bildepar. A og B peker innover mot streken.",
       "minStudioVersion": "0.2.0",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/bildeanalyse/0.1.31/bundle.json",
-      "changelog": "Fargenøkkelen åpner bare sin egen lysboks når flere bildeanalyser står i samme artikkel. Mindre nedlasting.",
-      "sha256": "19ac6ca3764a3facace3ad016320f3a94aacbb98ddbbea5199eb62cd3e0cbec3"
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/bildeanalyse/0.1.32/bundle.json",
+      "changelog": "Sidepanel og forhåndsvisning kan rulles på små skjermer",
+      "sha256": "57925aa64c978732c0049826f45833ff1729b0e6bb0e644c67ef42a3be5262c2"
     },
     {
       "id": "video-hoydepunkter",
       "name": "Videohøydepunkter",
-      "version": "0.1.3",
+      "version": "0.1.4",
       "description": "Marker høydepunkter i en video og la leserne hoppe rett til dem — med valgfri sakte film. Genererer embed med klikkbar tidslinje og høydepunkt-knapper.",
       "minStudioVersion": "0.2.0",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/video-hoydepunkter/0.1.3/bundle.json",
-      "changelog": "Laster video riktig på nyeste iPhone. Versjon i embed-koden.",
-      "sha256": "13b2684b8404ef4b98be3e4660e059f2bcd36b147d93c5799dc4b7bd66f0f8cd"
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/video-hoydepunkter/0.1.4/bundle.json",
+      "changelog": "Sidepanel og forhåndsvisning kan rulles på små skjermer",
+      "sha256": "a2fd13edd328d8bd0053e2e5c74176b883983dbeddf338b05bf47cd8414a5c9c"
     },
     {
       "id": "video-sensur",
       "name": "Videosensur",
-      "version": "0.1.3",
+      "version": "0.1.4",
       "description": "Sensurer ansikter eller deler av bildet med blur som følger motivet via keyframes, med myk fade inn/ut. Eksporterer i tilnærmet original kvalitet med lyden urørt.",
       "minStudioVersion": "0.6.8",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/video-sensur/0.1.3/bundle.json",
-      "changelog": "Bruk video rett fra Macen – ingen opplasting og ingen 100 MB-grense",
-      "sha256": "50e876e9bfe1c31f6d3667297261901de1a360b8ac3cea404939628f1faccb50"
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/video-sensur/0.1.4/bundle.json",
+      "changelog": "Sidepanel og forhåndsvisning kan rulles på små skjermer",
+      "sha256": "ecfd5b487e1e9035a86c98bda9f8b52c24268e95dfcfb1949cd9d6d532eb7377"
     },
     {
       "id": "some-bilde",
       "name": "SoMe-bilde",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "description": "Lag kvadratiske bilder til Facebook og sosiale medier: bakgrunnsbilde (eller to med delestrek), Faktisk-logo, tekst med blå bokser og automatisk linjedeling, partnerlogo og fades. Eksporter som PNG/JPG eller kopier rett til utklippstavlen.",
       "minStudioVersion": "0.2.0",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/some-bilde/0.1.1/bundle.json",
-      "changelog": "Fiks font i installert versjon, fjern I samarbeid med-tekst",
-      "sha256": "af956635fff30e3c5a58722c4b5b1eb7b9481233c513617fc75ba8afe427215a"
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/some-bilde/0.1.2/bundle.json",
+      "changelog": "Sidepanel og forhåndsvisning kan rulles på små skjermer",
+      "sha256": "d1eb41b81a14e44fd4fbdbe721931c4406d8aecdc56f42dfe3e71528a5a00f55"
     },
     {
       "id": "bilde-sensur",
       "name": "Bildesensur",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "description": "Sensurer ansikter eller deler av et bilde med blur, pixelering eller svart felt. Masker som sirkel, oval eller rektangel med myk kant. Eksporter i full oppløsning som PNG/JPG, kopier til utklippstavlen eller last rett opp til Labrador.",
       "minStudioVersion": "0.6.3",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/bilde-sensur/0.1.0/bundle.json",
-      "changelog": "Første versjon: blur, pixelering og svart felt med myk kant, eksport i full oppløsning + Labrador-opplasting",
-      "sha256": "3341b066e8e71f6414edbdbcdf0293d3a5f93d0650868c2a90d253cdce7f8808"
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/bilde-sensur/0.1.1/bundle.json",
+      "changelog": "Sidepanel og forhåndsvisning kan rulles på små skjermer",
+      "sha256": "e38cd64d5b97456f2cb321476fab558b2e9460642b4fd892a6c013f9b2190a3f"
     },
     {
       "id": "keynote-klipp",
       "name": "Keynote-klipp",
-      "version": "0.2.0",
+      "version": "0.2.1",
       "description": "Lag stumme videoklipp med runde hjørner og ekte gjennomsiktighet, klare for Keynote. Velg mobil-, bred- eller kvadratformat, juster utsnitt og hjørneradius, og legg på ramme som følger den runde formen.",
       "minStudioVersion": "0.6.5",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/keynote-klipp/0.2.0/bundle.json",
-      "changelog": "Valgfri lyd, sømløs looping, ramme og runde hjørner med ekte gjennomsiktighet",
-      "sha256": "90edd11c3e72d224dc957aa33e0bfb8e1a163ffaa08e06c0e4d97019992c90d4"
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/keynote-klipp/0.2.1/bundle.json",
+      "changelog": "Sidepanel og forhåndsvisning kan rulles på små skjermer",
+      "sha256": "dc3d4974da27f77ade1b3f9ee915640a260a99001eea175dbc11f694c8c5cbf5"
     },
     {
       "id": "teksting",
@@ -145,12 +145,12 @@
     {
       "id": "klippsamler",
       "name": "Klippsamler",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "description": "Sett sammen flere videoklipp til ett: trim hvert klipp, ordne rekkefølgen, spill gjennom redigeringen, velg format og eksporter samlet — med eller uten lyd.",
       "minStudioVersion": "0.7.4",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/klippsamler/0.1.0/bundle.json",
-      "changelog": "Første versjon: trim klippene, ordne rekkefølgen og eksporter samlet — med eller uten lyd",
-      "sha256": "dc3f84b22d7704a08dd9edf75c9ea08c8da522b69bcbe4fd182cfa7908a306a0"
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/klippsamler/0.1.1/bundle.json",
+      "changelog": "Sidepanel og forhåndsvisning kan rulles på små skjermer",
+      "sha256": "be6872f97bbfc600823fbe9f539811652ab70f608f41009816a16f9aed751260"
     },
     {
       "id": "tabell",
@@ -165,92 +165,92 @@
     {
       "id": "chatbobler",
       "name": "Chatbobler",
-      "version": "0.2.0",
+      "version": "0.2.1",
       "description": "Gjenskap en chatsamtale i stilen til iMessage, WhatsApp, Telegram, Messenger, Signal eller SMS. Boblene popper opp med skriveindikator når leseren scroller dit. Kan også brukes til én enkelt boble.",
       "minStudioVersion": "0.7.0",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/chatbobler/0.2.0/bundle.json",
-      "changelog": "Eksport som video (MP4 og transparent), skriveindikatoren kappes ikke lenger",
-      "sha256": "0c8e4637ca48917c9fadaa0ae45e32df96d47a85620d5a311cde3bac4558cae1"
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/chatbobler/0.2.1/bundle.json",
+      "changelog": "Sidepanel og forhåndsvisning kan rulles på små skjermer",
+      "sha256": "43f87f087a9fc5aab78cd0f15e7e8131eca1eba50a362da86ee955d5697bd036"
     },
     {
       "id": "logo-nettverk",
       "name": "Logo-nettverk",
-      "version": "0.2.0",
+      "version": "0.2.1",
       "description": "Animert toppgrafikk: en logo popper inn, og et nettverk med dine egne symboler vokser ut fra den når leseren scroller dit. Nettverket fortsetter å bevege seg i loop.",
       "minStudioVersion": "0.7.0",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/logo-nettverk/0.2.0/bundle.json",
-      "changelog": "Ny stil: tett nett. Logoen faller inn, og et tett nett med glød i to farger brer seg ut.",
-      "sha256": "3a7685e51d1fd074a46ff959e5eaa94c72eb22eb234a30d0f5cad316b4bfb748"
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/logo-nettverk/0.2.1/bundle.json",
+      "changelog": "Sidepanel og forhåndsvisning kan rulles på små skjermer",
+      "sha256": "0edab8ce57f2cf5bcd4b82075a125d68b350a569bfbc1c51fb51a16421f70587"
     },
     {
       "id": "mobilnettverk",
       "name": "Mobilnettverk",
-      "version": "0.1.5",
+      "version": "0.1.6",
       "description": "Vis skjermbilder på mobiltelefoner i et glødende nettverk. Telefonene svever rolig, og leseren kan trykke på en mobil for å se skjermbildet stort. Genererer embed for Labrador.",
       "minStudioVersion": "0.7.0",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/mobilnettverk/0.1.5/bundle.json",
-      "changelog": "«Antall» følger antall skjermbilder (maks 3), så bilde nr. 3 vises",
-      "sha256": "253d32146b1ce93d0ebd2b731f168292d38d9ab989df1642b6f4f7b95dcf5090"
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/mobilnettverk/0.1.6/bundle.json",
+      "changelog": "Sidepanel og forhåndsvisning kan rulles på små skjermer",
+      "sha256": "146447111d64ce7038774bd7c5ef4706a3f0b041787cd65cc1a3e3edaaddfb0c"
     },
     {
       "id": "skjermarkiv",
       "name": "Skjermarkiv",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "description": "Søkbar oversikt over skjermbilder og skjermopptak: velg en mappe, så finner Studio nøkkelbilder i klippene og leser teksten på skjermen med Apple Vision — helt lokalt. Søk, filtrer og hopp rett til riktig tidspunkt. Samme arkivformat som nettsiden Skjermarkiv.",
       "minStudioVersion": "0.7.8",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/skjermarkiv/0.1.0/bundle.json",
-      "changelog": "Første versjon",
-      "sha256": "bdf0a86fbad2265d43472540f0d23ac916b75c34e6102c7471d9ee59c6a2d18e"
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/skjermarkiv/0.1.1/bundle.json",
+      "changelog": "Sidepanel og forhåndsvisning kan rulles på små skjermer",
+      "sha256": "a91cf16f1706fac86dcd69ab198180a20aa582cb9c77853caea4068c6b4d012b"
     },
     {
       "id": "loop-illustrasjon",
       "name": "Loop-illustrasjon",
-      "version": "0.1.2",
+      "version": "0.1.3",
       "description": "Sett sammen en animert illustrasjon som går i loop: bakgrunn, bilder og logoer, video, ringer av elementer, nettverk og mobiler – med spinn, puls, sveving, uskarphet og inn/ut-animasjoner. Lag kan samles i mapper som animeres samlet. Genererer embed for Labrador og eksporterer video.",
       "minStudioVersion": "0.7.0",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/loop-illustrasjon/0.1.2/bundle.json",
-      "changelog": "Stillbilde når autoplay er blokkert (lav strømmodus på iPhone)",
-      "sha256": "fc4b1bf44c739b362dc199edf280ff9c186b0140bcecb11f89011f8e549de41a"
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/loop-illustrasjon/0.1.3/bundle.json",
+      "changelog": "Sidepanel og forhåndsvisning kan rulles på små skjermer",
+      "sha256": "25739d795ccda437a72bc550601d4ef9e51f43bf2608770068919395883c359b"
     },
     {
       "id": "personbilde",
       "name": "Personbilde",
-      "version": "0.2.0",
+      "version": "0.2.1",
       "description": "Et bilde med navn og tittel: i boks med avrundede hjørner eller sirkel, med eller uten ramme og skygge, og et bilde som puster sakte. Teksten står under bildet i Unica, i bobler som popper opp der du plasserer dem, eller i en boks. Genererer embed for Labrador.",
       "minStudioVersion": "0.7.0",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/personbilde/0.2.0/bundle.json",
-      "changelog": "Komprimerte bildevarianter fra Studio gir <picture> med AVIF/JPG i flere bredder",
-      "sha256": "e5de1e36cba185b4971923a341c202c9cefc3740f797473402c6d0f760b0e00f"
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/personbilde/0.2.1/bundle.json",
+      "changelog": "Sidepanel og forhåndsvisning kan rulles på små skjermer",
+      "sha256": "50994849763025682d8605cac0eb26bfa78379afef53d71f1dbca754e37aae3c"
     },
     {
       "id": "utklipp-boks",
       "name": "Utklipp i boks",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "description": "Et utklippet bilde (PNG uten bakgrunn, f.eks. en hånd med et ID-kort) i en boks med avrundede hjørner og farge, bilde eller video bak. Utklippet glir opp fra bunnen når leseren scroller dit, og blir stående. Genererer embed for Labrador.",
       "minStudioVersion": "0.7.0",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/utklipp-boks/0.1.1/bundle.json",
-      "changelog": "Stillbilde når autoplay er blokkert (lav strømmodus på iPhone)",
-      "sha256": "88bdc6026b5a9b5831d315d6e4a56dfd5561bc9465bb0e6ebd467bcf3ec0947a"
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/utklipp-boks/0.1.2/bundle.json",
+      "changelog": "Sidepanel og forhåndsvisning kan rulles på små skjermer",
+      "sha256": "a4cf80403c32723852593fb0801227e6b5622bd521536fce3bd99870836c605c"
     },
     {
       "id": "prikkeklode",
       "name": "Prikkeklode",
-      "version": "0.1.3",
+      "version": "0.1.4",
       "description": "Roterbar klode av prikker med buer fra der kontoer styres fra til landene innholdet er rettet mot. Leseren trykker på en konto for å se skjermbilder og funn. Genererer embed for Labrador.",
       "minStudioVersion": "0.7.0",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/prikkeklode/0.1.3/bundle.json",
-      "changelog": "Samme embed kan limes inn flere ganger på én side",
-      "sha256": "80f6b9372b2d6ee88f5eae7b1dfa2448359d97b4a904f433dcaeb14dd6c7cec5"
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/prikkeklode/0.1.4/bundle.json",
+      "changelog": "Sidepanel og forhåndsvisning kan rulles på små skjermer",
+      "sha256": "2906594b202f42a78be1a535fd91be08bb468948e50eddadd25d8c77bc9a0ac4"
     },
     {
       "id": "bevissikring",
       "name": "Bevissikring",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "description": "Sikre nettsider og SoMe-innlegg før de forsvinner — hele siden, mens den rulles, PDF, nettarkiv, tekst, bilder og video, med manifest, sjekksum og uavhengig tidsstempel for hver sikring, samlet per sak. Profiler og innlegg (Facebook m.fl.), stikkprøver over tid (X, YouTube), «Bare video», import av skjermbilder og opptak fra mobil, søk i tekst, tale og tekst i bilder, «Følg med» når innhold endres eller slettes, kryptert arkiv og Chrome-utvidelse.",
       "minStudioVersion": "0.7.13",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/bevissikring/0.1.1/bundle.json",
-      "changelog": "Slett sikringer, og Sikre alt jeg ser fra Chrome-utvidelsen (0.2.0)",
-      "sha256": "8a88ad3805f89ebc08ceae9a93c6b784d383559cb9734056e7e80fb6ac0ce79b"
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/bevissikring/0.1.2/bundle.json",
+      "changelog": "Sidepanel og forhåndsvisning kan rulles på små skjermer",
+      "sha256": "693c11d45ec82626f476842f37704fb6ae041bb2105799c262ad8b0442747f94"
     },
     {
       "id": "podkast",
@@ -265,32 +265,32 @@
     {
       "id": "medieslider",
       "name": "Medieslider",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "description": "Slider med egne bilder og videoer til artikler – f.eks. en serie utklipp, skjermbilder av innlegg eller klipp. Hvert element kan ha bildetekst, kilde, dato og lenke. Åpnes stort over hele skjermen med dempet bakgrunn, stort over siden, eller vises bare i slideren. Filene ligger i Labrador. Genererer embed for Labrador.",
       "minStudioVersion": "0.7.0",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/medieslider/0.1.1/bundle.json",
-      "changelog": "Piler også på mobil, og neste kort stikker tydeligere fram",
-      "sha256": "31852565833419bd4cc073596e09a9ce2c407b184f8342380f69b9e4b60a6bcf"
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/medieslider/0.1.2/bundle.json",
+      "changelog": "Sidepanel og forhåndsvisning kan rulles på små skjermer",
+      "sha256": "00fd82aa249e81cdc752377336434304163c3f4e08eb8a0f3246b218c32a1ff1"
     },
     {
       "id": "videoslider",
       "name": "Videoslider",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "description": "Slider med stående videoer (f.eks. TikTok-videoene) til forsiden og artikler. Videoer og stillbilder ligger i Labrador. Et trykk åpner videoen stort med lyd, og leseren blar videre som på TikTok. Genererer embed for Labrador.",
       "minStudioVersion": "0.7.13",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/videoslider/0.1.1/bundle.json",
-      "changelog": "Piler også på mobil",
-      "sha256": "cea235bf45ecfc6a5a8d6df2d22617d63e7f5d4a4e1ace329e62af63f34f69b0"
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/videoslider/0.1.2/bundle.json",
+      "changelog": "Sidepanel og forhåndsvisning kan rulles på små skjermer",
+      "sha256": "929d2ff193bade1f6fda547e3c5387d135b94846b0d189042d8fdfa494133174"
     },
     {
       "id": "hendelseskart",
       "name": "Hendelseskart",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "description": "Marker hendelser på et kart eller bilde med nummererte, klikkbare punkter. Hvert punkt åpner en popup i Faktisk-stil med tittel, tekst og valgfritt bilde. Genererer embed for Labrador.",
       "minStudioVersion": "0.6.3",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/hendelseskart/0.1.0/bundle.json",
-      "changelog": "Ny plugin: nummererte, klikkbare punkter på kart eller bilde med popup",
-      "sha256": "ac3b90762be54de84dfe40d4812b2b309a5ae3413d9160603df53123be665178"
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/hendelseskart/0.1.1/bundle.json",
+      "changelog": "Sidepanel og forhåndsvisning kan rulles på små skjermer",
+      "sha256": "2c2e1356135f62311e8b5098cccdd458b5a6cd32bab7eea524ad40703d2a0a2f"
     },
     {
       "id": "kontokart",
