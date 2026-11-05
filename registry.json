@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-05T08:52:41Z",
+  "updatedAt": "2026-11-05T14:27:16Z",
   "plugins": [
     {
       "id": "looping-video",
@@ -291,6 +291,16 @@
       "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/hendelseskart/0.1.0/bundle.json",
       "changelog": "Ny plugin: nummererte, klikkbare punkter på kart eller bilde med popup",
       "sha256": "ac3b90762be54de84dfe40d4812b2b309a5ae3413d9160603df53123be665178"
+    },
+    {
+      "id": "kontokart",
+      "name": "Kontokart",
+      "version": "0.1.0",
+      "description": "Kartlegging av kontoer: legg inn kontoer med adminland (eller lim inn fra regneark) og velg visning – tabell med snurrende klode, eller verdenskart med buer fra adminland til gruppene innholdet er rettet mot. Eksempelkontoer kan fremheves. Genererer embed for Labrador.",
+      "minStudioVersion": "0.7.0",
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/kontokart/0.1.0/bundle.json",
+      "changelog": "Ny plugin: kontoliste med klode og verdenskart",
+      "sha256": "b38354a2001c76d40369755090e91efcde7c2c9d56db637fab89d957da462bd5"
     }
   ]
 }
