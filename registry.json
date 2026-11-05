@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-05T08:52:33Z",
+  "updatedAt": "2026-11-05T08:52:41Z",
   "plugins": [
     {
       "id": "looping-video",
@@ -275,12 +275,12 @@
     {
       "id": "videoslider",
       "name": "Videoslider",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "description": "Slider med stående videoer (f.eks. TikTok-videoene) til forsiden og artikler. Videoer og stillbilder ligger i Labrador. Et trykk åpner videoen stort med lyd, og leseren blar videre som på TikTok. Genererer embed for Labrador.",
       "minStudioVersion": "0.7.13",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/videoslider/0.1.0/bundle.json",
-      "changelog": "Ny plugin: slider med stående videoer (f.eks. TikTok) fra Labrador",
-      "sha256": "ef5d08962d4543f26035d6dd67a478f864ef92ec2d92f987866dafbeeb4bbd1c"
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/videoslider/0.1.1/bundle.json",
+      "changelog": "Piler også på mobil",
+      "sha256": "cea235bf45ecfc6a5a8d6df2d22617d63e7f5d4a4e1ace329e62af63f34f69b0"
     },
     {
       "id": "hendelseskart",
