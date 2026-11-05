@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-05T14:27:16Z",
+  "updatedAt": "2026-11-05T14:36:56Z",
   "plugins": [
     {
       "id": "looping-video",
@@ -301,6 +301,16 @@
       "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/kontokart/0.1.0/bundle.json",
       "changelog": "Ny plugin: kontoliste med klode og verdenskart",
       "sha256": "b38354a2001c76d40369755090e91efcde7c2c9d56db637fab89d957da462bd5"
+    },
+    {
+      "id": "metodeboks",
+      "name": "Metodeboks",
+      "version": "0.1.0",
+      "description": "Faktaboks i Faktisk-stil for metode og forbehold: stikktittel, tittel, punkter med ikon (dokumentert, observert, vet ikke, info …) og kilde. Valgfri rolig prikkeklode-illustrasjon med buer mellom land. Genererer embed for Labrador.",
+      "minStudioVersion": "0.7.0",
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/metodeboks/0.1.0/bundle.json",
+      "changelog": "Ny plugin: metodeboks med punkter og klode-illustrasjon",
+      "sha256": "a0385c050360725e57a4ddb9ffb9e1012112bc979f1e085c9e8997762984eb75"
     }
   ]
 }
