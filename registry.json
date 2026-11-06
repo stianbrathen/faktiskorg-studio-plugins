@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-05T15:43:54Z",
+  "updatedAt": "2026-11-06T16:56:39Z",
   "plugins": [
     {
       "id": "looping-video",
@@ -155,12 +155,12 @@
     {
       "id": "tabell",
       "name": "Tabell",
-      "version": "0.2.3",
+      "version": "0.2.4",
       "description": "Lag en tabell i Faktisk-stil med valgfrie illustrasjonsbilder, søyler og automatisk utregnede andeler eller ferdige prosenter, og valgfri detaljlinje per rad. Avrundet boks med ramme, tittel, undertittel og kildelinje. Genererer embed for Labrador.",
       "minStudioVersion": "0.7.0",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/tabell/0.2.3/bundle.json",
-      "changelog": "Sidepanel og forhåndsvisning kan rulles på små skjermer",
-      "sha256": "97b07199bb7dd28c846e1d19b7763fed59dcc3b71c3d06a6b92f8277e6f615ed"
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/tabell/0.2.4/bundle.json",
+      "changelog": "Lange gruppenavn gjør ikke lenger siden bredere enn mobilskjermen; tall uten store mellomrom",
+      "sha256": "b2c0f91917d032339b4a6af30dbacf76052e9479a8e7de06efd05b714635c390"
     },
     {
       "id": "chatbobler",
