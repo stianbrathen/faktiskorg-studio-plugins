@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-07T17:42:37Z",
+  "updatedAt": "2026-11-08T09:21:42Z",
   "plugins": [
     {
       "id": "looping-video",
@@ -295,12 +295,12 @@
     {
       "id": "kontokart",
       "name": "Kontokart",
-      "version": "0.1.2",
+      "version": "0.2.0",
       "description": "Kartlegging av kontoer: legg inn kontoer med adminland (eller lim inn fra regneark) og velg visning – tabell med snurrende klode, eller verdenskart med buer fra adminland til gruppene innholdet er rettet mot. Eksempelkontoer kan fremheves. Genererer embed for Labrador.",
       "minStudioVersion": "0.7.0",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/kontokart/0.1.2/bundle.json",
-      "changelog": "Sidepanel og forhåndsvisning kan rulles på små skjermer",
-      "sha256": "a9ee032423fcfa34fd4e3eacf54fe203397387a41d55806df7fdbe6a08315cf7"
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/kontokart/0.2.0/bundle.json",
+      "changelog": "Ny visning: Nettverksklode – stor klode som dreier og zoomer når man trykker på kontoer og land",
+      "sha256": "dd1060f17e1e72f1848fa44b3582678f2d3124f3c0328c75249acff6b5c6ced4"
     },
     {
       "id": "metodeboks",
