@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-08T09:21:42Z",
+  "updatedAt": "2026-11-08T10:02:36Z",
   "plugins": [
     {
       "id": "looping-video",
@@ -161,6 +161,16 @@
       "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/tabell/0.2.4/bundle.json",
       "changelog": "Lange gruppenavn gjør ikke lenger siden bredere enn mobilskjermen; tall uten store mellomrom",
       "sha256": "b2c0f91917d032339b4a6af30dbacf76052e9479a8e7de06efd05b714635c390"
+    },
+    {
+      "id": "reaksjoner",
+      "name": "Reaksjoner",
+      "version": "0.1.0",
+      "description": "Liste over sosiale medier-innlegg i Faktisk-stil: miniatyrbilde til venstre, spørsmålet eller teksten til høyre, like-symbol med antall reaksjoner og lenke som sier hvor den fører (arkivert kopi eller selve innlegget). Genererer embed for Labrador.",
+      "minStudioVersion": "0.7.0",
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/reaksjoner/0.1.0/bundle.json",
+      "changelog": "Første versjon: innlegg med bilde, reaksjoner og lenke til arkivert kopi",
+      "sha256": "3ef64fb15b1cba9b93183c80b3f5d3f68288a745b12fe65ea3589ec604a476e7"
     },
     {
       "id": "chatbobler",
