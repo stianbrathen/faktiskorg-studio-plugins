@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T13:46:14Z",
+  "updatedAt": "2026-11-10T15:14:20Z",
   "plugins": [
     {
       "id": "looping-video",
@@ -321,6 +321,16 @@
       "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/metodeboks/0.1.1/bundle.json",
       "changelog": "Sidepanel og forhåndsvisning kan rulles på små skjermer",
       "sha256": "ecd98cb2bac76d4d1e36d26151d7a18ca3b2fdc940b377be9dbee46820871b35"
+    },
+    {
+      "id": "verifisering",
+      "name": "Verifisering",
+      "version": "0.2.0",
+      "description": "Hjelp til å vurdere om en video eller et bilde er ekte: leser Content Credentials (C2PA), IPTC/XMP, EXIF, JPEG-spor og videoens metadata, og lager enkeltbilder, kantbilder, forskjellskart og parallakse du vurderer selv. Lyd og leppesynk, sol og skygge, tekst over tid og bildesøk. Lagrer en rapport. Alt lokalt — ingen samlet ekte/falsk-dom.",
+      "minStudioVersion": "0.7.13",
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/verifisering/0.2.0/bundle.json",
+      "changelog": "Første versjon: C2PA, metadata, bilder, parallakse, lyd og leppesynk, sol og tekst i bildet – uten samlet ekte/falsk-dom",
+      "sha256": "bd456eca3ccc0e08d157d944b466b70be63e8d58287ba2a55c44eec5d8d58bea"
     }
   ]
 }

@@ -113,3 +113,17 @@ I Studio: åpne pluginen, sjekk versjonstall i topbar. Om det står gammel versj
 ## Relaterte repoer
 
 - **`Faktisk Studio`** — Selve Electron-appen. Se dens CLAUDE.md for Studio-release-flyt.
+
+## Riktig klone
+
+Bruk **denne** mappa: `~/Dokumenter lokalt/Faktisk prosjekter/faktiskorg-studio-plugins`.
+`~/faktiskorg-studio-plugins` (rett i hjemmemappa) er en gammel klone av samme GitHub-repo, stående på
+«Parallax v0.3.2» fra 1.7.2026 — 129 commits bak per 10.11.2026, uten CLAUDE.md og release-skript,
+og uten egne endringer (bare .DS_Store). Ikke bygg, commit eller push derfra.
+
+## Verifisering
+
+- **Verifisering** 0.2.0 (første utgave, publisert 10.11.2026; kilde i `../Faktisk Studio/plugins/verifisering/`): sjekk av
+  video og bilder for C2PA, XMP/EXIF, metadata, kanter/forskjellskart, parallakse, lyd og leppesynk, sol, tekst over tid, bildesøk.
+  Bundle ca. 512 KB, bare tekst. Modellene (MediaPipe) lastes ned ved første bruk, ikke i bundlen.
+  Status og lærdom: `../Faktisk Studio/docs/verifisering_plugin.md`. Registry-oppføringen ble lagt til for hånd før første release.
