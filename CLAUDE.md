@@ -123,7 +123,7 @@ og uten egne endringer (bare .DS_Store). Ikke bygg, commit eller push derfra.
 
 ## Verifisering
 
-- **Verifisering** 0.2.0 (første utgave, publisert 10.11.2026; kilde i `../Faktisk Studio/plugins/verifisering/`): sjekk av
+- **Verifisering** 0.2.0 (første utgave, publisert 10.11.2026) og 0.3.0 (tekst: AI-chat-rester, usynlige tegn, Word/PDF-metadata, ingen AI-score); kilde i `../Faktisk Studio/plugins/verifisering/`: sjekk av
   video og bilder for C2PA, XMP/EXIF, metadata, kanter/forskjellskart, parallakse, lyd og leppesynk, sol, tekst over tid, bildesøk.
   Bundle ca. 512 KB, bare tekst. Modellene (MediaPipe) lastes ned ved første bruk, ikke i bundlen.
   Status og lærdom: `../Faktisk Studio/docs/verifisering_plugin.md`. Registry-oppføringen ble lagt til for hånd før første release.
