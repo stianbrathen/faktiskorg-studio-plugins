@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-11T08:58:23Z",
+  "updatedAt": "2026-11-11T14:34:07Z",
   "plugins": [
     {
       "id": "looping-video",
@@ -255,12 +255,12 @@
     {
       "id": "bevissikring",
       "name": "Bevissikring",
-      "version": "0.1.2",
+      "version": "0.1.3",
       "description": "Sikre nettsider og SoMe-innlegg før de forsvinner — hele siden, mens den rulles, PDF, nettarkiv, tekst, bilder og video, med manifest, sjekksum og uavhengig tidsstempel for hver sikring, samlet per sak. Profiler og innlegg (Facebook m.fl.), stikkprøver over tid (X, YouTube), «Bare video», import av skjermbilder og opptak fra mobil, søk i tekst, tale og tekst i bilder, «Følg med» når innhold endres eller slettes, kryptert arkiv og Chrome-utvidelse.",
       "minStudioVersion": "0.7.13",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/bevissikring/0.1.2/bundle.json",
-      "changelog": "Sidepanel og forhåndsvisning kan rulles på små skjermer",
-      "sha256": "693c11d45ec82626f476842f37704fb6ae041bb2105799c262ad8b0442747f94"
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/bevissikring/0.1.3/bundle.json",
+      "changelog": "Liste: lim inn eller last opp lenker – bare video eller side og kommentarer",
+      "sha256": "43ea5b560c4c87e60518088cc64483260cc793283f481ae7d94895647942edcf"
     },
     {
       "id": "podkast",
