@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-11T07:46:40Z",
+  "updatedAt": "2026-11-11T08:58:23Z",
   "plugins": [
     {
       "id": "looping-video",
@@ -305,12 +305,12 @@
     {
       "id": "kontokart",
       "name": "Kontokart",
-      "version": "0.2.1",
+      "version": "0.2.2",
       "description": "Kartlegging av kontoer: legg inn kontoer med adminland (eller lim inn fra regneark) og velg visning – tabell med snurrende klode, eller verdenskart med buer fra adminland til gruppene innholdet er rettet mot. Eksempelkontoer kan fremheves. Genererer embed for Labrador.",
       "minStudioVersion": "0.7.0",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/kontokart/0.2.1/bundle.json",
-      "changelog": "Hjelpeteksten følger med mellom Verdenskart og Nettverksklode",
-      "sha256": "c60b0902525dd2f87a8c02054c8d3bec4363e5d5187934a451437d3d4a6358c8"
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/kontokart/0.2.2/bundle.json",
+      "changelog": "Velg hva kontoene kalles, f.eks. «Vis alle 19 Facebook-sider»",
+      "sha256": "7e0e9226739f3184670cad12d1695612905e0f4a2d7af8e9a90188fd34f9fd27"
     },
     {
       "id": "metodeboks",
