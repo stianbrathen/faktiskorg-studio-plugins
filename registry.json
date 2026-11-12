@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-12T13:35:28Z",
+  "updatedAt": "2026-11-12T21:20:24Z",
   "plugins": [
     {
       "id": "looping-video",
@@ -125,12 +125,12 @@
     {
       "id": "keynote-klipp",
       "name": "Keynote-klipp",
-      "version": "0.2.1",
+      "version": "0.3.0",
       "description": "Lag stumme videoklipp med runde hjørner og ekte gjennomsiktighet, klare for Keynote. Velg mobil-, bred- eller kvadratformat, juster utsnitt og hjørneradius, og legg på ramme som følger den runde formen.",
-      "minStudioVersion": "0.6.5",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/keynote-klipp/0.2.1/bundle.json",
-      "changelog": "Sidepanel og forhåndsvisning kan rulles på små skjermer",
-      "sha256": "dc3d4974da27f77ade1b3f9ee915640a260a99001eea175dbc11f694c8c5cbf5"
+      "minStudioVersion": "0.8.0",
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/keynote-klipp/0.3.0/bundle.json",
+      "changelog": "Fyll, hele bredden eller hele høyden med fri plassering; zoom med rulling/knip i forhåndsvisningen; hele videoen vises med fyll utenfor. Krever Studio 0.8.0.",
+      "sha256": "b2d3488f2426e913bae284d39237c52cb2b5aa78ec097213ea987e6abe343096"
     },
     {
       "id": "teksting",
