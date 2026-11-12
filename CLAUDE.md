@@ -77,6 +77,8 @@ curl -s https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins
 }
 ```
 
+**OBS (12.11.2026): `release-plugin.sh` oppdaterer IKKE `minStudioVersion` i registry.json** — sett den manuelt før scriptet kjøres.
+
 `minStudioVersion` bumpes bare hvis pluginen krever nyere Studio-features (feks `openLabrador`-IPC krever 0.5.2+).
 
 ## Batch-release (flere plugins samtidig)
