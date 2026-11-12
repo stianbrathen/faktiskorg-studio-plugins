@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-12T21:20:24Z",
+  "updatedAt": "2026-11-12T21:20:33Z",
   "plugins": [
     {
       "id": "looping-video",
@@ -145,12 +145,12 @@
     {
       "id": "klippsamler",
       "name": "Klippsamler",
-      "version": "0.1.1",
+      "version": "0.2.0",
       "description": "Sett sammen flere videoklipp til ett: trim hvert klipp, ordne rekkefølgen, spill gjennom redigeringen, velg format og eksporter samlet — med eller uten lyd.",
       "minStudioVersion": "0.7.4",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/klippsamler/0.1.1/bundle.json",
-      "changelog": "Sidepanel og forhåndsvisning kan rulles på små skjermer",
-      "sha256": "be6872f97bbfc600823fbe9f539811652ab70f608f41009816a16f9aed751260"
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/klippsamler/0.2.0/bundle.json",
+      "changelog": "Trimstrek under bildet; kort krysstoning av lyden mellom klipp i eksporten; jevnere lyd.",
+      "sha256": "f181cdf37edeaae3c738475c8ba84a66a6b3eece20565302632be690003ffd58"
     },
     {
       "id": "tabell",
