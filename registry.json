@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-12T09:26:39Z",
+  "updatedAt": "2026-11-12T10:03:11Z",
   "plugins": [
     {
       "id": "looping-video",
@@ -285,12 +285,12 @@
     {
       "id": "videoslider",
       "name": "Videoslider",
-      "version": "0.1.4",
+      "version": "0.1.5",
       "description": "Slider med stående videoer (f.eks. TikTok-videoene) til forsiden og artikler. Videoer og stillbilder ligger i Labrador. Et trykk åpner videoen stort med lyd, og leseren blar videre som på TikTok. Genererer embed for Labrador.",
       "minStudioVersion": "0.7.13",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/videoslider/0.1.4/bundle.json",
-      "changelog": "Raskere start på iPhone: neste video lastes mer på forhånd",
-      "sha256": "2ebdb64f3711514de54cba639ed98db1dd3cf7feb1130f9187798b751f45b5d9"
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/videoslider/0.1.5/bundle.json",
+      "changelog": "Jevnere bla på iPhone: videoen starter mens den glir inn",
+      "sha256": "2814087577e849f3c3dd3ebc100aad2882392a75f1ffe2c4bfe4077e66bffda9"
     },
     {
       "id": "hendelseskart",
