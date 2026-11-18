@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-12T21:20:33Z",
+  "updatedAt": "2026-11-18T11:19:32Z",
   "plugins": [
     {
       "id": "looping-video",
@@ -331,6 +331,18 @@
       "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/verifisering/0.3.0/bundle.json",
       "changelog": "Tekst: finner rester fra AI-chat, usynlige tegn, lenker og metadata i Word/PDF – ingen AI-score",
       "sha256": "2cd090811e1a12a598d84b1fe4a09ec285f049d702b98cc671f6036a7eae1638"
+    },
+    {
+      "id": "presentasjon",
+      "name": "Presentasjon",
+      "version": "0.1.0",
+      "description": "Lysbilder i Faktisk-stil som blir en ferdig Keynote-presentasjon: lysbildetyper for kurs og foredrag, case-grafikk (lydanalyse, verktøyresultater, spredning, kart, tidslinje), bygg per klikk, magisk flytting og bilder og klipp i stor visning. Mediene ligger på maskinen, ikke Labrador.",
+      "beta": true,
+      "betaUsers": [],
+      "minStudioVersion": "0.8.1",
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/presentasjon/0.1.0/bundle.json",
+      "changelog": "Første betaversjon av Presentasjon",
+      "sha256": "b66e30e85e5472081dadae1d32d752b1e6ba56230ba4f1babfb93944902d4d0d"
     }
   ]
 }
