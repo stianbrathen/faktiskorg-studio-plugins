@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-18T15:05:07Z",
+  "updatedAt": "2026-11-18T15:48:56Z",
   "plugins": [
     {
       "id": "looping-video",
@@ -343,8 +343,8 @@
       ],
       "minStudioVersion": "0.8.3",
       "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/presentasjon/0.1.2/bundle.json",
-      "changelog": "Bibliotek: lagre og hente blokker og hele presentasjoner med medier innebygd",
-      "sha256": "955bf5b2ffd744deca922ecd7a51d4f426686f11825bd20ecb0647daf35e80b9"
+      "changelog": "Bibliotek, ny tom presentasjon, rullbar lysbildemeny og testpaletten Faktisk sprek",
+      "sha256": "106cddd15bc6ec1770c94ae70f8f0b4c0e1454ab6a4799a65fdbf29ca020681d"
     }
   ]
 }
