@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-18T16:30:21Z",
+  "updatedAt": "2026-11-18T16:39:12Z",
   "plugins": [
     {
       "id": "looping-video",
@@ -335,7 +335,7 @@
     {
       "id": "presentasjon",
       "name": "Presentasjon",
-      "version": "0.1.4",
+      "version": "0.1.5",
       "description": "Lysbilder i Faktisk-stil som blir en ferdig Keynote-presentasjon: lysbildetyper for kurs og foredrag, case-grafikk (lydanalyse, verktøyresultater, spredning, kart, tidslinje), bygg per klikk, magisk flytting og bilder og klipp i stor visning. Mediene ligger på maskinen, ikke Labrador.",
       "beta": true,
       "betaUsers": [
@@ -343,9 +343,9 @@
         "bd0d2fa93dad241f72357607bc1c2bae2a32339ae2f855c016f459d9c2d8ea45"
       ],
       "minStudioVersion": "0.8.3",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/presentasjon/0.1.4/bundle.json",
-      "changelog": "Runde hjørner, kant og skygge på bilder og klipp; lydanalysen fungerer i Keynote",
-      "sha256": "dfffd15dbf3fdafdf12915d19f038bd9715edfb8865343842f915e30c5981691"
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/presentasjon/0.1.5/bundle.json",
+      "changelog": "Lydanalyse: markeringen dekker det som spilles, og ett funn vises om gangen",
+      "sha256": "116ce055ce8bf7f6562207e8d97cbbda1b7d110b6af17c38b72784a9b06447b3"
     }
   ]
 }
