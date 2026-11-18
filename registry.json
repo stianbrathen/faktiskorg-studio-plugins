@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-18T12:04:53Z",
+  "updatedAt": "2026-11-18T13:15:37Z",
   "plugins": [
     {
       "id": "looping-video",
@@ -335,16 +335,16 @@
     {
       "id": "presentasjon",
       "name": "Presentasjon",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "description": "Lysbilder i Faktisk-stil som blir en ferdig Keynote-presentasjon: lysbildetyper for kurs og foredrag, case-grafikk (lydanalyse, verktøyresultater, spredning, kart, tidslinje), bygg per klikk, magisk flytting og bilder og klipp i stor visning. Mediene ligger på maskinen, ikke Labrador.",
       "beta": true,
       "betaUsers": [
         "01311650d5f207c4b9320ef594f25da6db6a10f97916364cbcba4f39661d6635"
       ],
-      "minStudioVersion": "0.8.1",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/presentasjon/0.1.1/bundle.json",
-      "changelog": "Lag Keynote lagrer i Eksport og åpner i Keynote uten å vente",
-      "sha256": "cbf3382b25cbf067d88e37887088b3667e15d916cb6324120c26869e1ae7b078"
+      "minStudioVersion": "0.8.3",
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/presentasjon/0.1.2/bundle.json",
+      "changelog": "Bibliotek: lagre og hente blokker og hele presentasjoner med medier innebygd",
+      "sha256": "e48e030f60281a2fbafbac67464c572291430d616b18b2f3d867691f3039fe47"
     }
   ]
 }
