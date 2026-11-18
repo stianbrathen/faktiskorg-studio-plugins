@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-18T11:19:32Z",
+  "updatedAt": "2026-11-18T11:47:39Z",
   "plugins": [
     {
       "id": "looping-video",
@@ -338,7 +338,9 @@
       "version": "0.1.0",
       "description": "Lysbilder i Faktisk-stil som blir en ferdig Keynote-presentasjon: lysbildetyper for kurs og foredrag, case-grafikk (lydanalyse, verktøyresultater, spredning, kart, tidslinje), bygg per klikk, magisk flytting og bilder og klipp i stor visning. Mediene ligger på maskinen, ikke Labrador.",
       "beta": true,
-      "betaUsers": [],
+      "betaUsers": [
+        "01311650d5f207c4b9320ef594f25da6db6a10f97916364cbcba4f39661d6635"
+      ],
       "minStudioVersion": "0.8.1",
       "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/presentasjon/0.1.0/bundle.json",
       "changelog": "Første betaversjon av Presentasjon",
