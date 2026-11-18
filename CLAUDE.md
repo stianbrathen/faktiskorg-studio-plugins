@@ -77,7 +77,7 @@ curl -s https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins
 }
 ```
 
-**OBS (12.11.2026): `release-plugin.sh` oppdaterer IKKE `minStudioVersion` i registry.json** — sett den manuelt før scriptet kjøres.
+**Fra 18.11.2026:** `release-plugin.sh` setter `minStudioVersion` fra manifest.json, og lager registry-entry fra manifestet ved første release (med `beta`/`betaUsers` hvis pluginen er beta). Etterpå styres betatilgang i registeret (Studio › Admin), og scriptet rører ikke de feltene.
 
 `minStudioVersion` bumpes bare hvis pluginen krever nyere Studio-features (feks `openLabrador`-IPC krever 0.5.2+).
 

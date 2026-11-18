@@ -93,12 +93,18 @@ node <<NODE_SCRIPT
 const fs = require('fs');
 const path = './registry.json';
 const reg = JSON.parse(fs.readFileSync(path, 'utf-8'));
-const entry = reg.plugins.find(p => p.id === '${PLUGIN_ID}');
+const manifest = JSON.parse(fs.readFileSync('${PLUGIN_SRC}/manifest.json', 'utf-8'));
+let entry = reg.plugins.find(p => p.id === '${PLUGIN_ID}');
 if (!entry) {
-  console.error('❌ Fant ikke plugin "${PLUGIN_ID}" i registry.json.');
-  console.error('   Legg til entry manuelt første gang, så tar scriptet over etterpå.');
-  process.exit(1);
+  // Første release: lag oppføringen fra manifestet, inkludert betatilgang (beta/betaUsers).
+  // Etterpå er registeret sannheten for betatilgang (styres fra Studio › Admin).
+  entry = { id: manifest.id || '${PLUGIN_ID}', name: manifest.name, version: '${VERSION}', description: manifest.description || '' };
+  if (manifest.beta) { entry.beta = true; entry.betaUsers = manifest.betaUsers || []; }
+  reg.plugins.push(entry);
+  console.log('  ✓ Ny registry-entry laget fra manifest.json' + (manifest.beta ? ' (beta, ' + entry.betaUsers.length + ' med tilgang)' : ''));
 }
+// minStudioVersion følger manifestet (før måtte den settes for hånd og ble glemt)
+if (manifest.minStudioVersion) entry.minStudioVersion = manifest.minStudioVersion;
 entry.version = '${VERSION}';
 entry.bundleUrl = 'https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/${PLUGIN_ID}/${VERSION}/bundle.json';
 entry.changelog = ${CHANGELOG_ESCAPED};
