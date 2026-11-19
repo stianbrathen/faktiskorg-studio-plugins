@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-19T10:09:15Z",
+  "updatedAt": "2026-11-19T10:11:39Z",
   "plugins": [
     {
       "id": "looping-video",
@@ -340,7 +340,8 @@
       "beta": true,
       "betaUsers": [
         "01311650d5f207c4b9320ef594f25da6db6a10f97916364cbcba4f39661d6635",
-        "bd0d2fa93dad241f72357607bc1c2bae2a32339ae2f855c016f459d9c2d8ea45"
+        "bd0d2fa93dad241f72357607bc1c2bae2a32339ae2f855c016f459d9c2d8ea45",
+        "57a5589dbd0f1333d7c55700fcbdd245371be3ffd729a148a55613867555225b"
       ],
       "minStudioVersion": "0.8.3",
       "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/presentasjon/0.1.12/bundle.json",
