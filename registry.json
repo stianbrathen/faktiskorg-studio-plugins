@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-19T09:52:09Z",
+  "updatedAt": "2026-11-19T10:09:15Z",
   "plugins": [
     {
       "id": "looping-video",
@@ -335,7 +335,7 @@
     {
       "id": "presentasjon",
       "name": "Presentasjon",
-      "version": "0.1.11",
+      "version": "0.1.12",
       "description": "Lysbilder i Faktisk-stil som blir en ferdig Keynote-presentasjon: lysbildetyper for kurs og foredrag, case-grafikk (lydanalyse, verktøyresultater, spredning, kart, tidslinje), bygg per klikk, magisk flytting og bilder og klipp i stor visning. Mediene ligger på maskinen, ikke Labrador.",
       "beta": true,
       "betaUsers": [
@@ -343,9 +343,9 @@
         "bd0d2fa93dad241f72357607bc1c2bae2a32339ae2f855c016f459d9c2d8ea45"
       ],
       "minStudioVersion": "0.8.3",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/presentasjon/0.1.11/bundle.json",
-      "changelog": "Markeringer med sirkel og avrundet firkant",
-      "sha256": "7d321cf4a804943c5e09fe5299ecfad21cba6aacb65c2e73744d52d8f4bc50ea"
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/presentasjon/0.1.12/bundle.json",
+      "changelog": "Kant utenpå bilder og klipp, tynn/medium/tykk, skygge under faste rammer",
+      "sha256": "540ce61a82a5da60075539a18817040ddc0759f8290cb370efeda407410a679c"
     }
   ]
 }
