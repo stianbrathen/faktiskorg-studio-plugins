@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-19T13:30:31Z",
+  "updatedAt": "2026-11-19T21:44:03Z",
   "plugins": [
     {
       "id": "looping-video",
@@ -335,7 +335,7 @@
     {
       "id": "presentasjon",
       "name": "Presentasjon",
-      "version": "0.1.15",
+      "version": "0.1.16",
       "description": "Lysbilder i Faktisk-stil som blir en ferdig Keynote-presentasjon: lysbildetyper for kurs og foredrag, case-grafikk (lydanalyse, verktøyresultater, spredning, kart, tidslinje), bygg per klikk, magisk flytting og bilder og klipp i stor visning. Mediene ligger på maskinen, ikke Labrador.",
       "beta": true,
       "betaUsers": [
@@ -344,9 +344,9 @@
         "57a5589dbd0f1333d7c55700fcbdd245371be3ffd729a148a55613867555225b"
       ],
       "minStudioVersion": "0.8.3",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/presentasjon/0.1.15/bundle.json",
-      "changelog": "Ny lysbildetype Lydklipp, én Esc avslutter avspilling",
-      "sha256": "c741dff8b3a3173f61de4e19fd5abc3f40059bbe39b11a419cd5eaa3ee351ac9"
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/presentasjon/0.1.16/bundle.json",
+      "changelog": "Lydklipp, Fargebokser og Tabell vises i lysbildemenyen",
+      "sha256": "b8ab378aae55b157e022fc99549565da27c903ab8f744ceeb722fe208ee43211"
     }
   ]
 }
