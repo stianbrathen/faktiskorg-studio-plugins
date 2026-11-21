@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-21T13:24:15Z",
+  "updatedAt": "2026-11-21T13:32:02Z",
   "plugins": [
     {
       "id": "looping-video",
@@ -335,7 +335,7 @@
     {
       "id": "presentasjon",
       "name": "Presentasjon",
-      "version": "0.1.22",
+      "version": "0.1.23",
       "description": "Lysbilder i Faktisk-stil som blir en ferdig Keynote-presentasjon: lysbildetyper for kurs og foredrag, case-grafikk (lydanalyse, verktøyresultater, spredning, kart, tidslinje), bygg per klikk, magisk flytting og bilder og klipp i stor visning. Mediene ligger på maskinen, ikke Labrador.",
       "beta": true,
       "betaUsers": [
@@ -344,9 +344,9 @@
         "57a5589dbd0f1333d7c55700fcbdd245371be3ffd729a148a55613867555225b"
       ],
       "minStudioVersion": "0.8.3",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/presentasjon/0.1.22/bundle.json",
-      "changelog": "Bildevegg, Bildekollasj med 2–4 bilder, Rust i Faktisk sprek, utfallende utklipp i bakgrunnsfarge",
-      "sha256": "a7a4942afef4ea4fcfc50f49ae0df0f6851a63e831a913537f148cf6c6e0657b"
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/presentasjon/0.1.23/bundle.json",
+      "changelog": "Faktisk-biblioteket kobles til av seg selv, og Bibliotek sier hva som mangler",
+      "sha256": "515873a2f562d75d8cb8aec4769bd99962289cc4b88895c7ed917faf3e36fdee"
     }
   ]
 }
