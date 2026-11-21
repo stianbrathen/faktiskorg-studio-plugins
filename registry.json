@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-20T13:50:02Z",
+  "updatedAt": "2026-11-21T13:24:15Z",
   "plugins": [
     {
       "id": "looping-video",
@@ -95,12 +95,12 @@
     {
       "id": "video-sensur",
       "name": "Videosensur",
-      "version": "0.1.5",
+      "version": "0.2.0",
       "description": "Sensurer ansikter eller deler av bildet med blur som følger motivet via keyframes, med myk fade inn/ut. Eksporterer i tilnærmet original kvalitet med lyden urørt.",
       "minStudioVersion": "0.6.8",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/video-sensur/0.1.5/bundle.json",
-      "changelog": "Masker kan skjules og vises igjen (H/V), større tidslinje over hele bredden med avspilling, hopp mellom start/stopp, Se under",
-      "sha256": "0ecc9cd6de992cb37cb2f18eb1ec206191dfa5f347aadc870ea27a8bbdc820c7"
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/video-sensur/0.2.0/bundle.json",
+      "changelog": "Finn og sensurer: skriv et brukernavn, finn ansikter, eller marker noe én gang og trykk Spor – det følges gjennom hele klippet. Større/mindre maske gjelder hele klippet. Forhåndsvisningen viser samme blur som eksporten.",
+      "sha256": "473eb202f8b94af102ed64beae6efdefacc1e699c751d5a4ecfc3d8e938d8f6d"
     },
     {
       "id": "some-bilde",
