@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-22T22:01:05Z",
+  "updatedAt": "2026-11-22T22:05:38Z",
   "plugins": [
     {
       "id": "looping-video",
@@ -345,8 +345,8 @@
       ],
       "minStudioVersion": "0.8.3",
       "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/presentasjon/0.1.27/bundle.json",
-      "changelog": "Vis stort virker i Keynote også med kant og skygge, tittelfeltet viser hele navnet",
-      "sha256": "069786261175ba426e82f7723fe7dffb3341bf42b2c87dbfe1a49c4558e00f94"
+      "changelog": "Vis stort med Magic Move virker i Keynote også med kant og skygge, tittelfeltet viser hele navnet",
+      "sha256": "d409d599be9adc0e278f72c598228ae8c8728ba899fc34c3e1a94e739796caea"
     }
   ]
 }
