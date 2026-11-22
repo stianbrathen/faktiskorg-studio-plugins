@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-22T22:05:38Z",
+  "updatedAt": "2026-11-22T22:08:26Z",
   "plugins": [
     {
       "id": "looping-video",
@@ -335,7 +335,7 @@
     {
       "id": "presentasjon",
       "name": "Presentasjon",
-      "version": "0.1.27",
+      "version": "0.1.28",
       "description": "Lysbilder i Faktisk-stil som blir en ferdig Keynote-presentasjon: lysbildetyper for kurs og foredrag, case-grafikk (lydanalyse, verktøyresultater, spredning, kart, tidslinje), bygg per klikk, magisk flytting og bilder og klipp i stor visning. Mediene ligger på maskinen, ikke Labrador.",
       "beta": true,
       "betaUsers": [
@@ -344,9 +344,9 @@
         "57a5589dbd0f1333d7c55700fcbdd245371be3ffd729a148a55613867555225b"
       ],
       "minStudioVersion": "0.8.3",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/presentasjon/0.1.27/bundle.json",
-      "changelog": "Vis stort med Magic Move virker i Keynote også med kant og skygge, tittelfeltet viser hele navnet",
-      "sha256": "d409d599be9adc0e278f72c598228ae8c8728ba899fc34c3e1a94e739796caea"
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/presentasjon/0.1.28/bundle.json",
+      "changelog": "Glir mellom lysbilder uten noe felles blir toning, så Keynote ikke blander sammen rammer",
+      "sha256": "b5ccf02cd050bd15348e86ac82424fa7f7c0027a5d5a56dcbdf1f4db90e06c7f"
     }
   ]
 }
