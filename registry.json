@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-21T22:11:43Z",
+  "updatedAt": "2026-11-22T21:38:44Z",
   "plugins": [
     {
       "id": "looping-video",
@@ -335,7 +335,7 @@
     {
       "id": "presentasjon",
       "name": "Presentasjon",
-      "version": "0.1.25",
+      "version": "0.1.26",
       "description": "Lysbilder i Faktisk-stil som blir en ferdig Keynote-presentasjon: lysbildetyper for kurs og foredrag, case-grafikk (lydanalyse, verktøyresultater, spredning, kart, tidslinje), bygg per klikk, magisk flytting og bilder og klipp i stor visning. Mediene ligger på maskinen, ikke Labrador.",
       "beta": true,
       "betaUsers": [
@@ -344,9 +344,9 @@
         "57a5589dbd0f1333d7c55700fcbdd245371be3ffd729a148a55613867555225b"
       ],
       "minStudioVersion": "0.8.3",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/presentasjon/0.1.25/bundle.json",
-      "changelog": "Størrelseshåndtaket holder bildet innenfor lysbildet og unna tekst, og henger seg ikke opp",
-      "sha256": "35c146a3d10519c468dec2eeaafd3e20e47376efebe98c6200f581adafe59fd2"
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/presentasjon/0.1.26/bundle.json",
+      "changelog": "Flytt og skaler bilder, faksimile kan gjøres større, plassering og mellomrom i Bildekollasj og Bildevegg",
+      "sha256": "5d5323a01767eedc994986d765b0a32d0cf58087a73e2d4637e064eabc3ebb34"
     }
   ]
 }
