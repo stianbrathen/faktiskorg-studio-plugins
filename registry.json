@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-23T12:55:48Z",
+  "updatedAt": "2026-11-23T13:00:59Z",
   "plugins": [
     {
       "id": "looping-video",
@@ -335,7 +335,7 @@
     {
       "id": "presentasjon",
       "name": "Presentasjon",
-      "version": "0.1.34",
+      "version": "0.1.35",
       "description": "Lysbilder i Faktisk-stil som blir en ferdig Keynote-presentasjon: lysbildetyper for kurs og foredrag, case-grafikk (lydanalyse, verktøyresultater, spredning, kart, tidslinje), bygg per klikk, magisk flytting og bilder og klipp i stor visning. Mediene ligger på maskinen, ikke Labrador.",
       "beta": true,
       "betaUsers": [
@@ -344,9 +344,9 @@
         "57a5589dbd0f1333d7c55700fcbdd245371be3ffd729a148a55613867555225b"
       ],
       "minStudioVersion": "0.8.3",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/presentasjon/0.1.34/bundle.json",
-      "changelog": "Bilder dratt rett fra skjermbilde-miniatyren, Keynote eller Bilder forsvinner ikke lenger",
-      "sha256": "1224542f5082ad14380980bb1ce5c0f4d100b36747aeec6b716aacb204463e2c"
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/presentasjon/0.1.35/bundle.json",
+      "changelog": "Fontvarselet forklarer at Studio må avsluttes helt (⌘Q) når fonten allerede er installert",
+      "sha256": "d176aa5b5a808394734c98882c3740676b5a130841f40bb7295506ec117c79b6"
     }
   ]
 }
