@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-23T11:51:04Z",
+  "updatedAt": "2026-11-23T12:55:48Z",
   "plugins": [
     {
       "id": "looping-video",
@@ -335,7 +335,7 @@
     {
       "id": "presentasjon",
       "name": "Presentasjon",
-      "version": "0.1.33",
+      "version": "0.1.34",
       "description": "Lysbilder i Faktisk-stil som blir en ferdig Keynote-presentasjon: lysbildetyper for kurs og foredrag, case-grafikk (lydanalyse, verktøyresultater, spredning, kart, tidslinje), bygg per klikk, magisk flytting og bilder og klipp i stor visning. Mediene ligger på maskinen, ikke Labrador.",
       "beta": true,
       "betaUsers": [
@@ -344,9 +344,9 @@
         "57a5589dbd0f1333d7c55700fcbdd245371be3ffd729a148a55613867555225b"
       ],
       "minStudioVersion": "0.8.3",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/presentasjon/0.1.33/bundle.json",
-      "changelog": "Steg-detalj: velg 1–4 metodebokser",
-      "sha256": "bfce9ef68c45f5cb3fc6a00af58f05dcd50fca75605697c7c59821631bbd1ef2"
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/presentasjon/0.1.34/bundle.json",
+      "changelog": "Bilder dratt rett fra skjermbilde-miniatyren, Keynote eller Bilder forsvinner ikke lenger",
+      "sha256": "1224542f5082ad14380980bb1ce5c0f4d100b36747aeec6b716aacb204463e2c"
     }
   ]
 }
