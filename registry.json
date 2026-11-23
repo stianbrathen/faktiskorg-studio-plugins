@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-22T22:36:44Z",
+  "updatedAt": "2026-11-23T08:52:21Z",
   "plugins": [
     {
       "id": "looping-video",
@@ -335,7 +335,7 @@
     {
       "id": "presentasjon",
       "name": "Presentasjon",
-      "version": "0.1.31",
+      "version": "0.1.32",
       "description": "Lysbilder i Faktisk-stil som blir en ferdig Keynote-presentasjon: lysbildetyper for kurs og foredrag, case-grafikk (lydanalyse, verktøyresultater, spredning, kart, tidslinje), bygg per klikk, magisk flytting og bilder og klipp i stor visning. Mediene ligger på maskinen, ikke Labrador.",
       "beta": true,
       "betaUsers": [
@@ -344,9 +344,9 @@
         "57a5589dbd0f1333d7c55700fcbdd245371be3ffd729a148a55613867555225b"
       ],
       "minStudioVersion": "0.8.3",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/presentasjon/0.1.31/bundle.json",
-      "changelog": "Velkomst ved oppstart, fremdriften venter mens man velger hvor fila skal lagres",
-      "sha256": "4a961527e4c69a53560b53a9b9a61552882d3502c040543f41cfd5d9127ce4f2"
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/presentasjon/0.1.32/bundle.json",
+      "changelog": "Tekst i Steg-detalj og Steg-oversikt kan redigeres igjen",
+      "sha256": "50877ea0555ca597eeab08c8b1eda71e8a4ce55857fa6b62c14defe5277a198a"
     }
   ]
 }
