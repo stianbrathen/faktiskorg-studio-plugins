@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-24T15:46:57Z",
+  "updatedAt": "2026-11-24T16:04:28Z",
   "plugins": [
     {
       "id": "looping-video",
@@ -335,7 +335,7 @@
     {
       "id": "presentasjon",
       "name": "Presentasjon",
-      "version": "0.1.37",
+      "version": "0.1.38",
       "description": "Lysbilder i Faktisk-stil som blir en ferdig Keynote-presentasjon: lysbildetyper for kurs og foredrag, case-grafikk (lydanalyse, verktøyresultater, spredning, kart, tidslinje), bygg per klikk, magisk flytting og bilder og klipp i stor visning. Mediene ligger på maskinen, ikke Labrador.",
       "beta": true,
       "betaUsers": [
@@ -344,9 +344,9 @@
         "57a5589dbd0f1333d7c55700fcbdd245371be3ffd729a148a55613867555225b"
       ],
       "minStudioVersion": "0.8.3",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/presentasjon/0.1.37/bundle.json",
-      "changelog": "Lag Keynote hopper over filer som mangler. «Ny tom presentasjon» beholder dokumentet du har åpent",
-      "sha256": "b921106650408a433d8067a73572ac06ab21acf5283a0ca961b695e38d3376fb"
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/presentasjon/0.1.38/bundle.json",
+      "changelog": "Varsler når filer mangler og når et bilde eller klipp har hvit kant fra før",
+      "sha256": "02022cef944218d908dd6417fc338bcd56c5ffeaf2a33ab000c5a0a3fab7b4be"
     }
   ]
 }
