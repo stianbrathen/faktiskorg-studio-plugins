@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-25T12:56:03Z",
+  "updatedAt": "2026-11-25T13:45:52Z",
   "plugins": [
     {
       "id": "looping-video",
@@ -335,7 +335,7 @@
     {
       "id": "presentasjon",
       "name": "Presentasjon",
-      "version": "0.1.50",
+      "version": "0.1.51",
       "description": "Lysbilder i Faktisk-stil som blir en ferdig Keynote-presentasjon: lysbildetyper for kurs og foredrag, case-grafikk (lydanalyse, verktøyresultater, spredning, kart, tidslinje), bygg per klikk, magisk flytting og bilder og klipp i stor visning. Mediene ligger på maskinen, ikke Labrador.",
       "beta": true,
       "betaUsers": [
@@ -344,9 +344,9 @@
         "57a5589dbd0f1333d7c55700fcbdd245371be3ffd729a148a55613867555225b"
       ],
       "minStudioVersion": "0.8.3",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/presentasjon/0.1.50/bundle.json",
-      "changelog": "Piltaster i lysbildelista, Nytt lysbilde øverst med stor meny og forhåndsvisning av malene",
-      "sha256": "d7f67ddaa8600ad09690d7fd463f1e2eea13b613882876994aabd4c16f3f6068"
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/presentasjon/0.1.51/bundle.json",
+      "changelog": "Høyreklikkmeny på lysbildene, sletting kan angres, valgfri inntoning av titler og tydelig merking av tomme felt",
+      "sha256": "62678db324fb575a8c47f0e6f4dd2ffd8b376f9f7b59472370bea8ccd86c19f3"
     }
   ]
 }
