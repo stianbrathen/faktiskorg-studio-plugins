@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-25T09:40:13Z",
+  "updatedAt": "2026-11-25T09:45:33Z",
   "plugins": [
     {
       "id": "looping-video",
@@ -335,7 +335,7 @@
     {
       "id": "presentasjon",
       "name": "Presentasjon",
-      "version": "0.1.41",
+      "version": "0.1.42",
       "description": "Lysbilder i Faktisk-stil som blir en ferdig Keynote-presentasjon: lysbildetyper for kurs og foredrag, case-grafikk (lydanalyse, verktøyresultater, spredning, kart, tidslinje), bygg per klikk, magisk flytting og bilder og klipp i stor visning. Mediene ligger på maskinen, ikke Labrador.",
       "beta": true,
       "betaUsers": [
@@ -344,9 +344,9 @@
         "57a5589dbd0f1333d7c55700fcbdd245371be3ffd729a148a55613867555225b"
       ],
       "minStudioVersion": "0.8.3",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/presentasjon/0.1.41/bundle.json",
-      "changelog": "Forhåndsvis lysbildet (P): spiller av bare dette lysbildet i redigeringsfeltet",
-      "sha256": "428e94a0c5b6bcbb3cf0cc7a5dc5bd5ac91970a1e6e67c814b3fb87f9238629c"
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/presentasjon/0.1.42/bundle.json",
+      "changelog": "Svake bokser synes nå også i Keynote og på mørk bakgrunn",
+      "sha256": "85d9c5a750163cb8f6c2dc2fd90f38a1aa73716b068d280af6388a8e283e13ec"
     }
   ]
 }
