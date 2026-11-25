@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-25T09:05:35Z",
+  "updatedAt": "2026-11-25T09:30:32Z",
   "plugins": [
     {
       "id": "looping-video",
@@ -335,7 +335,7 @@
     {
       "id": "presentasjon",
       "name": "Presentasjon",
-      "version": "0.1.39",
+      "version": "0.1.40",
       "description": "Lysbilder i Faktisk-stil som blir en ferdig Keynote-presentasjon: lysbildetyper for kurs og foredrag, case-grafikk (lydanalyse, verktøyresultater, spredning, kart, tidslinje), bygg per klikk, magisk flytting og bilder og klipp i stor visning. Mediene ligger på maskinen, ikke Labrador.",
       "beta": true,
       "betaUsers": [
@@ -344,9 +344,9 @@
         "57a5589dbd0f1333d7c55700fcbdd245371be3ffd729a148a55613867555225b"
       ],
       "minStudioVersion": "0.8.3",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/presentasjon/0.1.39/bundle.json",
-      "changelog": "Kapitteloversikt, loop av/på for klipp, Svake bokser og Klikk-merker ved oppbygging, Steg-detalj tilpasser tekstfeltene, raskere flytting av lysbilder",
-      "sha256": "41805a831de4814b4fa6c97017761a1be71fd78fc80bad67ca11e1f9cbc2af06"
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/presentasjon/0.1.40/bundle.json",
+      "changelog": "Startskjerm med siste presentasjoner, Åpne annen, Bibliotek og Ny presentasjon",
+      "sha256": "beab7eef9b94a29f8239e76b0698ac485e1407da7983b90c46b0d046f7bd7e94"
     }
   ]
 }
