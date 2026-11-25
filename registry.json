@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-25T10:34:04Z",
+  "updatedAt": "2026-11-25T10:42:46Z",
   "plugins": [
     {
       "id": "looping-video",
@@ -335,7 +335,7 @@
     {
       "id": "presentasjon",
       "name": "Presentasjon",
-      "version": "0.1.44",
+      "version": "0.1.45",
       "description": "Lysbilder i Faktisk-stil som blir en ferdig Keynote-presentasjon: lysbildetyper for kurs og foredrag, case-grafikk (lydanalyse, verktøyresultater, spredning, kart, tidslinje), bygg per klikk, magisk flytting og bilder og klipp i stor visning. Mediene ligger på maskinen, ikke Labrador.",
       "beta": true,
       "betaUsers": [
@@ -344,9 +344,9 @@
         "57a5589dbd0f1333d7c55700fcbdd245371be3ffd729a148a55613867555225b"
       ],
       "minStudioVersion": "0.8.3",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/presentasjon/0.1.44/bundle.json",
-      "changelog": "Farge per lysbilde i alle paletter, og tydelige fargevalg i Fargebokser",
-      "sha256": "e9648b70c4e82b48f05abfdfa2686e9fe1d7abffb32d31d1ad2c4ae68f767fb4"
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/presentasjon/0.1.45/bundle.json",
+      "changelog": "Fargebokser: fremhevingen kan følge klikket, med alle boksene synlige fra start",
+      "sha256": "69e0326f8049f5651e792f12b8efe171625da7bbd95f6c8929e2dd1d7a3d5995"
     }
   ]
 }
