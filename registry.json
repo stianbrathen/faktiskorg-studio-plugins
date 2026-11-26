@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-26T14:33:44Z",
+  "updatedAt": "2026-11-26T14:39:15Z",
   "plugins": [
     {
       "id": "looping-video",
@@ -335,7 +335,7 @@
     {
       "id": "presentasjon",
       "name": "Presentasjon",
-      "version": "0.1.69",
+      "version": "0.1.70",
       "description": "Lysbilder i Faktisk-stil som blir en ferdig Keynote-presentasjon: lysbildetyper for kurs og foredrag, case-grafikk (lydanalyse, verktøyresultater, spredning, kart, tidslinje), bygg per klikk, magisk flytting og bilder og klipp i stor visning. Mediene ligger på maskinen, ikke Labrador.",
       "beta": true,
       "betaUsers": [
@@ -344,9 +344,9 @@
         "57a5589dbd0f1333d7c55700fcbdd245371be3ffd729a148a55613867555225b"
       ],
       "minStudioVersion": "0.8.3",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/presentasjon/0.1.69/bundle.json",
-      "changelog": "Spill av i vinduet eller fullskjerm, oppdatert hjelp",
-      "sha256": "87a85d542cbb003c0fb8c7284b2cf664c6dfdbd75651cf5a262f3fd4dd2e5cae"
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/presentasjon/0.1.70/bundle.json",
+      "changelog": "Ryddig ramme på Spill av-knappen",
+      "sha256": "e2fd767d37dc3a6ec7b44ee25e3aec622c7d16ea0a83c4eb1a69d02d627b7e37"
     }
   ]
 }
