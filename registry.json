@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-26T09:56:58Z",
+  "updatedAt": "2026-11-26T10:13:26Z",
   "plugins": [
     {
       "id": "looping-video",
@@ -335,7 +335,7 @@
     {
       "id": "presentasjon",
       "name": "Presentasjon",
-      "version": "0.1.62",
+      "version": "0.1.63",
       "description": "Lysbilder i Faktisk-stil som blir en ferdig Keynote-presentasjon: lysbildetyper for kurs og foredrag, case-grafikk (lydanalyse, verktøyresultater, spredning, kart, tidslinje), bygg per klikk, magisk flytting og bilder og klipp i stor visning. Mediene ligger på maskinen, ikke Labrador.",
       "beta": true,
       "betaUsers": [
@@ -344,9 +344,9 @@
         "57a5589dbd0f1333d7c55700fcbdd245371be3ffd729a148a55613867555225b"
       ],
       "minStudioVersion": "0.8.3",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/presentasjon/0.1.62/bundle.json",
-      "changelog": "Forklarer hvorfor filer mangler og viser dem igjen når de er funnet, og markering av tekst på Steg-detalj virker igjen",
-      "sha256": "16504f062195137ebea68903e149500ce52ce66dfd341e43a2c7937156d60db3"
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/presentasjon/0.1.63/bundle.json",
+      "changelog": "Høyreklikk på bilde eller klipp viser hva det er, hvor fila ligger og hvor originalen kom fra",
+      "sha256": "176b5ab6d37760f16e057c16f0a11366d85cb69eb53a1ade6167eb5b0725f328"
     }
   ]
 }
