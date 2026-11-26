@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-26T08:41:03Z",
+  "updatedAt": "2026-11-26T08:46:25Z",
   "plugins": [
     {
       "id": "looping-video",
@@ -335,7 +335,7 @@
     {
       "id": "presentasjon",
       "name": "Presentasjon",
-      "version": "0.1.57",
+      "version": "0.1.58",
       "description": "Lysbilder i Faktisk-stil som blir en ferdig Keynote-presentasjon: lysbildetyper for kurs og foredrag, case-grafikk (lydanalyse, verktøyresultater, spredning, kart, tidslinje), bygg per klikk, magisk flytting og bilder og klipp i stor visning. Mediene ligger på maskinen, ikke Labrador.",
       "beta": true,
       "betaUsers": [
@@ -344,9 +344,9 @@
         "57a5589dbd0f1333d7c55700fcbdd245371be3ffd729a148a55613867555225b"
       ],
       "minStudioVersion": "0.8.3",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/presentasjon/0.1.57/bundle.json",
-      "changelog": "Ny kapitteloversikt med én boks per del, og riktige fargeknapper på kapittel-lysbildene",
-      "sha256": "494aca300de1a0f8678af9f20e57a0b6e6e4bb97da799790df3565f5619c4abf"
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/presentasjon/0.1.58/bundle.json",
+      "changelog": "Fargevalg som gir samme farge vises ikke dobbelt, Klar blå som eget valg i Faktisk lys",
+      "sha256": "c182dbf15989d9954c5d90cd459f6eb872df3c04dfc0b6075653718e8a9ca415"
     }
   ]
 }
