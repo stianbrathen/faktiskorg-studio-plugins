@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-26T12:35:12Z",
+  "updatedAt": "2026-11-26T12:51:01Z",
   "plugins": [
     {
       "id": "looping-video",
@@ -335,7 +335,7 @@
     {
       "id": "presentasjon",
       "name": "Presentasjon",
-      "version": "0.1.64",
+      "version": "0.1.65",
       "description": "Lysbilder i Faktisk-stil som blir en ferdig Keynote-presentasjon: lysbildetyper for kurs og foredrag, case-grafikk (lydanalyse, verktøyresultater, spredning, kart, tidslinje), bygg per klikk, magisk flytting og bilder og klipp i stor visning. Mediene ligger på maskinen, ikke Labrador.",
       "beta": true,
       "betaUsers": [
@@ -344,9 +344,9 @@
         "57a5589dbd0f1333d7c55700fcbdd245371be3ffd729a148a55613867555225b"
       ],
       "minStudioVersion": "0.8.3",
-      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/presentasjon/0.1.64/bundle.json",
-      "changelog": "Nytt bibliotek med forhåndsvisning, Ny presentasjon med valg, samlet Medier, tydeligere ord, fontvarsel kan skjules",
-      "sha256": "785f0aa28f361af0dc455abd613899678e3d0374d8d85418b38ea609496568a4"
+      "bundleUrl": "https://raw.githubusercontent.com/stianbrathen/faktiskorg-studio-plugins/main/plugins/presentasjon/0.1.65/bundle.json",
+      "changelog": "Medieoversikten viser miniatyrer også med mange filer, og tydeligere melding om hvor trygge filene er",
+      "sha256": "2a2baae297a1862697e0c00a21dd8e43890006f9f36bf65ecfa0a1751716543c"
     }
   ]
 }
